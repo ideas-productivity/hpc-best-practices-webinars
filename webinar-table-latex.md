@@ -7,7 +7,7 @@ layout: default
   \textbf{Date} & \textbf{\emph{Title}, Presenter(s)} \\
   \hline
 {% for webinar in site.posts %}
-  {{ webinar.date | date: "%F %I:%M %P %Z" }} & 
+  {{ webinar.date | date: "%F" }} & 
     {% raw %}\emph{{% endraw %}{{ webinar.title}},{% raw %}}{% endraw %} {{ webinar.author }} \\
   {% endfor %}
   \hline
