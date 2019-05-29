@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: none
 ---
-<pre>
 # {{ page.title }}
 
 - Date: {{ page.date | date: "%F" }}
@@ -14,7 +13,7 @@ Presented by: {{ page.author }}
 
 {{ page.content}}
 
-< ! - - - (need to figure out how to escape HTML comments)
+<!---
 Publish: yes
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
@@ -22,5 +21,4 @@ Tags: conference
 Level: 2
 Prerequisites: default
 Aggregate: none
-< - - -
-</pre>
+--->

@@ -52,5 +52,5 @@ defaults:
       path: ""
       type: "bssw-events"
     values:
-      layout: "bssw-event"
+      layout: "bssw-event-md"
 

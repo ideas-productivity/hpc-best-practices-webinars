@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: none
+comment: this is pretty close to raw latex
 ---
 <pre>
 \begin{tabular{lp{4in}}
@@ -12,3 +13,4 @@ layout: default
   {% endfor %}
   \hline
 \end{tabular}
+</pre>
