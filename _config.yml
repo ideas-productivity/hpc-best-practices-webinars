@@ -41,3 +41,16 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  bssw-events:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "bssw-events"
+    values:
+      layout: "bssw-event"
+

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<pre>
+# {{ page.title }}
+
+- Date: {{ page.date | date: "%F" }}
+- Location: Online
+- Event Website: {{site.url}}{{ page.url }}
+
+Part of the "Best Practices for HPC Software Developers" webinar series
+
+Presented by: {{ page.author }}
+
+{{ page.content}}
+
+{% raw %}
+<!---
+Publish: yes
+Categories: development, collaboration
+Topics: software engineering, projects and organizations
+Tags: conference
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
+{% endraw %}
+</pre>
