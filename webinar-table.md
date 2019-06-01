@@ -9,7 +9,7 @@ layout: default
 
 {% for webinar in site.posts %}
   <tr>
-    <td>{{ webinar.date | date: "%A %F %I:%M %P %Z" }}</td>
+    <td>{{ webinar.date | date: "%a %-d %b %Y %-I:%M %P %Z" }}</td>
     <td><em>{{ webinar.title}},</em> {{ webinar.author }}</td>
   </tr>
 {% endfor %}
