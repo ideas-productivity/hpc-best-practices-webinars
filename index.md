@@ -8,9 +8,9 @@ layout: home
 <section>
   <h1>{{ webinar.webinar-id }}. 
       <strong>{{ webinar.title }}</strong> 
-	  ({{ webinar.date | date: "%F" }})
   </h1> 
   <ul>
+	<li><strong>Date:</strong> {{ webinar.date | date: "%F" }}</li>
     <li><strong>Presenter:</strong> {{ webinar.author }}</li>
     <li><strong>Decription:</strong> {{ webinar.content }}</li>
   </ul>
