@@ -7,7 +7,7 @@ layout: default
     <th>Title, Presenter(s)</th>
   </tr>
 
-{% for webinar in site.posts %}
+{% for webinar in site.webinars %}
   <tr>
     <td>{{ webinar.date | date: "%a %-d %b %Y %-I:%M %P %Z" }}</td>
     <td><em>{{ webinar.title}},</em> {{ webinar.author }}</td>

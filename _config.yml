@@ -29,7 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-
+  
 # By convention, we "operate" on US Eastern time
 timezone: America/New_York
 
@@ -46,14 +46,13 @@ timezone: America/New_York
 #   - vendor/ruby/
 
 collections:
-  bssw-events:
+  webinars:
     output: true
 
 defaults:
   -
     scope:
       path: ""
-      type: "bssw-events"
+      type: "webinars"
     values:
-      layout: "bssw-event-md"
-
+      layout: "webinar"

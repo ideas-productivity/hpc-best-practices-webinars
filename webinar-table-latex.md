@@ -7,7 +7,7 @@ comment: this is pretty close to raw latex
   \hline
   \textbf{Date} & \textbf{\emph{Title}, Presenter(s)} \\
   \hline
-{% for webinar in site.posts %}
+{% for webinar in site.webinars %}
   {{ webinar.date | date: "%F" }} & 
     {% raw %}\emph{{% endraw %}{{ webinar.title}},{% raw %}}{% endraw %} {{ webinar.author }} \\
   {% endfor %}

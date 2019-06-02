@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section>
+  <h1>{{ page.webinar-id }}. 
+      <strong>{{ page.title }}</strong> 
+	  ({{ page.date | date: "%F" }})
+  </h1> 
+  <ul>
+    <li><strong>Presenter:</strong> {{ page.author }}</li>
+    <li><strong>Decription:</strong> {{ content }}</li>
+  </ul>
+</section>

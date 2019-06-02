@@ -4,3 +4,15 @@
 
 layout: home
 ---
+{% for webinar in site.webinars %}
+<section>
+  <h1>{{ webinar.webinar-id }}. 
+      <strong>{{ webinar.title }}</strong> 
+	  ({{ webinar.date | date: "%F" }})
+  </h1> 
+  <ul>
+    <li><strong>Presenter:</strong> {{ webinar.author }}</li>
+    <li><strong>Decription:</strong> {{ webinar.content }}</li>
+  </ul>
+</section>
+{% endfor %}
