@@ -4,7 +4,7 @@
 
 layout: home
 ---
-{% for webinar in site.webinars %}
+{% for webinar in site.webinars reversed %}
 <section>
   <h1>{{ webinar.webinar-id }}. 
       <strong>{{ webinar.title }}</strong> 

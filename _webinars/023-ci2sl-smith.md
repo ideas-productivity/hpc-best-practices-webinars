@@ -1,0 +1,16 @@
+---
+webinar-id: 23
+date: 2018-10-17T13:00-0400
+title: "Open Source Best Practices: From Continuous Integration to Static Linters"
+author: "Daniel Smith and Ben Pritchard (Molecular Sciences Software Institute (MolSSI))"
+---
+This webinar will continue the discussion of open source software
+(OSS) opportunities within the scientific ecosystem to include the
+many cloud and local services available to OSS free of charge. The
+services to be discussed include continuous integration, code
+coverage, and static analysis. The presenters will demonstrate the
+usefulness of these tools and how a small time investment at the
+beginning is traded for long-term benefits. These services and ideas
+are agnostic to software language or HPC software application and
+should apply to any party interested in tools that help ease the
+burden of software maintenance.

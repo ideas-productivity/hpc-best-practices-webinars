@@ -1,8 +1,8 @@
 ---
 webinar-id: 20
-date: 2018-07-18T13:00-04/P1H
+date: 2018-07-18T13:00-0400
 title: How Open Source Software Supports the Largest Computers on the Planet
-author: Ian Lee, Lawrence Livermore National Laboratory
+author: Ian Lee (Lawrence Livermore National Laboratory)
 ---
 This talk will provide an overview of the work at Lawrence Livermore
 National Laboratory to re-vamp our open source project offerings,

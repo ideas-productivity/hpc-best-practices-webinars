@@ -1,8 +1,8 @@
 ---
 webinar-id: 21
-date: 2018-08-21T12:00-04/P1H
+date: 2018-08-21T12:00-0400
 title: Software Sustainability — Lessons Learned from Different Disciplines
-author: Neil Chue Hong, Software Sustainability Institute (University of Edinburgh)
+author: Neil Chue Hong (Software Sustainability Institute, University of Edinburgh)
 ---
 How do you make software sustainable? How much is it about process and
 how much about practice? Does it vary between countries or
