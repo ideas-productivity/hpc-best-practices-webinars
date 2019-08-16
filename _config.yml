@@ -62,3 +62,5 @@ defaults:
       type: "presenters"
     values:
       layout: "presenter"
+
+# End of file
