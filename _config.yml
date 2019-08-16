@@ -48,11 +48,18 @@ timezone: America/New_York
 collections:
   webinars:
     output: true
+  presenters:
+    output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "webinars"
     values:
       layout: "webinar"
+  - scope:
+      path: ""
+      type: "presenters"
+    values:
+      layout: "presenter"
+  

@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
+<h2>Webinar Details</h2>
+
 <section>
-  <h1>{{ page.webinar-id }}. 
-      <strong>{{ page.title }}</strong> 
-  </h1> 
+  <h3>{{ page.webinar-id }}. 
+    <strong>{{ page.title }}</strong> 
+  </h3> 
   <ul>
-	<li><strong>Date:</strong> {{ page.date | date: "%F" }}</li>
+    <li><strong>Date:</strong> {{ page.date | date: "%F" }}</li>
     <li><strong>Presenter:</strong> {{ page.author }}</li>
     <li><strong>Decription:</strong> {{ content }}</li>
   </ul>
