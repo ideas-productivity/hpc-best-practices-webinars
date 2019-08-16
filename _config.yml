@@ -62,4 +62,3 @@ defaults:
       type: "presenters"
     values:
       layout: "presenter"
-  
