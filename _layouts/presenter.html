@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h2>Presenter Details</h2>
+
+<section>
+  <h3><strong>{{ page.firstname }} {{page.lastname }}</strong>
+  </h3> 
+
+  {% if page.affiliations %}
+    <p><strong>Affiliation:</strong>
+      {{ page.affiliations | array_to_sentence_string | markdownify |
+        remove: "<p>" | remove: "</p>" }}
+    </p>
+  {% endif %}
+    
+  {% if page.pres-email %}
+    <p><strong>Email:</strong>
+      <a href="mailto:{{ page.pres-email}}">{{ page.pres-email }}
+      </a>
+    </p>
+  {% endif %}
+
+  {{ content }}
+</section>
