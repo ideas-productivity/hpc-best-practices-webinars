@@ -2,7 +2,7 @@
 presenter-id: clune-thomas-028
 lastname: Clune
 firstname: Thomas
-pres-email: mailto:thomas.l.clune@nasa.gov
+pres-email: thomas.l.clune@nasa.gov
 affiliations: ["NASA Goddard Space Flight Center"]
 ---
 Dr. Thomas Clune (<thomas.l.clune@nasa.gov>) currently serves as the

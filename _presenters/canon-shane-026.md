@@ -2,7 +2,7 @@
 presenter-id: canon-shane-026
 lastname: Canon
 firstname: Shane
-pres-email: mailto:scanon@lbl.gov
+pres-email: scanon@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory (LBNL)"]
 ---
 Shane Canon (<scanon@lbl.gov>) is a Senior Engineer at Lawrence Berkeley

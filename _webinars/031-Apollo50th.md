@@ -2,7 +2,7 @@
 webinar-id: 31
 date: 2019-07-17T13:00-0400
 title: "When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions"
-author: Mark Miller (Lawrence Livermore National Laboratory)
+presenter-ids: [miller-mark-031]
 ---
 Commemorating the 50th Anniversary of the Apollo Moon landings, this
 webinar will describe the revolutionary computer, the Apollo Guidance

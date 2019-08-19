@@ -2,7 +2,7 @@
 presenter-id: deslippe-jack-025
 lastname: Deslippe
 firstname: Jack
-pres-email: mailto:jrdeslippe@lbl.gov
+pres-email: jrdeslippe@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory (LBNL)"]
 ---
 Jack Deslippe (<jrdeslippe@lbl.gov>) is the application performance

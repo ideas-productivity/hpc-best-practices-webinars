@@ -2,7 +2,7 @@
 presenter-id: pritchard-ben-023
 lastname: Pritchard
 firstname: Ben
-pres-email: mailto:bpp4@vt.edu
+pres-email: bpp4@vt.edu
 affiliations: ["Molecular Sciences Software Institute (MolSSI)"]
 ---
 Ben Pritchard (<bpp4@vt.edu>) is a Software Scientist at the Molecular

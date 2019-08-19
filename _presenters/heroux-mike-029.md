@@ -2,7 +2,7 @@
 presenter-id: heroux-mike-029
 lastname: Heroux
 firstname: Mike
-pres-email: mailto:maherou@sandia.gov
+pres-email: maherou@sandia.gov
 affiliations: ["Sandia National Laboratories"]
 ---
 Mike Heroux (<maherou@sandia.gov>) is a Senior Scientist at Sandia

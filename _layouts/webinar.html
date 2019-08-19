@@ -3,13 +3,36 @@ layout: default
 ---
 <h2>Webinar Details</h2>
 
+{% assign psize = page.presenter-ids | size %}
+{% if psize == 1 %}
+  {%- assign plabel = "Presenter:" -%}
+{% else %}
+  {%- assign plabel = "Presenters:" -%}
+{% endif %}
+
+{% for pid in page.presenter-ids %}
+  {% if forloop.index > 1 %}
+    {% assign pstring = pstring | append: ", " %}
+    {% if forloop.last %}
+      {% assign pstring = pstring | append: " and " %}
+    {% endif %}
+  {% endif %}
+
+  {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign pstring = pstring | append: pafil -%}
+{% endfor %}
+
 <section>
   <h3>{{ page.webinar-id }}. 
-    <strong>{{ page.title }}</strong> 
+    <strong>{{ page.title }}</strong>
   </h3> 
   <ul>
     <li><strong>Date:</strong> {{ page.date | date: "%F" }}</li>
-    <li><strong>Presenter:</strong> {{ page.author }}</li>
+    {% if pstring %}
+      <li><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+      </li>
+    {% endif %}
     <li><strong>Decription:</strong> {{ content }}</li>
   </ul>
 </section>

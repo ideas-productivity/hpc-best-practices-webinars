@@ -2,7 +2,7 @@
 presenter-id: koziol-quincy-027
 lastname: Koziol
 firstname: Quincy
-pres-email: mailto:koziol@lbl.gov
+pres-email: koziol@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center (NERSC)", 
 	"Lawrence Berkeley National Laboratory"]
 ---

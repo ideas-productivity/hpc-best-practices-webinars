@@ -6,7 +6,7 @@ layout: home
 ---
 [List of Webinars](webinars.html)
 
-[List of Webinar Presenters](presenters.html)
+[List of Presenters](presenters.html)
 
 [Table of Webinars](webinar-table.html)
 

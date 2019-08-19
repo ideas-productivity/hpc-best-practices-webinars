@@ -2,7 +2,7 @@
 webinar-id: 29
 date: 2019-05-08T13:00-0400
 title: So, You Want to Be Agile? Strategies for Introducing Agility Into Your Scientific Software Project
-author: Mike Heroux (SNL)
+presenter-ids: [heroux-mike-029]
 ---
 Scientific software team cultures have natural consistencies with
 agile practices. Discovery-driven development, a focus on regular

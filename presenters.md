@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<h2>List of Webinar Presenters</h2>
+<h2>List of Presenters</h2>
 
 <dl>
 {% for presenter in site.presenters %}

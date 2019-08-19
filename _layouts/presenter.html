@@ -10,7 +10,7 @@ layout: default
   {% if page.affiliations %}
     <p><strong>Affiliation:</strong>
       {{ page.affiliations | array_to_sentence_string | markdownify |
-        remove: "<p>" | remove: "</p>" }}
+        remove: "<p>" | remove: "</p>" | lstrip | rstrip }}
     </p>
   {% endif %}
     

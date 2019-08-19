@@ -2,7 +2,7 @@
 presenter-id: yang-charlene-025
 lastname: Yang
 firstname: Charlene
-pres-email: mailto:cjyang@lbl.gov
+pres-email: cjyang@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory (LBNL)"]
 ---
 Charlene Yang (<cjyang@lbl.gov>) is an application performance

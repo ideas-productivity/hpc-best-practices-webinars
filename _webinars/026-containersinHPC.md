@@ -2,7 +2,7 @@
 webinar-id: 26
 date: 2019-02-13T13:00-0500
 title: Containers in HPC
-author: Shane Canon (LBNL)
+presenter-ids: [canon-shane-026]
 ---
 Containers have gained adoption in the HPC and scientific computing
 space through specialized runtimes like Shifter, Singularity and
