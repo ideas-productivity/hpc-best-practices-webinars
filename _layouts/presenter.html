@@ -22,4 +22,14 @@ layout: default
   {% endif %}
 
   {{ content }}
+    
+  {% assign w = site.webinars | where: "presenter-ids", page.presenter-id %}
+  {% if w %}
+    <p><strong>Webinars Presented:</strong> </p>
+
+  <p>{{ w[0].webinar-id }}. 
+      <strong><a href="{{ site.baseurl }}{{ w[0].url }}">{{ w[0].title }}</a></strong> ({{ w[0].date | date: "%F" }})
+  </p> 
+
+  {% endif %}  
 </section>
