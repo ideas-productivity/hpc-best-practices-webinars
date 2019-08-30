@@ -1,7 +1,7 @@
 ---
 webinar-id: 22
 date: 2018-09-19T13:00-0400
-title: Modern CMake
+title: "Modern CMake"
 presenter-ids: [hoffman-bill-022]
 ---
 Bill Hoffman, the creator of the CMake project, will give an

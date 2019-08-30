@@ -1,7 +1,7 @@
 ---
 webinar-id: 30
 date: 2019-06-12T13:00-0400
-title: Modern C++ for High-Performance Computing
+title: "Modern C++ for High-Performance Computing"
 presenter-ids: [lumsdaine-andrew-030]
 ---
 Since its creation by Bjarne Stroustrup in the early 1980s, C++ has

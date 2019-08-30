@@ -1,7 +1,7 @@
 ---
 webinar-id: 25
 date: 2019-01-23T13:00-0500
-title: Quantitatively Assessing Performance Portability with Roofline
+title: "Quantitatively Assessing Performance Portability with Roofline"
 presenter-ids: [pennycook-john-025, yang-charlene-025, deslippe-jack-025]
 ---
  Wouldn’t it be great if we could port a code to a new

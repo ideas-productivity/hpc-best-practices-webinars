@@ -4,7 +4,8 @@ layout: home
 <h1>List of Webinars</h1>
 
 <dl>
-{% for webinar in site.webinars reversed %}
+{% assign sequence = site.webinars | sort: "webinar-id" | reverse %}
+{% for webinar in sequence %}
 
 
 {% assign psize = webinar.presenter-ids | size %}

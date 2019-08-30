@@ -45,6 +45,9 @@ timezone: America/New_York
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# This is needed to generate output for future webinars
+future: true
+
 collections:
   webinars:
     output: true

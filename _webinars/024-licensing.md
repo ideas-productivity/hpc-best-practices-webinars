@@ -1,7 +1,7 @@
 ---
 webinar-id: 24
 date: 2018-12-05-T13:00-0500
-title: Introduction to Software Licensing
+title: "Introduction to Software Licensing"
 presenter-ids: [bernholdt-david-024]
 ---
 Software licensing and related matters of intellectual property can

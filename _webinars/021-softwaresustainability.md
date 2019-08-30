@@ -1,7 +1,7 @@
 ---
 webinar-id: 21
 date: 2018-08-21T12:00-0400
-title: Software Sustainability — Lessons Learned from Different Disciplines
+title: "Software Sustainability — Lessons Learned from Different Disciplines"
 presenter-ids: [chuehong-neil-021]
 ---
 How do you make software sustainable? How much is it about process and

@@ -1,7 +1,7 @@
 ---
 webinar-id: 20
 date: 2018-07-18T13:00-0400
-title: How Open Source Software Supports the Largest Computers on the Planet
+title: "How Open Source Software Supports the Largest Computers on the Planet"
 presenter-ids: [lee-ian-020]
 ---
 This talk will provide an overview of the work at Lawrence Livermore
