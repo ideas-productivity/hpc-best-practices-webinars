@@ -15,7 +15,16 @@ layout: home
           remove: "<p>" | remove: "</p>" }}
     {% endif %}
   </dt> 
-  <dd style="margin-left: 30px">Webinars</dd>
+
+{% assign w = site.webinars | where: "presenter-ids", presenter.presenter-id | sort: "webinar-id" | reverse %}
+  {% if w %}
+    {% for w2 in w %}
+      <dd style="margin-left: 30px">{{ w2.webinar-id }}. 
+        <strong><a href="{{ site.baseurl }}{{ w2.url }}">{{ w2.title }}</a></strong> ({{ w2.date | date: "%F" }})
+      </dd>
+    {% endfor %}  
+  {% endif %}  
+
 </section>
 {% endfor %}
 </dl>
