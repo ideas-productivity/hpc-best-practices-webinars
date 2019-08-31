@@ -1,9 +1,9 @@
 ---
-presenter-id: yang-charlene-025
+presenter-id: yang-charlene
 lastname: Yang
 firstname: Charlene
 pres-email: cjyang@lbl.gov
-affiliations: ["Lawrence Berkeley National Laboratory (LBNL)"]
+affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
 Charlene Yang (<cjyang@lbl.gov>) is an application performance
 specialist at NERSC, LBNL. Her work is focused on performance

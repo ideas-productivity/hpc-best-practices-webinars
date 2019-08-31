@@ -1,9 +1,9 @@
 ---
-presenter-id: canon-shane-026
+presenter-id: canon-shane
 lastname: Canon
 firstname: Shane
 pres-email: scanon@lbl.gov
-affiliations: ["Lawrence Berkeley National Laboratory (LBNL)"]
+affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
 Shane Canon (<scanon@lbl.gov>) is a Senior Engineer at Lawrence Berkeley
 Lab where he works in the NERSC Supercomputing Facility.  Over Shane's

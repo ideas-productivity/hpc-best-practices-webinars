@@ -1,5 +1,5 @@
 ---
-presenter-id: pennycook-john-025
+presenter-id: pennycook-john
 lastname: Pennycook
 firstname: John
 pres-email: john.pennycook@intel.com

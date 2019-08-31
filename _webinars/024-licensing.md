@@ -2,7 +2,7 @@
 webinar-id: 24
 date: 2018-12-05-T13:00-0500
 title: "Introduction to Software Licensing"
-presenter-ids: [bernholdt-david-024]
+presenter-ids: [bernholdt-davide]
 ---
 Software licensing and related matters of intellectual property can
 often seem confusing or hopelessly complicated, especially when many

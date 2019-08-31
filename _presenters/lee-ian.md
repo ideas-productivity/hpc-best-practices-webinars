@@ -1,9 +1,9 @@
 ---
-presenter-id: lee-ian-020
+presenter-id: lee-ian
 lastname: Lee
 firstname: Ian
 pres-email: lee1001@llnl.gov
-affiliations: ["Lawrence Livermore National Laboratory (LLNL)"]
+affiliations: ["Lawrence Livermore National Laboratory"]
 ---
 Ian Lee (<lee1001@llnl.gov>) is a Computer Engineer working in the
 High Performance Computing (HPC) facility at Lawrence Livermore

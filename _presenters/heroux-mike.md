@@ -49,7 +49,7 @@ Department.
   <summary><strong>Past Bios</strong></summary>
   
 <!-- Bio for webinar 13 -->
-Mike Heroux (<maherou@sandia.gov>) is a senior scientist at the Center
+<p>Mike Heroux (<maherou@sandia.gov>) is a senior scientist at the Center
 for Computing Research, Sandia National Laboratories, in Albuquerque,
 New Mexico. At Sandia, he works on new parallel algorithm developments
 for problems of interest to Sandia and the broader scientific and
@@ -59,10 +59,10 @@ software framework, the Mantevo project, which focuses on the
 development of Open Source, portable mini-applications and
 mini-drivers for scientific and engineering applications. He strongly
 advocates practices that improve software productivity and
-sustainability.
-<br>
+sustainability.</p>
+
 <!-- Bio for webinar 11 -->
-Michael Heroux (<maherou@sandia.gov>) is a senior scientist at the
+<p>Michael Heroux (<maherou@sandia.gov>) is a senior scientist at the
 Center for Computing Research, Sandia National Laboratories, in
 Albuquerque, New Mexico. In his career, Michael has worked on various
 aspects of High Performance Computing, going back to Cray Research in
@@ -76,6 +76,6 @@ mini-drivers for scientific and engineering applications, and the
 (Interoperable Design of Extreme-scale Application Software-ECP)
 IDEAS-ECP project, which is dedicated to engaging with scientific
 software teams to identify and promote practices that improve software
-productivity and sustainability.
+productivity and sustainability.</p>
 </details>
 

@@ -1,9 +1,9 @@
 ---
-presenter-id: bernholdt-david-024
+presenter-id: bernholdt-davide
 lastname: Bernholdt
 firstname: David E.
 pres-email: bernholdtde@ornl.gov
-affiliations: ["Oak Ridge National Laboratory (ORNL)"]
+affiliations: ["Oak Ridge National Laboratory"]
 ---
 David Bernholdt (<bernholdtde@ornl.gov>) is a Distinguished R&D Staff
 Member and Group Leader for Computer Science Research at Oak Ridge

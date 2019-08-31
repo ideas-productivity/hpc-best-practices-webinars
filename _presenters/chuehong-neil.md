@@ -1,9 +1,9 @@
 ---
-presenter-id: chuehong-neil-021
+presenter-id: chuehong-neil
 lastname: Chue Hong
 firstname: Neil
 pres-email: n.chuehong@epcc.ed.ac.uk
-affiliations: ["Software Sustainability Institute (SSI)",
+affiliations: ["Software Sustainability Institute",
 	"University of Edinburgh"]
 ---
 Neil Chue Hong (<n.chuehong@epcc.ed.ac.uk>) is the founding Director and

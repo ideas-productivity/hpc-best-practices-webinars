@@ -2,7 +2,7 @@
 webinar-id: 17
 date: 2018-04-18T13:00-0400
 title: "Software Citation Today and Tomorrow"
-presenter-ids: [katz-daniel]
+presenter-ids: [katz-daniels]
 ---
 Software is increasingly important in research, and some of the
 scholarly communications community, for example, in FORCE11, has been

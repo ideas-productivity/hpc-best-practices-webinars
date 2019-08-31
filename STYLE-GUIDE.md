@@ -31,8 +31,10 @@ content
 presenter-id: lastname-firstname-webinarid
 lastname: presenter's last name
 firstname:  presenter's first name
+aka: Additional name variants used in past webinars.  String. e.g. "Michael A. Heroux"
 pres-email:  presenter's email address
 affiliations: array of presenter's institutional affiliations
+past-affiliations: array of institutional affiliations used in past webinars
 ---
 content
 ```
@@ -41,13 +43,13 @@ content
 
 - *lastname* may be a compound last name, e.g. "Chue Hong" or "Bernholdt-Musfeldt"
 - *firstname* may include multiple names or initials
-- *affiliations* is always an array, even if only one item
-- *affiliations* can include markdown links
+- *affiliations*, *past-affiliations* are always arrays, even if only one item
+- *affiliations*, *past-affiliations* can include markdown links
 - *pres-email* is so named because *email* seems to be predefined, even though I can't find any documentation of it
 
 ### Conventions
 
-- *presenter-id* should be *lastname*-*firstname*.  If lastname is a compound, spaces and punctuation (usually hyphens) are stripped to make presenter-id.  For firstname part of presenter-id, just take main part of the first name.
+- *presenter-id* should be *lastname*-*firstname*.  If lastname is a compound, spaces and punctuation (usually hyphens) are stripped to make presenter-id.  Same for firstname component
 - file name should match presenter-id
 - *affiliations* should prefer full name of organization(s), not abbreviations (e.g., "Oak Ridge National Laboratory" rather than "ORNL"
 - content of a presenter object should be a short biographical sketch

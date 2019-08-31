@@ -54,7 +54,7 @@ layout: default
     
   {% assign w = site.webinars | where: "presenter-ids", page.presenter-id | sort: "webinar-id" | reverse %}
   {% if w %}
-    <p><strong>Webinars Presented:</strong> </p>
+    <p><strong>Webinars:</strong> </p>
 
     {% for w2 in w %}
       <p>{{ w2.webinar-id }}. 

@@ -1,9 +1,9 @@
 ---
-presenter-id: smith-daniel-023
+presenter-id: smith-daniel
 lastname: Smith
 firstname: Daniel
 pres-email: dgasmith@vt.edu
-affiliations: ["Molecular Sciences Software Institute (MolSSI)"]
+affiliations: ["Molecular Sciences Software Institute"]
 ---
 Daniel Smith (<dgasmith@vt.edu>) is Software Scientist at the
 Molecular Sciences Software Institute (MolSSI), whose goal is to serve

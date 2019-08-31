@@ -1,9 +1,9 @@
 ---
-presenter-id: koziol-quincy-027
+presenter-id: koziol-quincy
 lastname: Koziol
 firstname: Quincy
 pres-email: koziol@lbl.gov
-affiliations: ["National Energy Research Scientific Computing Center (NERSC)", 
+affiliations: ["National Energy Research Scientific Computing Center", 
 	"Lawrence Berkeley National Laboratory"]
 ---
 Quincey Koziol (<koziol@lbl.gov>) is a Principal Data Architect in the
