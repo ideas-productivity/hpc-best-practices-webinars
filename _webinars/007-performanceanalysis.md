@@ -2,7 +2,7 @@
 webinar-id: 7
 date: 2016-08-09T13:00-0400
 title: Basic Performance Analysis and Optimization – An Ant Farm Approach
-presenter-ids: [deslippe-jack-007]
+presenter-ids: [deslippe-jack]
 ---
 How is optimizing HPC applications like an Ant Farm? Attend this
 presentation to find out. We’ll discuss the basic concepts around
