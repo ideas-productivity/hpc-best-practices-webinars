@@ -33,6 +33,7 @@ lastname: presenter's last name
 firstname:  presenter's first name
 aka: Additional name variants used in past webinars.  String. e.g. "Michael A. Heroux"
 pres-email:  presenter's email address
+pres-email: presenter's URL (optional)
 affiliations: array of presenter's institutional affiliations
 past-affiliations: array of institutional affiliations used in past webinars
 ---

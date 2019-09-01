@@ -48,6 +48,13 @@ layout: default
     </p>
   {% endif %}
 
+  {% if page.pres-url %}
+    <p><strong>Web:</strong>
+      <a href="{{ page.pres-url}}">{{ page.pres-url }}
+      </a>
+    </p>
+  {% endif %}
+    
   {{ content }}
 
     <br>

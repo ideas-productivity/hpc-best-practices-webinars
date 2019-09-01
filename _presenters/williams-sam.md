@@ -3,6 +3,7 @@ presenter-id: williams-sam
 lastname: Williams
 firstname: Sam
 pres-email: swwilliams@lbl.gov
+pres-url: https://crd.lbl.gov/departments/computer-science/PAR/staff/samuel-williams
 affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
 Sam Williams (<swwilliams@lbl.gov>) is a staff scientist in the

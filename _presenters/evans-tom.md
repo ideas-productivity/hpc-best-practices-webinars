@@ -3,6 +3,7 @@ presenter-id: evans-tom
 lastname: Evans
 firstname: Tom
 pres-email: evanstm@ornl.gov
+pres-url: https://www.ornl.gov/staff-profile/thomas-m-evans
 affiliations: ["Oak Ridge National Laboratory"]
 ---
 Thomas Evans (<evanstm@ornl.gov>) works in the development,

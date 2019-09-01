@@ -3,6 +3,7 @@ presenter-id: mcinnes-loiscurfman
 lastname: McInnes
 firstname: Lois Curfman
 pres-email: curfman@mcs.anl.gov
+pres-url: http://press3.mcs.anl.gov/curfman
 affiliations: ["Argonne National Laboratory"]
 ---
 Lois Curfman McInnes (<curfman@mcs.anl.gov>) is a senior scientist in
