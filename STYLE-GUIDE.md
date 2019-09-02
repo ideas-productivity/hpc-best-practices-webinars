@@ -33,7 +33,7 @@ lastname: presenter's last name
 firstname:  presenter's first name
 aka: Additional name variants used in past webinars.  String. e.g. "Michael A. Heroux"
 pres-email:  presenter's email address
-pres-email: presenter's URL (optional)
+pres-url: presenter's URL (optional)
 affiliations: array of presenter's institutional affiliations
 past-affiliations: array of institutional affiliations used in past webinars
 ---
@@ -42,16 +42,28 @@ content
 
 #### Notes
 
-- *lastname* may be a compound last name, e.g. "Chue Hong" or "Bernholdt-Musfeldt"
-- *firstname* may include multiple names or initials
-- *affiliations*, *past-affiliations* are always arrays, even if only one item
-- *affiliations*, *past-affiliations* can include markdown links
-- *pres-email* is so named because *email* seems to be predefined, even though I can't find any documentation of it
+- `lastname` may be a compound last name, e.g. "Chue Hong" or "Bernholdt-Musfeldt"
+- `firstname` may include multiple names or initials
+- `affiliations`, `past-affiliations` are always arrays, even if only one item
+- `affiliations`, `past-affiliations` can include markdown links
+- `pres-email` is so named because `email` seems to be predefined, even though I can't find any documentation of it
 
 ### Conventions
 
-- *presenter-id* should be *lastname*-*firstname*.  If lastname is a compound, spaces and punctuation (usually hyphens) are stripped to make presenter-id.  Same for firstname component
+- `presenter-id` should be `lastname`-`firstname`.  If lastname is a compound, spaces and punctuation (usually hyphens) are stripped to make presenter-id.  Same for firstname component
 - file name should match presenter-id
-- *affiliations* should prefer full name of organization(s), not abbreviations (e.g., "Oak Ridge National Laboratory" rather than "ORNL"
+- `affiliations` should prefer full name of organization(s), not abbreviations (e.g., "Oak Ridge National Laboratory" rather than "ORNL"
+  - Maybe we should revisit this.  Some of those full names are rarely used and may not be as recognizable as the shorthand (e.g., NERSC).
 - content of a presenter object should be a short biographical sketch
 - content should begin with "presenter name (<presenter@example.com>) is..."
+- we do not retain previously used email addresses, as they're likely to be outdated if the presenter has a new one. 
+  - Exception: they provide an institutional email for one webinar and an external service email (e.g., gmail) for another. Still seems safe to assume the most recent is preferred, if not the only valid email to reach the presenter.
+- `pres-url` should be the URL for the presenter's web page
+  - Not clear what we should do with past urls.  We don't currently accommodate them.  Are they like emails, where we assume changes likely mean invalidation of older ones?
+
+## General notes
+- We need to run a link-checker periodically against all urls.  
+  - Can we script that into the build?  Probably takes too long, and wouldn't work on GitHub.io
+  - Can we script this into CI testing?
+  - Can we script this as part of rest of the planned automation?
+
