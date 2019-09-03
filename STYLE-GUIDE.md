@@ -10,6 +10,13 @@ webinar-id: sequence number of webinar
 date: date of presentation including time AND TIME ZONE
 title: webinar title
 presenter-ids: array of presenter's presenter-ids
+archives:
+  - label: text for hyperlink to archival asset
+    format: notes about format/soudce of asset (rendered in parenthesis) [optional]
+	url: url for hyperlink to archival asset
+  -label: (repeat as needed for all archival assets)
+   format: ...
+   url: ...
 ---
 content
 ```
@@ -21,6 +28,7 @@ content
 - By convention, time zone is U.S. Eastern Time, which is -0500 for standard time or -0400 for daylight saving time
 - *presenter-ids* is always an array, even if only one item
 - if a *presenter-ids* element does not match any of the actual presenter-ids, the two common failure modes are for it to be blank or for it to pick up the first presenter-id, alphabetically
+- `archives` are currently presented like "*Archives:* [Video](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
 
 ## Presenters
 
@@ -31,11 +39,12 @@ content
 presenter-id: lastname-firstname-webinarid
 lastname: presenter's last name
 firstname:  presenter's first name
-aka: Additional name variants used in past webinars.  String. e.g. "Michael A. Heroux"
-pres-email:  presenter's email address
-pres-url: presenter's URL (optional)
+aka: Additional name variants used in past webinars.  String. e.g. "Michael A. Heroux" [optional]
+pres-email:  presenter's email address [optional]
+pres-url: presenter's URL (optional) [optional]
 affiliations: array of presenter's institutional affiliations
-past-affiliations: array of institutional affiliations used in past webinars
+past-affiliations: array of institutional affiliations used in past webinars [optional]
+
 ---
 content
 ```

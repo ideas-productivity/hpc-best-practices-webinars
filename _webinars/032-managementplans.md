@@ -1,8 +1,19 @@
 ---
 webinar-id: 32
+#date: 2019-08-14T12:00-0400
 date: 2019-08-14T12:00-0400
 title: "Software Management Plans in Research Projects"
 presenter-ids: [sufi-shoaib]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=YlEnDkJtdMs
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/08/webinar032-managementplans.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/08/webinar032-managementplans-qa.pdf
 ---
 Software is a necessary by-product of research. Software in this
 context can range from small shell scripts to complex and layered

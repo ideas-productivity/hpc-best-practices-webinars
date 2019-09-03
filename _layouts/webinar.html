@@ -23,6 +23,9 @@ layout: default
   {%- assign pstring = pstring | append: pafil -%}
 {% endfor %}
 
+{% assign today = 'now' | date: "%s" %}
+{% assign wdate = page.date | date: "%s" %}
+
 <section>
   <h3>{{ page.webinar-id }}. 
     <strong>{{ page.title }}</strong>
@@ -33,6 +36,24 @@ layout: default
       <li><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
       </li>
     {% endif %}
+
+    {% if page.archives %}
+    <li><strong>Archives:</strong>
+      {% for i in page.archives %}
+        {% if i.url %}
+          <a href="{{ i.url }}">{{ i.label }}</a>
+        {% else %}
+	  <strong><em>ERROR: Missing URL for label {{ i.label }}</em></strong>
+        {% endif %}
+        {% if i.format %} ({{ i.format }}){% endif %}
+        {% unless forloop.last %} | {% endunless %}
+      {% endfor %}
+      </li>
+    {% elsif wdate < today %}
+      <li><strong>Archives:</strong> <em>to be published</em>
+      </li>
+    {% endif %}
+
     <li><strong>Decription:</strong> {{ content }}</li>
   </ul>
 </section>
