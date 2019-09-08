@@ -1,23 +1,62 @@
 ---
 layout: none
 ---
-# {{ page.title }}
+{% if page.webinar-id < 10 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "#webinar00" -%}
+{% elsif page.webinar-id < 100 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "#webinar0" -%}
+{% elsif page.webinar-id < 1000 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "#webinar" -%}
+{% endif %}			   
+
+{% assign psize = page.presenter-ids | size %}
+{% if psize == 1 %}
+  {%- assign plabel = "Presenter:" -%}
+{% else %}
+  {%- assign plabel = "Presenters:" -%}
+{% endif %}
+
+{% for pid in page.presenter-ids %}
+  {% if forloop.index > 1 %}
+    {% assign pstring = pstring | append: ", " %}
+    {% if forloop.last %}
+      {% assign pstring = pstring | append: " and " %}
+    {% endif %}
+  {% endif %}
+
+  {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign pstring = pstring | append: pafil -%}
+{% endfor %}
+
+{% assign today = 'now' | date: "%s" %}
+{% assign wdate = page.date | date: "%s" %}
+
+# Webinar: {{ page.title }}
 
 - Date: {{ page.date | date: "%F" }}
 - Location: Online
-- Event Website: {{site.url}}{{ page.url }}
+- Event Website: {{ site.hpcbp-url }}{{ webinar-anchor}}
+- Organizers: The IDEAS Productivity Project
+			   
+Part of the ["Best Practices for HPC Software Developers" webinar series]({{ site.hpcbp-url }})
 
-Part of the "Best Practices for HPC Software Developers" webinar series
-
-Presented by: {{ page.author }}
+### Date and Time: {{page.date | date: "%F %I:%M %P %Z" }}
+### {{ plabel }} {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 
 {{ page.content}}
 
+### More information and registration link:
+<{{ site.hpcbp-url }}{{ webinar-anchor}}>
+
+  **Webinars are free and open to the public, but advance registration is required.**
+
+Archives will be available at the link above a couple of weeks after the event.
+
 <!---
-Publish: yes
+Publish: no
 Categories: development, collaboration
 Topics: software engineering, projects and organizations
-Tags: conference
 Level: 2
 Prerequisites: default
 Aggregate: none

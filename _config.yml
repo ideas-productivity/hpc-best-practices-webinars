@@ -24,6 +24,12 @@ url: "https://ideas-productivity.github.io" # the base hostname & protocol for y
 github_username:  ideas-productivity
 rss: rss
 
+# URL for the official webinar site, where everything is archived
+# Links for specific webinars are constructed from this URL by adding
+# the appropriate anchor
+hpcbp-url: https://ideas-productivity.org/events/hpc-best-practices-webinars/
+
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -51,6 +57,9 @@ future: true
 collections:
   webinars:
     output: true
+# Symlink to webinars
+  bssw-events:
+    output: true
   presenters:
     output: true
 
@@ -60,6 +69,11 @@ defaults:
       type: "webinars"
     values:
       layout: "webinar"
+  - scope:
+      path: ""
+      type: "bssw-events"
+    values:
+      layout: "bssw-event-md"
   - scope:
       path: ""
       type: "presenters"
