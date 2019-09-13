@@ -1,0 +1,68 @@
+---
+layout: none
+---
+# Best Practices for HPC Software Developers Webinar Series
+
+The HPC Best Practices (HPC-BP) webinars address issues faced by
+developers of computational science and engineering (CSE) software on
+high-performance computers (HPC).
+
+Resource information | Details
+:--- | :---
+Resource name | Best Practices for HPC Software Developers Webinar Series
+Website | {{ site.hpcbp-url }}
+Focus | Software productivity and sustainability
+
+Webinars are scheduled on roughly a monthly basis and are available
+live and then archived for future reference. The event web site
+provides details about the webinar series, including announcements of
+upcoming webinars, a mailing list to receive announcements, and
+archival information for the entire series.
+
+Upcoming webinars are announced on the [BSSw Events
+page](https://bssw.io/events), the IDEAS Productivity [announcements
+list](http://eepurl.com/cQCyJ5), and in other venues.
+
+Webinars are free and open to the public, but advance registration is
+required for each webinar.
+
+The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
+
+## Past Webinars
+{% assign sequence = site.webinars | sort: "webinar-id" | reverse %}
+{% for webinar in sequence %}
+
+{% if webinar.webinar-id < 10 %}
+  {%- assign webinar-anchor = webinar.webinar-id | prepend: "#webinar00" -%}
+{% elsif webinar.webinar-id < 100 %}
+  {%- assign webinar-anchor = webinar.webinar-id | prepend: "#webinar0" -%}
+{% elsif webinar.webinar-id < 1000 %}
+  {%- assign webinar-anchor = webinar.webinar-id | prepend: "#webinar" -%}
+{% endif %}			   
+
+{%- assign pstring = "" -%}
+{% for pid in webinar.presenter-ids %}
+  {% if forloop.index > 1 %}
+    {% assign pstring = pstring | append: ", " %}
+    {% if forloop.last %}
+      {% assign pstring = pstring | append: " and " %}
+    {% endif %}
+  {% endif %}
+
+  {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign pstring = pstring | append: pafil -%}
+{% endfor %}
+
+- [*{{ webinar.title }}*]({{ site.hpcbp-url }}{{ webinar-anchor}}), {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}, {{ webinar.date | date: "%F" }}
+{% endfor %}
+
+
+<!---
+Publish: preview
+Categories: skills
+Topics: online learning
+Level: 2
+Prerequisites: default
+Aggregate: none
+--->
