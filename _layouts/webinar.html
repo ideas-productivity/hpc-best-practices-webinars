@@ -6,8 +6,10 @@ layout: default
 {% assign psize = page.presenter-ids | size %}
 {% if psize == 1 %}
   {%- assign plabel = "Presenter:" -%}
+  {%- assign blabel = "Presenter Bio:" -%}
 {% else %}
   {%- assign plabel = "Presenters:" -%}
+  {%- assign blabel = "Presenter Bios:" -%}
 {% endif %}
 
 {% for pid in page.presenter-ids %}
@@ -21,6 +23,10 @@ layout: default
   {%- assign p = site.presenters | where: "presenter-id", pid -%}
   {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
   {%- assign pstring = pstring | append: pafil -%}
+
+  {% if p[0].content != empty %}
+    {% assign pbio = pbio | append: p[0].content | markdownify -%}
+  {% endif %}
 {% endfor %}
 
 {% assign today = 'now' | date: "%s" %}
@@ -56,4 +62,9 @@ layout: default
 
     <li><strong>Decription:</strong> {{ content }}</li>
   </ul>
+
+  {% if pbio %}
+    <strong>{{ blabel }}</strong>
+    {{ pbio }}
+  {% endif %}    
 </section>

@@ -4,10 +4,22 @@
 
 layout: home
 ---
-[List of Webinars](webinars.html)
+- Formatted for the web
+  - [List of webinars](webinars.html)
+  - [List of presenters](presenters.html)
 
-[List of Presenters](presenters.html)
+- Formatted for BSSw
+  - [Curated content with list of past webinars](webinars-bssw-cc.html)
+    - *Note: at present, this is really rendering as HTML rather than Markdown.  I will have to work on how to keep it in Markdown, if that's possible.*
+  - [Directory of webinars as BSSw Events](bssw-events/)
+    - *Note: these are actually Markdown files, but Jekyll insists on
+       giving them an html extension.  To see something that will make
+       more sense, you should "view page source" for these pages in
+       your broswer.  In many browsers, the shortcut is crtl-u.
+       Otherwise, it can usually be found on the context (right-click)
+       menu for the page.*
 
-[Table of Webinars](webinar-table.html)
+- Currently outdated
+  - [Table of Webinars](webinar-table.html)
+  - [Table of Webinars (LaTeX)](webinar-table-latex.html)
 
-[Table of Webinars (LaTeX)](webinar-table-latex.html)

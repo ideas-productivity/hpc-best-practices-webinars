@@ -9,11 +9,14 @@ layout: none
   {%- assign webinar-anchor = page.webinar-id | prepend: "#webinar" -%}
 {% endif %}			   
 
+<!-- Note: this label does NOT include the trailing colon -->
 {% assign psize = page.presenter-ids | size %}
 {% if psize == 1 %}
-  {%- assign plabel = "Presenter:" -%}
+  {%- assign plabel = "Presenter" -%}
+  {%- assign blabel = "Presenter Bio" -%}
 {% else %}
-  {%- assign plabel = "Presenters:" -%}
+  {%- assign plabel = "Presenters" -%}
+  {%- assign blabel = "Presenter Bios" -%}
 {% endif %}
 
 {% for pid in page.presenter-ids %}
@@ -27,6 +30,10 @@ layout: none
   {%- assign p = site.presenters | where: "presenter-id", pid -%}
   {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
   {%- assign pstring = pstring | append: pafil -%}
+
+  {% if p[0].content != empty %}
+    {% assign pbio = pbio | append: p[0].content | markdownify -%}
+  {% endif %}
 {% endfor %}
 
 {% assign today = 'now' | date: "%s" %}
@@ -41,23 +48,38 @@ layout: none
 			   
 Part of the ["Best Practices for HPC Software Developers" webinar series]({{ site.hpcbp-url }})
 
-### Date and Time: {{page.date | date: "%F %I:%M %P %Z" }}
-### {{ plabel }} {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+Resource Informaton | Details
+:--- | :---			   
+Webinar Title | {{ page.title }}
+Date and Time | {{page.date | date: "%F %I:%M %P %Z" }}
+{{ plabel }} | {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+Registration and Information | 	<{{ site.hpcbp-url }}{{ webinar-anchor}}>	   
+
+**Webinars are free and open to the public, but advance registration is required.**
 
 {{ page.content}}
 
 ### More information and registration link:
 <{{ site.hpcbp-url }}{{ webinar-anchor}}>
 
-  **Webinars are free and open to the public, but advance registration is required.**
+Archives will be available at this link a couple of weeks after the event.
 
-Archives will be available at the link above a couple of weeks after the event.
+{% if pbio %}
+### {{ blabel }}
+{{ pbio }}
+{% endif %}    
 
 <!---
-Publish: no
-Categories: development, collaboration
-Topics: software engineering, projects and organizations
+Publish: preview
+Categories: skills
+Topics: online learning
 Level: 2
 Prerequisites: default
 Aggregate: none
 --->
+
+
+
+
+
+
