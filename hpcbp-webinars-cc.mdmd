@@ -29,8 +29,15 @@ required for each webinar.
 The webinar series is produced by the [IDEAS Productivity Project](https://ideas-productivity.org/) in collaboration with the DOE/ASCR computing facilities ([ALCF](https://www.alcf.anl.gov/), [NERSC](https://www.nersc.gov/), and [OLCF](https://www.olcf.ornl.gov/)) and the [Exascale Computing Project](https://www.exascaleproject.org/).
 
 ## Past Webinars
+*Listed in reverse chronological order*
+
+{% assign today = 'now' | date: "%s" %}
+
 {% assign sequence = site.webinars | sort: "webinar-id" | reverse %}
 {% for webinar in sequence %}
+
+{% assign wdate = webinar.date | date: "%s" %}
+{% if wdate > today %}{% continue %}{% endif %}
 
 {% if webinar.webinar-id < 10 %}
   {%- assign webinar-anchor = webinar.webinar-id | prepend: "#webinar00" -%}
@@ -57,6 +64,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 - [*{{ webinar.title }}*]({{ site.hpcbp-url }}{{ webinar-anchor}}), {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}, {{ webinar.date | date: "%F" }}
 {% endfor %}
 
+### Constributed by [The IDEAS Productivity Project](https://github.com/ideas-productivity "The IDEAS Productivity Project")
 
 <!---
 Publish: preview
