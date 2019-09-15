@@ -3,6 +3,7 @@ webinar-id: 34
 date: 2019-10-16T13:00-0400
 title: "Tools and Techniques for Floating-Point Analysis"
 presenter-ids: [laguna-ignacio]
+registration-url: https://www.eventbrite.com/e/tools-and-techniques-for-floating-point-analysis-tickets-72265194141
 ---
 Scientific software is central to the practice of research
 computing. While software is widely used in many science and

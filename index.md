@@ -18,6 +18,9 @@ layout: home
        Otherwise, it can usually be found on the context (right-click)
        menu for the page.*
 
+- Formatted for ideas-productivity.org
+  - [Directory of webinars as Wordpress fragments](ipweb-entries/)
+
 - Currently outdated
   - [Table of Webinars](webinar-table.html)
   - [Table of Webinars (LaTeX)](webinar-table-latex.html)

@@ -1,0 +1,120 @@
+---
+layout: none
+---
+<!-- Generate html fragments for the ideas-productivity.org Wordpress site -->
+
+{% if page.webinar-id < 10 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "webinar00" -%}
+{% elsif page.webinar-id < 100 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "webinar0" -%}
+{% elsif page.webinar-id < 1000 %}
+  {%- assign webinar-anchor = page.webinar-id | prepend: "webinar" -%}
+{% endif %}			   
+
+{% assign psize = page.presenter-ids | size %}
+{% if psize == 1 %}
+  {%- assign plabel = "Presenter:" -%}
+  {%- assign blabel = "Presenter Bio:" -%}
+{% else %}
+  {%- assign plabel = "Presenters:" -%}
+  {%- assign blabel = "Presenter Bios:" -%}
+{% endif %}
+
+{% for pid in page.presenter-ids %}
+  {% if forloop.index > 1 %}
+    {% assign pstring = pstring | append: ", " %}
+    {% if forloop.last %}
+      {% assign pstring = pstring | append: " and " %}
+    {% endif %}
+  {% endif %}
+
+  {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign pstring = pstring | append: pafil -%}
+
+  {% if p[0].content != empty %}
+    {% assign pbio = pbio | append: p[0].content | markdownify -%}
+  {% endif %}
+{% endfor %}
+
+{% assign today = 'now' | date: "%s" %}
+{% assign wdate = page.date | date: "%s" %}
+
+<h2>Content for ideas-productivity.org Wordpress Site</h2>
+			   
+<em>Recommended procedure: use "view source" feature in browser (often
+ctrl-u, or via context (right-click) menu to view HTML source.
+Cut-and-paste into Wordpress as appropriate.</em>
+
+<h3>Main HPC-BP listing
+  {% if wdate >= today %}
+    (Upcoming section)
+  {% else %}
+    (Past section)
+  {% endif %}
+</h3>
+
+<section>
+{% if wdate >= today %}<!-- ----- BEGIN UPCOMING ENTRY ----- -->{% endif %}
+  <ol reversed="" start="{{ page.webinar-id }}">
+{% if wdate < today %}<!-- ---- BEGIN PAST ENTRY ----- -->{% endif %}
+    <li id="{{ webinar-anchor }}">
+	  <p class="entry-title"><strong>{{ page.title }}</strong>
+    {%- if wdate >= today -%}
+      {% if page.registration-url %}
+        [<a href="{{ page.registration-url }}">Register</a>]
+      {% else %}
+	<strong><em><font color="red">ERROR: Missing registration-url</font></em></strong>
+      {% endif %}
+    {% else %}
+      ({{ page.date | date: "%F" }})
+    {% endif %}
+</p>
+
+<ul>
+  {%- if wdate >= today -%}
+    <li><strong>Date and Time: </strong>
+    {{page.date | date: "%A, %B %-d, %Y, %I:%M %P %Z" }}</li>
+  {%- endif -%}
+
+    {% if pstring %}
+      <li><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
+      </li>
+    {% endif %}
+    {% if page.archives %}
+    <li><strong>Archives:</strong>
+      {% for i in page.archives %}
+        {% if i.url %}
+          <a href="{{ i.url }}">{{ i.label }}</a>
+        {% else %}
+	  <strong><em><font color="red">ERROR: Missing URL for label {{ i.label }}</font></em></strong>
+        {% endif %}
+        {% if i.format %} ({{ i.format }}){% endif %}
+        {% unless forloop.last %} | {% endunless %}
+      {% endfor %}
+      </li>
+    {% elsif wdate < today %}
+      <li><strong>Archives:</strong> <em>to be published</em>
+      </li>
+    {% endif %}
+    <li><strong>Decription:</strong> {{ content | markdownify | replace: "<p>", "<em>" | replace: "</p>", "</em>" | strip }}</li>
+</ul>
+</li>
+{% if wdate < today %}<!-- ----- END PAST ENTRY ----- -->{% endif %}
+  </ol>
+{% if wdate >= today %}<!-- ----- END UPCOMING ENTRY ----- -->{% endif %}
+</section>
+
+<h3>Upcoming Events Entry</h3>
+
+<em>Appears on main page and events page.</em>
+
+<ul>
+<!-- ----- BEGIN ENTRY ----- -->
+  <li><strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">
+	{{ page.title }}</a></strong> is the next webinar in the
+    <strong><a href="{{ site.hpcbp-url }}">Best Practices for HPC Software Developers</a></strong>
+    series ({{ page.date | date: "%B, %Y" }}).
+    [<a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">Information and registration</a>]</li>
+<!-- ----- END ENTRY ----- -->
+</ul>

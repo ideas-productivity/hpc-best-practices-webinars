@@ -57,10 +57,12 @@ future: true
 collections:
   webinars:
     output: true
-# Symlink to webinars
+# Symlink to webinars to generate code for ideas-productivity.org Wordpress site
+  ipweb-entries:
+    output: true
+# Symlink to webinars to generate code for BSSw Events
   bssw-events:
     output: true
-    output_ext: .md
   presenters:
     output: true
 
@@ -70,6 +72,11 @@ defaults:
       type: "webinars"
     values:
       layout: "webinar"
+  - scope:
+      path: ""
+      type: "ipweb-entries"
+    values:
+      layout: "ipweb-webinar"
   - scope:
       path: ""
       type: "bssw-events"

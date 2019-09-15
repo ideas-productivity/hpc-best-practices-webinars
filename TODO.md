@@ -14,6 +14,11 @@
   - there is a built-in identity.rb converter.  Can we use that instead?
 - Presumably GH.io will no longer work due to plugin.  Work around this.
 - Can we add next/previous links in individual webinar pages? Presenter pages?
+- Multi-paragraph webinar abstracts (and presenter bios?) cause problems when embedding \{\{ content \}\} within other HTML constructs.  How to do better?
+  - Change the way we markup such content?
+  - Change the way we process such content?
+- Should we generate the whole HPC-BP page on the ideas-producticity.org site?
+- Can we do a better job of presenting the ipweb content as HTML code?
 
 # Items done
 
