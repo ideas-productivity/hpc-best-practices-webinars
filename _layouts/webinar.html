@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-<h2>Webinar Details</h2>
-
 {% assign psize = page.presenter-ids | size %}
 {% if psize == 1 %}
   {%- assign plabel = "Presenter:" -%}
@@ -32,12 +30,22 @@ layout: default
 {% assign today = 'now' | date: "%s" %}
 {% assign wdate = page.date | date: "%s" %}
 
+{% if wdate >= today %}
+<h2>Upcoming Webinar</h2>
+{% else %}
+<h2>Webinar Details</h2>
+{% endif %}
+
 <section>
   <h3>{{ page.webinar-id }}. 
     <strong>{{ page.title }}</strong>
   </h3> 
   <ul>
+    {% if wdate >= today %}
+    <li><strong>Date:</strong> {{page.date | date: "%F %I:%M %P %Z" }}</li>
+    {% else %}
     <li><strong>Date:</strong> {{ page.date | date: "%F" }}</li>
+    {% endif %}
     {% if pstring %}
       <li><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
       </li>
