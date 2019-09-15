@@ -60,6 +60,7 @@ collections:
 # Symlink to webinars
   bssw-events:
     output: true
+    output_ext: .md
   presenters:
     output: true
 
@@ -73,7 +74,7 @@ defaults:
       path: ""
       type: "bssw-events"
     values:
-      layout: "bssw-event-md"
+      layout: "bssw-event"
   - scope:
       path: ""
       type: "presenters"

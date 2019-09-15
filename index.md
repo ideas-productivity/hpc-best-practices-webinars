@@ -9,8 +9,7 @@ layout: home
   - [List of presenters](presenters.html)
 
 - Formatted for BSSw
-  - [Curated content with list of past webinars](webinars-bssw-cc.html)
-    - *Note: at present, this is really rendering as HTML rather than Markdown.  I will have to work on how to keep it in Markdown, if that's possible.*
+  - [Curated content with list of past webinars](hpcbp-webinars-cc.md)
   - [Directory of webinars as BSSw Events](bssw-events/)
     - *Note: these are actually Markdown files, but Jekyll insists on
        giving them an html extension.  To see something that will make
