@@ -22,3 +22,14 @@ layout: home
 - Currently outdated
   - [Table of Webinars](webinar-table.html)
   - [Table of Webinars (LaTeX)](webinar-table-latex.html)
+
+- Additional targets of interest
+  - Mailchimp emails
+    - announcement
+	- followup (archive)
+  - Connection info email
+  - Intro and followup slides for webinar
+    - Generate as web pages rather than pointpoint
+  - ECP training page
+  - EventBrite registration page
+  - Fragment for BSSw Digest email
