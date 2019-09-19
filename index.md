@@ -9,7 +9,8 @@ layout: home
   - [List of presenters](presenters.html)
 
 - Formatted for BSSw
-  - [Curated content with list of past webinars](hpcbp-webinars-cc.md)
+  - [Curated content with list of past webinars](hpcbp-webinars-cc.md) 
+    - *Note: Currently only works locally, not on GitHub.io*
   - [List of BSSw Events](bssw-events-index.html)
 
 - Formatted for ideas-productivity.org
