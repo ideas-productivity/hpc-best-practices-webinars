@@ -1,0 +1,79 @@
+---
+layout: none
+---
+<!-- Generate text fragments for the archival recordings in YouTube -->
+
+{% if page.webinar-id < 10 %}
+  {%- assign webinar-number-filled = page.webinar-id | prepend: "00" -%}
+{% elsif page.webinar-id < 100 %}
+  {%- assign webinar-number-filled = page.webinar-id | prepend: "0" -%}
+{% elsif page.webinar-id < 1000 %}
+  {%- assign webinar-number-filled = page.webinar-id -%}
+{% endif %}			   
+
+{% assign psize = page.presenter-ids | size %}
+{% if psize == 1 %}
+  {%- assign plabel = "Presenter:" -%}
+  {%- assign blabel = "Presenter Bio:" -%}
+{% else %}
+  {%- assign plabel = "Presenters:" -%}
+  {%- assign blabel = "Presenter Bios:" -%}
+{% endif %}
+
+{% for pid in page.presenter-ids %}
+  {% if forloop.index > 1 %}
+    {% assign pstring = pstring | append: ", " %}
+    {% if forloop.last %}
+      {% assign pstring = pstring | append: " and " %}
+    {% endif %}
+  {% endif %}
+
+  {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign pstring = pstring | append: pafil -%}
+
+  {% if p[0].content != empty %}
+    {% assign pbio = pbio | append: p[0].content | markdownify -%}
+  {% endif %}
+{% endfor %}
+
+{% assign today = 'now' | date: "%s" %}
+{% assign wdate = page.date | date: "%s" %}
+
+<h2>Content for YouTube</h2>			 
+
+{%- assign tfull = "Webinar " -%}
+{%- assign tfull = tfull | append:  webinar-number-filled -%}
+{%- assign tfull = tfull | append: ": " -%}
+{%- assign tfull = tfull | append: page.title -%}
+
+{% assign tlength = tfull | size %}
+
+<section>
+
+{% if tlength > site.youtube-title-max %}
+<p><strong><em><font color="red">WARNING: Full title is longer than YouTube limit of {{ site.youtube-title-max }} characters.</font></em></strong></p>
+
+  <p><strong>Full title:</strong> {{ tfull }}</p>
+  <p><strong>Truncated title:</strong> {{ tfull | truncate: site.youtube-title-max, "" }}
+{% else %}
+<p><strong>Title:</strong> {{ tfull }}</strong></p>
+{% endif %}
+
+
+<p><strong>Description:</strong><br>
+{% if tlength > site.youtube-title-max %}
+Full title: {{ page.title }}<br>
+{% endif %}
+Presented by: {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}<br>
+Presented on: {{ page.date | date: "%F" }}
+
+{{ content }}
+
+For more information about the HPC Best Practices webinars, including
+slides and Q&A archives for this presentation, other presentations in
+the series, and a mailing list for announcements of future webinars,
+please visit {{ site.hpcbp-url }}
+
+</section>
+

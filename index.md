@@ -10,18 +10,14 @@ layout: home
 
 - Formatted for BSSw
   - [Curated content with list of past webinars](hpcbp-webinars-cc.md)
-  - [Directory of webinars as BSSw Events](bssw-events/)
-    - *Note: these are actually Markdown files, but Jekyll insists on
-       giving them an html extension.  To see something that will make
-       more sense, you should "view page source" for these pages in
-       your broswer.  In many browsers, the shortcut is crtl-u.
-       Otherwise, it can usually be found on the context (right-click)
-       menu for the page.*
+  - [List of BSSw Events](bssw-events-index.html)
 
 - Formatted for ideas-productivity.org
-  - [Directory of webinars as Wordpress fragments](ipweb-entries/)
+  - [List of Wordpress fragments](ipweb-entries-index.html)
+
+- Formatted for YouTube
+  - [List of YouTube fragments](youtube-videos-index.html)
 
 - Currently outdated
   - [Table of Webinars](webinar-table.html)
   - [Table of Webinars (LaTeX)](webinar-table-latex.html)
-

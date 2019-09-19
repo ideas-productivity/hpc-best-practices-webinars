@@ -29,6 +29,8 @@ rss: rss
 # the appropriate anchor
 hpcbp-url: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 
+# Maximum length of video titles supported by YouTube
+youtube-title-max: 100
 
 # Build settings
 markdown: kramdown
@@ -63,6 +65,9 @@ collections:
 # Symlink to webinars to generate code for BSSw Events
   bssw-events:
     output: true
+# Symlink to webinars to generate text for YouTube uploads
+  youtube-videos:
+    output: true
   presenters:
     output: true
 
@@ -77,6 +82,11 @@ defaults:
       type: "ipweb-entries"
     values:
       layout: "ipweb-webinar"
+  - scope:
+      path: ""
+      type: "youtube-videos"
+    values:
+      layout: "youtube-webinar"
   - scope:
       path: ""
       type: "bssw-events"
