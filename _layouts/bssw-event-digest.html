@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{%- assign wtitle = page.title | prepend: "Webinar: " -%}
+{%- assign wtslug = wtitle | slugify -%}
+
+<h2>Webinar Entry for BSSw Monthly Digest</h2>
+
+<section>
+<!-- ----- BEGIN ENTRY ----- -->
+<h4 class="null">{{ wtitle }}</h4>
+{{ page.date | date: "%A %B %d, %Y" }}<br />
+Online, in the webinar series <em>Best Practices for HPC Software Developers</em><br />
+<br />
+{{ content }}
+<br />
+<a href="{{ site.bssw-events-url }}/{{ wtslug }}" target="_blank">Event Information &gt;</a><br />
+<!-- ----- END ENTRY ----- -->
+</section>

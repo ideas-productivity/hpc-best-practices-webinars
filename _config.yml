@@ -29,6 +29,11 @@ rss: rss
 # the appropriate anchor
 hpcbp-url: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 
+# URL for BSSw.io Events
+# Links for specific webinars are constructed from this URL by adding
+# the appropriate slug based on the title
+bssw-events-url: https://bssw.io/events
+
 # Maximum length of video titles supported by YouTube
 youtube-title-max: 100
 
@@ -65,6 +70,9 @@ collections:
 # Symlink to webinars to generate code for BSSw Events
   bssw-events:
     output: true
+# Symlink to webinars to generate code for BSSw Digest entries for events
+  bssw-events-digest:
+    output: true
 # Symlink to webinars to generate text for YouTube uploads
   youtube-videos:
     output: true
@@ -92,6 +100,11 @@ defaults:
       type: "bssw-events"
     values:
       layout: "bssw-event"
+  - scope:
+      path: ""
+      type: "bssw-events-digest"
+    values:
+      layout: "bssw-event-digest"
   - scope:
       path: ""
       type: "presenters"
