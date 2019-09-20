@@ -49,6 +49,7 @@ layout: none
 
 {% assign tlength = tfull | size %}
 
+<h3>Basic Tab</h3>
 <section>
 
 {% if tlength > site.youtube-title-max %}
@@ -75,5 +76,10 @@ slides and Q&A archives for this presentation, other presentations in
 the series, and a mailing list for announcements of future webinars,
 please visit {{ site.hpcbp-url }}
 
-</section>
+<p><strong>Tags:</strong> HPC Best Practices webinars</p>
+  
+<h3>Advanced Tab</h3>
 
+<p><strong>Recording Date:</strong> {{ page.date | date: "%b %d, %Y" }}</p>
+
+</section>
