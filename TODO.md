@@ -26,9 +26,24 @@
   - We want this for the most recent completed webinar too (for archiving and followup notifications)
   - This assumes we're never more than one behind.  Probably okay.
 - Add schema checking for YAML front matter
+  - Maybe <https://github.com/18F/jekyll_frontmatter_tests>
   - Added a lot of checking for expected variables wherever they are used, but nothing yet with actual YAML schemas
   - No checking yet for archives
   - Maybe add error-checking versions of collections where the only content generated is listings of missing variables
+- Add JSON+LD markup for events and maybe people
+- Plugins of possible interest (eventually)
+  - tag cloud
+  - pluralize
+  - feed
+  - sitemap generator
+  - Youtube embeding
+  - Search
+  - Redirect from
+  - Analytics
+  - Front matter tests
+- How can we do formatting that transfers better to other tools?
+  - connection-emails --> email client
+  - ipweb-entries --> Wordpress
 
 # Items done
 
