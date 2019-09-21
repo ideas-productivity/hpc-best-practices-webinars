@@ -1,6 +1,10 @@
 ---
 layout: none
 ---
+{% comment %}----- Warn if any variables are missing -----{% endcomment %}
+{% include require-variable var=site.hpcbp-url varname="hpcbp-url"
+   source="config.yml" %}
+
 # Best Practices for HPC Software Developers Webinar Series
 
 The HPC Best Practices (HPC-BP) webinars address issues faced by

@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
+{% include upcoming-event event=page.date %}
+
+<!-- Warn if any variables are missing -->
+
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+{% include require-variable var=page.webinar-id varname="webinar-id"
+   source="webinar front matter" %}
+{% include require-variable var=page.presenter-ids varname="presenter-ids"
+   source="webinar front matter" %}
+{% if upcoming %}
+  {% include require-variable var=page.registration-url varname="registration-url"
+     source="webinar front matter" %}
+{% endif %}
+
+
+<!-- Construct things we need --> 
 {% assign psize = page.presenter-ids | size %}
 {% if psize == 1 %}
   {%- assign plabel = "Presenter:" -%}
@@ -30,25 +49,19 @@ layout: default
 {% assign today = 'now' | date: "%s" %}
 {% assign wdate = page.date | date: "%s" %}
 
-{% if wdate >= today %}
-<h2>Upcoming Webinar</h2>
-{% else %}
-<h2>Webinar Details</h2>
-{% endif %}
+{% if upcoming %}<h2>Upcoming Webinar</h2>{% else %}<h2>Webinar Details</h2>{% endif %}
 
 <section>
   <h3>{{ page.webinar-id }}. 
     <strong>{{ page.title }}</strong>
-    {% if wdate >= today %}
+    {% if upcoming %}
       {% if page.registration-url %}
         [<a href="{{ page.registration-url }}">Register</a>]
-      {% else %}
-	<strong><em><font color="red">ERROR: Missing registration-url</font></em></strong>
       {% endif %}
     {% endif %}
   </h3> 
   <ul>
-    {% if wdate >= today %}
+    {% if upcoming %}
     <li><strong>Date:</strong> {{page.date | date: "%F %I:%M %P %Z" }}</li>
     {% else %}
     <li><strong>Date:</strong> {{ page.date | date: "%F" }}</li>
@@ -70,9 +83,9 @@ layout: default
         {% unless forloop.last %} | {% endunless %}
       {% endfor %}
       </li>
-    {% elsif wdate < today %}
+    {% else %}{% unless upcoming %}
       <li><strong>Archives:</strong> <em>to be published</em>
-      </li>
+      </li>{% endunless %}
     {% endif %}
 
     <li><strong>Decription:</strong> {{ content }}</li>

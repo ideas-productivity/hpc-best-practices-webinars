@@ -1,8 +1,25 @@
 ---
 layout: none
 ---
-<!-- Generate text fragments for the archival recordings in YouTube -->
+<h2>Content for YouTube</h2>			 
 
+<!-- Warn if any variables are missing -->
+
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+{% include require-variable var=page.webinar-id varname="webinar-id"
+   source="webinar front matter" %}
+{% include require-variable var=page.presenter-ids varname="presenter-ids"
+   source="webinar front matter" %}
+
+{% include require-variable var=site.hpcbp-url varname="hpcbp-url"
+   source="config.yml" %}
+{% include require-variable var=site.youtube-title-max varname="youtube-title-max"
+   source="config.yml" %}
+
+<!-- Construct things that we need -->
 {% if page.webinar-id < 10 %}
   {%- assign webinar-number-filled = page.webinar-id | prepend: "00" -%}
 {% elsif page.webinar-id < 100 %}
@@ -10,15 +27,6 @@ layout: none
 {% elsif page.webinar-id < 1000 %}
   {%- assign webinar-number-filled = page.webinar-id -%}
 {% endif %}			   
-
-{% assign psize = page.presenter-ids | size %}
-{% if psize == 1 %}
-  {%- assign plabel = "Presenter:" -%}
-  {%- assign blabel = "Presenter Bio:" -%}
-{% else %}
-  {%- assign plabel = "Presenters:" -%}
-  {%- assign blabel = "Presenter Bios:" -%}
-{% endif %}
 
 {% for pid in page.presenter-ids %}
   {% if forloop.index > 1 %}
@@ -29,18 +37,10 @@ layout: none
   {% endif %}
 
   {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {% unless p[0] %}<p><strong><em><font color="red">ERROR: no match for presenter-id {{ pid }}</font></em></strong></p>{% endunless %}
   {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
   {%- assign pstring = pstring | append: pafil -%}
-
-  {% if p[0].content != empty %}
-    {% assign pbio = pbio | append: p[0].content | markdownify -%}
-  {% endif %}
 {% endfor %}
-
-{% assign today = 'now' | date: "%s" %}
-{% assign wdate = page.date | date: "%s" %}
-
-<h2>Content for YouTube</h2>			 
 
 {%- assign tfull = "Webinar " -%}
 {%- assign tfull = tfull | append:  webinar-number-filled -%}
@@ -48,6 +48,7 @@ layout: none
 {%- assign tfull = tfull | append: page.title -%}
 
 {% assign tlength = tfull | size %}
+
 
 <h3>Basic Tab</h3>
 

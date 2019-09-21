@@ -1,8 +1,34 @@
 ---
 layout: none
 ---
-<!-- Generate html fragments for the ideas-productivity.org Wordpress site -->
+<h2>Content for ideas-productivity.org Wordpress Site</h2>
+			   
+<em>Recommended procedure: use "view source" feature in browser (often
+ctrl-u, or via context (right-click) menu to view HTML source.
+Cut-and-paste into Wordpress as appropriate.</em>
 
+{% include upcoming-event event=page.date %}
+
+<!-- Warn if any variables are missing -->
+
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+{% include require-variable var=page.webinar-id varname="webinar-id"
+   source="webinar front matter" %}
+{% include require-variable var=page.presenter-ids varname="presenter-ids"
+   source="webinar front matter" %}
+{% if upcoming %}
+  {% include require-variable var=page.registration-url varname="registration-url"
+     source="webinar front matter" %}
+{% endif %}
+
+{% include require-variable var=site.hpcbp-url varname="hpcbp-url"
+   source="config.yml" %}
+
+
+<!-- Construct things that we need --> 
 {% if page.webinar-id < 10 %}
   {%- assign webinar-anchor = page.webinar-id | prepend: "webinar00" -%}
 {% elsif page.webinar-id < 100 %}
@@ -37,34 +63,20 @@ layout: none
   {% endif %}
 {% endfor %}
 
-{% assign today = 'now' | date: "%s" %}
-{% assign wdate = page.date | date: "%s" %}
-
-<h2>Content for ideas-productivity.org Wordpress Site</h2>
-			   
-<em>Recommended procedure: use "view source" feature in browser (often
-ctrl-u, or via context (right-click) menu to view HTML source.
-Cut-and-paste into Wordpress as appropriate.</em>
 
 <h3>Main HPC-BP listing
-  {% if wdate >= today %}
-    (Upcoming section)
-  {% else %}
-    (Past section)
-  {% endif %}
+  {% if upcoming %}(Upcoming section){% else %}(Past section){% endif %}
 </h3>
 
 <section style="border: 3px; border-style: solid; padding: 1em">
-{% if wdate >= today %}<!-- ----- BEGIN UPCOMING ENTRY ----- -->{% endif %}
+{% if upcoming %}<!-- ----- BEGIN UPCOMING ENTRY ----- -->{% endif %}
   <ol reversed="" start="{{ page.webinar-id }}">
-{% if wdate < today %}<!-- ---- BEGIN PAST ENTRY ----- -->{% endif %}
+{% unless upcoming %}<!-- ---- BEGIN PAST ENTRY ----- -->{% endunless %}
     <li id="{{ webinar-anchor }}">
 	  <p class="entry-title"><strong>{{ page.title }}</strong>
-    {%- if wdate >= today -%}
+    {%- if upcoming -%}
       {% if page.registration-url %}
         [<a href="{{ page.registration-url }}">Register</a>]
-      {% else %}
-	<strong><em><font color="red">ERROR: Missing registration-url</font></em></strong>
       {% endif %}
     {% else %}
       ({{ page.date | date: "%F" }})
@@ -72,7 +84,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
 </p>
 
 <ul>
-  {%- if wdate >= today -%}
+  {%- if upcoming -%}
     <li><strong>Date and Time: </strong>
     {{page.date | date: "%A, %B %-d, %Y, %I:%M %P %Z" }}</li>
   {%- endif -%}
@@ -100,9 +112,9 @@ Cut-and-paste into Wordpress as appropriate.</em>
     <li><strong>Decription:</strong> {{ content | markdownify | replace: "<p>", "<em>" | replace: "</p>", "</em>" | strip }}</li>
 </ul>
 </li>
-{% if wdate < today %}<!-- ----- END PAST ENTRY ----- -->{% endif %}
+{% unless upcoming %}<!-- ----- END PAST ENTRY ----- -->{% endunless %}
   </ol>
-{% if wdate >= today %}<!-- ----- END UPCOMING ENTRY ----- -->{% endif %}
+{% if upcoming %}<!-- ----- END UPCOMING ENTRY ----- -->{% endif %}
 </section>
 
 <h3>Upcoming Events Entry</h3>

@@ -1,6 +1,20 @@
 ---
 layout: none
 ---
+{% comment %}-- Warn if any variables are missing --{% endcomment %}
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+{% include require-variable var=page.webinar-id varname="webinar-id"
+   source="webinar front matter" %}
+{% include require-variable var=page.presenter-ids varname="presenter-ids"
+   source="webinar front matter" %}
+
+{% include require-variable var=site.hpcbp-url varname="hpcbp-url"
+   source="config.yml" %}
+
+{% comment %}-- Construct things that we need --{% endcomment %}
 {% if page.webinar-id < 10 %}
   {%- assign webinar-anchor = page.webinar-id | prepend: "#webinar00" -%}
 {% elsif page.webinar-id < 100 %}
@@ -35,9 +49,6 @@ layout: none
     {% assign pbio = pbio | append: p[0].content | markdownify -%}
   {% endif %}
 {% endfor %}
-
-{% assign today = 'now' | date: "%s" %}
-{% assign wdate = page.date | date: "%s" %}
 
 # Webinar: {{ page.title }}
 

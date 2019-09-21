@@ -3,6 +3,28 @@ layout: default
 ---
 <h2>Presenter Details</h2>
 
+<!-- Warn if any variables are missing -->
+
+{% include require-variable var=page.firstname varname="firstname"
+   source="presenter front matter" %}
+{% include require-variable var=page.lastname varname="lastname"
+   source="presenter front matter" %}
+
+{% comment
+  ----- We don't really want to warn about these here -----
+{% include optional-variable var=page.pres-email varname="pres-email"
+   source="presenter front matter" %}
+{% include optional-variable var=page.pres-url varname="pres-url"
+   source="presenter front matter" %}
+{% include optional-variable var=page.aka varname="aka"
+   source="presenter front matter" %}
+{% include optional-variable var=page.affiliations varname="affiliations"
+   source="presenter front matter" %}
+{% include optional-variable var=page.past-affiliations varname="past-affiliations"
+   source="presenter front matter" %}
+{% endcomment %}
+
+
 {% assign asize = page.affiliations | size %}
 {% if asize == 1 %}
   {%- assign alabel = "Affiliation:" -%}

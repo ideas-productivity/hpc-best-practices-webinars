@@ -1,7 +1,18 @@
 ---
 layout: default
 ---
+<!-- Warn if any variables are missing -->
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+
+{% include require-variable var=site.bssw-events-url varname="bssw-events-url"
+   source="config.yml" %}
+
+<!-- Construct things we need -->
 {%- assign wtitle = page.title | prepend: "Webinar: " -%}
+<!-- This assumes BSSw.io uses the same slugification convention as Jekyll -->
 {%- assign wtslug = wtitle | slugify -%}
 
 <h2>Webinar Entry for BSSw Monthly Digest</h2>

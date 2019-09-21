@@ -3,45 +3,31 @@ layout: default
 ---
 <h2>Connection Information Email</h2>
 
-<!-- Warn if any required elements are missing -->
-{% unless page.date %}
-<p><strong><em><font color="red">ERROR: date missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-{% unless page.title %}
-<p><strong><em><font color="red">ERROR: title missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-{% unless site.hpcbp-url %}
-<p><strong><em><font color="red">ERROR: hpcbp-url missing from _config.yml</font></em></strong></p>
-{% endunless %}
+<!-- Warn if any variables are missing -->
 
-{% unless site.ecp-events-url %}
-<p><strong><em><font color="red">ERROR: ecp-events-url missing from _config.yml</font></em></strong></p>
-{% endunless %}
-{% unless page.ecp-abbreviation %}
-<p><strong><em><font color="red">ERROR: ecp-abbreviation missing from webinar front matter</font></em></strong></p>
-{% endunless %}
+{% include require-variable var=page.date varname="date"
+   source="webinar front matter" %}
+{% include require-variable var=page.title varname="title"
+   source="webinar front matter" %}
+{% include require-variable var=page.ecp-abbreviation varname="ecp-abbreviation"
+   source="webinar front matter" %}
+{% include require-variable var=page.vtc-url varname="vtc-url"
+   source="webinar front matter" %}
+{% include require-variable var=page.vtc-session varname="vtc-session"
+   source="webinar front matter" %}
+{% include optional-variable var=page.vtc-password varname="vtc-password"
+   source="webinar front matter" %}
+{% include require-variable var=page.qa-public-url varname="qa-public-url"
+   source="webinar front matter" %}
+{% include require-variable var=page.survey-public-url varname="survey-publi-url"
+   source="webinar front matter" %}
 
-{% unless page.vtc-url %}
-<p><strong><em><font color="red">ERROR: vtc-url missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-{% unless page.vtc-session %}
-<p><strong><em><font color="red">ERROR: vtc-session missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-{% unless page.vtc-password %}
-<p><strong><em><font color="red">WARNING: vtc-password <em>may</em> be missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-
-{% unless page.qa-public-url %}
-<p><strong><em><font color="red">ERROR: qa-public-url missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-
-{% unless page.survey-public-url %}
-<p><strong><em><font color="red">ERROR: survey-public-url missing from webinar front matter</font></em></strong></p>
-{% endunless %}
-
-{% unless site.ip-list-subscription-url %}
-<p><strong><em><font color="red">ERROR: ip-list-subscription-url missing from _config.yml</font></em></strong></p>
-{% endunless %}
+{% include require-variable var=site.hpcbp-url varname="hpcbp-url"
+   source="config.yml" %}
+{% include require-variable var=site.ecp-events-url varname="ecp-events-url"
+   source="config.yml" %}
+{% include require-variable var=site.ip-list-subscription-url varname="ip-list-subscription-url"
+   source="config.yml" %}
 
 <p><strong>Subject:</strong> Connection Info for {{ page.date | date: "%B" }} IDEAS-ECP Webinar </p>
 

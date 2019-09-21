@@ -1,0 +1,3 @@
+{% unless include.var %}
+<p><strong><em><font color="red">ERROR: required variable '{{ include.varname }}' missing from {{ include.source }}</font></em></strong></p>
+{% endunless %}

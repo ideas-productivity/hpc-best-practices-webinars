@@ -19,13 +19,16 @@
   - Change the way we process such content?
 - Should we generate the whole HPC-BP page on the ideas-producticity.org site?
 - Can we do a better job of presenting the ipweb content as HTML code?
-- Add schema checking for YAML front matter
 - Add warnings about title length (> site.youtube-title-max) as early as possible (commit or CI testing)
   - On YouTube, we prefix with "Webinar xxx: " so deduct 13 char
   - SEO site recommend no more than 70 char YT titles, after which Google will truncate in search results
 - Add an "upcoming webinars" page which links to all of the formats for upcoming webinars (duh)
   - We want this for the most recent completed webinar too (for archiving and followup notifications)
   - This assumes we're never more than one behind.  Probably okay.
+- Add schema checking for YAML front matter
+  - Added a lot of checking for expected variables wherever they are used, but nothing yet with actual YAML schemas
+  - No checking yet for archives
+  - Maybe add error-checking versions of collections where the only content generated is listings of missing variables
 
 # Items done
 
