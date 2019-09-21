@@ -20,6 +20,9 @@ layout: home
 - Formatted for YouTube
   - [List of YouTube fragments](youtube-videos-index.html)
 
+- Formatted for Connection Information Emails
+  - [List of Connection Information Emails](connection-emails-index.html)
+
 - Currently outdated
   - [Table of Webinars](webinar-table.html)
   - [Table of Webinars (LaTeX)](webinar-table-latex.html)
@@ -28,7 +31,6 @@ layout: home
   - Mailchimp emails
     - announcement
 	- followup (archive)
-  - Connection info email
   - Intro and followup slides for webinar
     - Generate as web pages rather than pointpoint
   - ECP training page

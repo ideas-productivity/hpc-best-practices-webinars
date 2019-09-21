@@ -34,6 +34,14 @@ hpcbp-url: https://ideas-productivity.org/events/hpc-best-practices-webinars/
 # the appropriate slug based on the title
 bssw-events-url: https://bssw.io/events
 
+# URL for ECP training events
+# Links for specific webinars are constructed from this URL by adding
+# the abbreviation given in the webinar's front matter
+ecp-events-url: https://www.exascaleproject.org/event
+
+# URL for IDEAS Productivity Announcements mailing list signup
+ip-list-subscription-url: https://us16.list-manage.com/subscribe?u=5438ff2caf2456f6ec49ebfbf&id=a7f7d33358
+
 # Maximum length of video titles supported by YouTube
 youtube-title-max: 100
 
@@ -76,6 +84,9 @@ collections:
 # Symlink to webinars to generate text for YouTube uploads
   youtube-videos:
     output: true
+# Symlink to webinars to generate text for connection info email
+  connection-emails:
+    output: true
   presenters:
     output: true
 
@@ -105,6 +116,11 @@ defaults:
       type: "bssw-events-digest"
     values:
       layout: "bssw-event-digest"
+  - scope:
+      path: ""
+      type: "connection-emails"
+    values:
+      layout: "connection-email"
   - scope:
       path: ""
       type: "presenters"

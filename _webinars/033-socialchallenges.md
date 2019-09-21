@@ -3,6 +3,12 @@ webinar-id: 33
 date: 2019-09-11T13:00-0400
 title: "Discovering and Addressing Social Challenges in the Evolution of Scientific Software Projects"
 presenter-ids: [gassmoeller-rene]
+ecp-abbreviation: scssp
+vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=eb087218399f983f4dba6fb3150d35cf1
+vtc-session: "905 620 973"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/IDEAS-SCSSP
+survey-public-url: http://bit.ly/IDEAS-SCSSP-survey
 ---
 In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous

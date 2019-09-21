@@ -1,0 +1,92 @@
+---
+layout: default
+---
+<h2>Connection Information Email</h2>
+
+<!-- Warn if any required elements are missing -->
+{% unless page.date %}
+<p><strong><em><font color="red">ERROR: date missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+{% unless page.title %}
+<p><strong><em><font color="red">ERROR: title missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+{% unless site.hpcbp-url %}
+<p><strong><em><font color="red">ERROR: hpcbp-url missing from _config.yml</font></em></strong></p>
+{% endunless %}
+
+{% unless site.ecp-events-url %}
+<p><strong><em><font color="red">ERROR: ecp-events-url missing from _config.yml</font></em></strong></p>
+{% endunless %}
+{% unless page.ecp-abbreviation %}
+<p><strong><em><font color="red">ERROR: ecp-abbreviation missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+
+{% unless page.vtc-url %}
+<p><strong><em><font color="red">ERROR: vtc-url missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+{% unless page.vtc-session %}
+<p><strong><em><font color="red">ERROR: vtc-session missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+{% unless page.vtc-password %}
+<p><strong><em><font color="red">WARNING: vtc-password <em>may</em> be missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+
+{% unless page.qa-public-url %}
+<p><strong><em><font color="red">ERROR: qa-public-url missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+
+{% unless page.survey-public-url %}
+<p><strong><em><font color="red">ERROR: survey-public-url missing from webinar front matter</font></em></strong></p>
+{% endunless %}
+
+{% unless site.ip-list-subscription-url %}
+<p><strong><em><font color="red">ERROR: ip-list-subscription-url missing from _config.yml</font></em></strong></p>
+{% endunless %}
+
+<p><strong>Subject:</strong> Connection Info for {{ page.date | date: "%B" }} IDEAS-ECP Webinar </p>
+
+<section style="border: 3px; border-style: solid; padding: 1em">
+<p>Dear Webinar Participant,</p>
+
+<p>The {{ page.date | date: "%B" }} IDEAS-ECP webinar titled “{{ page.title }}” is scheduled for {{ page.date | date: "%A %B, %d, %Y at %I:%M %P %Z" }}.  The webinar is scheduled to last approximately one hour and is part of the <a href="{{ site.hpcbp-url }}">HPC Best Practices</a> series.</p>
+
+<p>Below are a few important details that you should read in advance of the webinar.</p>
+
+<p><strong><u>Presentation</u></strong></p>
+
+<p>A copy of the presentation is attached and has also been uploaded to the event page located at <a href="{{ site.ecp-events-url }}/{{ page.ecp-abbreviation }}/">{{ site.ecp-events-url }}/{{ page.ecp-abbreviation }}/</a>, under the section titled, “Materials from the Webinar”.  In the event you encounter issues with WebEx, you can always dial in using the phone number provided below and follow along with the presentation.</p>
+
+<p><strong><u>Logistics</u></strong></p>
+
+<p>The meeting will be hosted via WebEx.  We will open the WebEx meeting at least 20 minutes prior to the start of the webinar.  We recommend you connect as early as possible to ensure you do not encounter technical difficulties in seeing and/or hearing the presentation.  Once the presentation begins, it will be difficult to provide technical assistance.</p>
+
+<p>Join by computer<br>
+<a href="{{ page.vtc-url }}">{{ page.vtc-url }}</a><br>
+Event number: {{ page.vtc-session }}<br>
+{% if page.vtc-password %}Password: {{ page.vtc-password }}<br>{% endif %}
+<br>
+Join by phone<br>
+To receive a call back, provide your phone number when you join the event, or call the number below and enter the access code.<br>
++1-415-527-5035<br>
+Access Code:  {{ page.vtc-session }}
+</p>
+
+<p><strong><u>During the Webinar</u></strong></p>
+
+<p>Keep your Audio Muted – We will likely have over 100 participants in the webinar. We ask that you keep your audio muted and your video turned off during the webinar to give everyone the best experience possible.</p>
+
+<p>Questions?  - We encourage questions through the Google doc located at {{ page.qa-public-url }}.</p>
+
+<p><strong><u>After the Webinar</u></strong></p>
+
+<p>Webinar Recording – We plan to record the webinar and will let you know when the video is available for viewing on the website.</p>
+
+<p>Survey – We request that you take a very short survey upon conclusion of the webinar to help us improve future webinars.  You will find a link to the survey at {{ page.survey-public-url }}.</p>
+
+<p>Future Webinars –Visit <a href="https://www.exascaleproject.org/all-training-events/">https://www.exascaleproject.org/all-training-events/</a>.  Check back often as we add new events on a regular basis. Or <a href="{{ site.ip-list-subscription-url }}">sign up</a> for the IDEAS Productivity announcements mailing list for webinar and other software-related events organized by the IDEAS Productivity project.</p>
+
+<p>Sincerely,<br>
+Ashley Barker & Osni Marques<br>
+Exascale Computing Project (ECP)
+</p>
+</section>
