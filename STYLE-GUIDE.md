@@ -10,6 +10,13 @@ webinar-id: sequence number of webinar
 date: date of presentation including time AND TIME ZONE
 title: webinar title
 presenter-ids: array of presenter's presenter-ids
+registration-url: url for event registration site
+ecp-abbreviation: abbreviation used for webinar on ECP Training site
+vtc-url: url for video conference session
+vtc-session: video conference session id (string)
+vtc-password: video conference session password (string) [optional]
+qa-public-url: url for live Q&A document to be exposed to the public
+survey-public-url: url for feedback survey to be exposed to the public
 archives:
   - label: text for hyperlink to archival asset
     format: notes about format/soudce of asset (rendered in parenthesis) [optional]
@@ -23,12 +30,29 @@ content
 
 ### Conventions
 
-- *title* must be quoted if it contains colons (true for any other variable too) (best practice: always quote)
-- *date* must include time and time zone of presentation, e.g., 2019-01-23T13:00-0500
+- `title` must be quoted if it contains colons (true for any other variable too) (best practice: always quote)
+- `date` must include time and time zone of presentation, e.g., 2019-01-23T13:00-0500
 - By convention, time zone is U.S. Eastern Time, which is -0500 for standard time or -0400 for daylight saving time
-- *presenter-ids* is always an array, even if only one item
-- if a *presenter-ids* element does not match any of the actual presenter-ids, the two common failure modes are for it to be blank or for it to pick up the first presenter-id, alphabetically
+- `presenter-ids` is always an array, even if only one item
+- if a `presenter-ids` element does not match any of the actual presenter-ids, the two common failure modes are for it to be blank or for it to pick up the first presenter-id, alphabetically
 - `archives` are currently presented like "*Archives:* [Video](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
+
+### Notes
+- Content required to advertise an upcoming webinar:
+  - `webinar-id`
+  - `date`
+  - `title`
+  - `presenter-ids`
+  - `registration-url`
+- Additional content required for "connection information" message:
+  - `ecp-abbreviation`
+  - `vtc-url`
+  - `vtc-session`
+  - `vtc-password`
+  - `qa-public-url`
+  - `survey-public-url`
+  - Additional content required for archives:
+    - `archives`
 
 ## Presenters
 
