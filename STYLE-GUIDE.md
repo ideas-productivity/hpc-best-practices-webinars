@@ -51,8 +51,8 @@ content
   - `vtc-password`
   - `qa-public-url`
   - `survey-public-url`
-  - Additional content required for archives:
-    - `archives`
+- Additional content required for archives:
+  - `archives`
 
 ## Presenters
 
