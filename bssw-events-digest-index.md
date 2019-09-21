@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<h1>List of BSSw Event Digest Entries</h1>
+<h2>List of BSSw Event Digest Entries</h2>
 
 {% assign sequence = site.bssw-events-digest | sort: "webinar-id" | reverse %}
 {% for webinar in sequence %}
