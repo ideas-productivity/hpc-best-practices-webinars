@@ -50,19 +50,20 @@ layout: none
 {% assign tlength = tfull | size %}
 
 <h3>Basic Tab</h3>
-<section>
 
 {% if tlength > site.youtube-title-max %}
 <p><strong><em><font color="red">WARNING: Full title is longer than YouTube limit of {{ site.youtube-title-max }} characters.</font></em></strong></p>
 
   <p><strong>Full title:</strong> {{ tfull }}</p>
   <p><strong>Truncated title:</strong> {{ tfull | truncate: site.youtube-title-max, "" }}
+    <p><em>Preferred alternative: edit title to make sense at {{ site.youtube-title-max }} characters.</em></p>
 {% else %}
 <p><strong>Title:</strong> {{ tfull }}</strong></p>
 {% endif %}
 
 
 <p><strong>Description:</strong><br>
+<section style="border: 3px; border-style: solid; padding: 1em">
 {% if tlength > site.youtube-title-max %}
 Full title: {{ page.title }}<br>
 {% endif %}
@@ -75,6 +76,7 @@ For more information about the HPC Best Practices webinars, including
 slides and Q&A archives for this presentation, other presentations in
 the series, and a mailing list for announcements of future webinars,
 please visit {{ site.hpcbp-url }}
+</section>
 
 <p><strong>Tags:</strong> HPC Best Practices webinars</p>
   
