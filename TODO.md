@@ -3,7 +3,7 @@
 - HTML title metadata derived from filename.  Probable better choices
 - What's up with navigation???
 - look for useful HTML5 (or other) semantic tags
-- Do something more intelligent when the webinar presenter-id doesn't match a presenter.  Right now, it causes Jekyll to error out.
+- Do something more intelligent when the webinar presenter-id doesn't match a presenter.  Right now, it causes Jekyll to error out, silently.
 - Decide whether we want to expose aka names, past affiliations, past bios
   - Additional bios within details tags are not being markdownified
   - Incorporation of presenter bios into webinar pages includes past bios because past bios are merely part of the presenter content.  This is probably not desirable in the long run.
@@ -19,6 +19,13 @@
   - Change the way we process such content?
 - Should we generate the whole HPC-BP page on the ideas-producticity.org site?
 - Can we do a better job of presenting the ipweb content as HTML code?
+- Add schema checking for YAML front matter
+- Add warnings about title length (> site.youtube-title-max) as early as possible (commit or CI testing)
+  - On YouTube, we prefix with "Webinar xxx: " so deduct 13 char
+  - SEO site recommend no more than 70 char YT titles, after which Google will truncate in search results
+- Add an "upcoming webinars" page which links to all of the formats for upcoming webinars (duh)
+  - We want this for the most recent completed webinar too (for archiving and followup notifications)
+  - This assumes we're never more than one behind.  Probably okay.
 
 # Items done
 
