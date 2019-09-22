@@ -1,6 +1,6 @@
 {% include upcoming-event event=include.webinar.date %}
 {% include ready-to-advertise webinar=include.webinar %}
-{% include ready-for-event webinar=indlude.webinar %}
+{% include ready-for-event webinar=include.webinar %}
 
 {% if upcoming or ready-to-advertise or ready-for-event or webinar.archives %}
 *Attributes* {% if upcoming %}| UPCOMING{% endif %} {% if ready-to-advertise %} | READY-TO-ADVERTISE{% endif %} {% if ready-for-event %}| READY-FOR-EVENT{% endif %} {% if webinar.archives %}| ARCHIVES{% endif %}
