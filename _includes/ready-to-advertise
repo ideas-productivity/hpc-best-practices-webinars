@@ -1,0 +1,10 @@
+{% comment %}
+   ready-to-advertise: set 'ready-to-advertise' true/false based on whether argument webinar contains the required variables
+   argument: webinar
+{% endcomment %}
+
+{% if include.webinar.webinar-id and include.webinar.date and include.webinar.title and include.webinar.presenter-ids and include.webinar.registration-url %}
+   {% assign ready-to-advertise = true %}
+{% else %}
+   {% assign ready-to-advertise = false %}
+{% endif %}

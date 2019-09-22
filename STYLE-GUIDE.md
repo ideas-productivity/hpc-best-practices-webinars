@@ -48,7 +48,7 @@ content
   - `ecp-abbreviation`
   - `vtc-url`
   - `vtc-session`
-  - `vtc-password`
+  - `vtc-password` [optional]
   - `qa-public-url`
   - `survey-public-url`
 - Additional content required for archives:

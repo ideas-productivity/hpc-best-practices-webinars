@@ -1,0 +1,16 @@
+{% comment %}
+   ready-for-event: set 'ready-for-event' true/false based on whether argument webinar contains the required variables
+   argument: webinar
+
+   note: vtc-password is optional
+{% endcomment %}
+
+{% if include.webinar.ecp-abbreviation
+   and include.webinar.vtc-url
+   and include.webinar.vtc-session
+   and include.webinar.qa-public-url
+   and include.webinar.survey-public-url %}
+   {% assign ready-for-event = true %}
+{% else %}
+   {% assign ready-for-event = false %}
+{% endif %}
