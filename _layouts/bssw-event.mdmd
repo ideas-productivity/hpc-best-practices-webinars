@@ -57,7 +57,7 @@ layout: none
 - Event Website: {{ site.hpcbp-url }}{{ webinar-anchor}}
 - Organizers: The IDEAS Productivity Project
 			   
-Part of the ["Best Practices for HPC Software Developers" webinar series]({{ site.hpcbp-url }})
+Part of the "Best Practices for HPC Software Developers" webinar series
 
 Resource Informaton | Details
 :--- | :---			   
@@ -66,12 +66,9 @@ Date and Time | {{page.date | date: "%F %I:%M %P %Z" }}
 {{ plabel }} | {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 Registration and Information | 	<{{ site.hpcbp-url }}{{ webinar-anchor}}>	   
 
-**Webinars are free and open to the public, but advance registration is required.**
+**Webinars are free and open to the public, but advance registration is required through the Event website.**
 
 {{ page.content}}
-
-### More information and registration link:
-<{{ site.hpcbp-url }}{{ webinar-anchor}}>
 
 Archives will be available at this link a couple of weeks after the event.
 
