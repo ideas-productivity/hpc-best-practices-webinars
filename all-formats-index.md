@@ -22,7 +22,7 @@ layout: home
 
 {% include webinar-attributes-table webinar=webinar %}
 
-*Content* | [Web]({{ site.baseurl }}{{ webinar.url }}) | [BSSw Event]({{ site.baseurl }}{{ be[0].url }}) | [BSSw Digest]({{ site.baseurl }}{{ bed[0].url }}) | [i-p.o WordPress]({{ site.baseurl }}{{ ipw[0].url }})
+*Formats* | [Web]({{ site.baseurl }}{{ webinar.url }}) | [BSSw Event]({{ site.baseurl }}{{ be[0].url }}) | [BSSw Digest]({{ site.baseurl }}{{ bed[0].url }}) | [i-p.o WordPress]({{ site.baseurl }}{{ ipw[0].url }})
  | [YouTube]({{ site.baseurl }}{{ yt[0].url }}) | [Connection Email]({{ site.baseurl }}{{ ce[0].url }})
 
 {% endfor %}
