@@ -2,5 +2,5 @@
 {% include ready-to-advertise webinar=include.webinar %}
 {% include ready-for-event webinar=include.webinar %}
 
-*Attributes* {% if upcoming %}| UPCOMING{% else %} | PAST{% endif %} {% if ready-to-advertise %} | READY-TO-ADVERTISE{% endif %} {% if ready-for-event %}| READY-FOR-EVENT{% endif %} {% if webinar.archives %}| ARCHIVES{% endif %}
+*Attributes* {% if upcoming %}| UPCOMING{% else %} | PAST{% endif %} {% if ready-to-advertise %} | <font color="green">READY-TO-ADVERTISE</font>{% else %} | <font color="red">not ready-to-advertise</font>{% endif %} {% if ready-for-event %}| <font color="green">READY-FOR-EVENT</font>{% else %}| <font color="red">not ready-for-event</font>{% endif %} {% if webinar.archives %}| <font color="green">ARCHIVES</font>{% else %}| <font color="red">no archives</font>{% endif %}
 
