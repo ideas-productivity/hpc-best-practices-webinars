@@ -3,6 +3,13 @@ webinar-id: 1
 date: 2016-05-04T13:00-0500
 title: "What All Codes Should Do:  Overview of Best Practices in HPC Software Development"
 presenter-ids: [dubey-anshu]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=YJi05p4n1Gc&amp;index=1&amp;list=PL20S5EeApOSuE6BZWEbMMV-9-ZHNAu3NI
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar001-160504-dubey-overview.pdf
 ---
 Scientific code developers have increasingly been adopting software
 processes derived from the mainstream (non-scientific) community.

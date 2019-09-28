@@ -3,6 +3,16 @@ webinar-id: 30
 date: 2019-06-12T13:00-0400
 title: "Modern C++ for High-Performance Computing"
 presenter-ids: [lumsdaine-andrew]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=d6-aRSzRf_k
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/06/webinar030-cpp4hpc.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/07/webinar030-cpp4HPC-qa.pdf
 ---
 Since its creation by Bjarne Stroustrup in the early 1980s, C++ has
 steadily evolved to become a multi-paradigm programming language that

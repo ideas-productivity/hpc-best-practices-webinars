@@ -3,6 +3,16 @@ webinar-id: 15
 date: 2018-02-28T13:00-0500
 title: "Jupyter and HPC: Current State and Future Roadmap"
 presenter-ids: [bussonnier-matthias, somnath-suhas, cholia-shreyas]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=aKah_O5OZdE
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar015-slides.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar015-qa.pdf
 ---
 During the last few years the Jupyter notebook has become one of the
 tools of choice for the data science and high-performance computing

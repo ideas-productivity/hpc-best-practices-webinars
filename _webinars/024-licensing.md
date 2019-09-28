@@ -3,6 +3,16 @@ webinar-id: 24
 date: 2018-12-05-T13:00-0500
 title: "Introduction to Software Licensing"
 presenter-ids: [bernholdt-davide]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=r4txigd2TdM
+  - label: Slides
+    format: FigShare
+    url: https://dx.doi.org/10.6084/m9.figshare.7409573
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/12/webinar024-licensing-qa.pdf
 ---
 Software licensing and related matters of intellectual property can
 often seem confusing or hopelessly complicated, especially when many

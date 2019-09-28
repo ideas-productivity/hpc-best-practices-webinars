@@ -9,6 +9,16 @@ vtc-session: "905 620 973"
 vtc-password: "ideas"
 qa-public-url: http://bit.ly/IDEAS-SCSSP
 survey-public-url: http://bit.ly/IDEAS-SCSSP-survey
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=XrjtdlOmmf8
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/09/webinar033-social-challenges.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/09/webinar033-socialchallenges-qa.pdf
 ---
 In recent years scientific software projects have increasingly
 incorporated state-of-the-art technical best practices like continuous

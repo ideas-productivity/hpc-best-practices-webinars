@@ -3,6 +3,16 @@ webinar-id: 19
 date: 2018-06-13T13:00-0400
 title: "Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines"
 presenter-ids: [jimenez-ivo]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=4cS0hS2nsrU
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/06/webinar019-popper.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/06/webinar019-qa.pdf
 ---
 Current approaches used in computational and data science research may
 require significant time without necessarily advancing scientific

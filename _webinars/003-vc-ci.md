@@ -3,6 +3,13 @@ webinar-id: 3
 date: 2016-06-02T13:00-0500
 title: "Distributed Version Control and Continuous Integration Testing"
 presenter-ids: [johnson-jeff]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=cqH-PIRpnRo&amp;feature=youtu.be
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar003-HPC-Session3.pdf
 ---
 Recently, many tools and workflows have emerged in the software
 industry that have greatly enhanced the productivity of development

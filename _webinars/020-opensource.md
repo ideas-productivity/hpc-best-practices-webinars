@@ -3,6 +3,16 @@ webinar-id: 20
 date: 2018-07-18T13:00-0400
 title: "How Open Source Software Supports the Largest Computers on the Planet"
 presenter-ids: [lee-ian]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=-sX4lGMP88I
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar020-oss.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar020-qa.pdf
 ---
 This talk will provide an overview of the work at Lawrence Livermore
 National Laboratory to re-vamp our open source project offerings,

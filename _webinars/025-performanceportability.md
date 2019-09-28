@@ -3,6 +3,16 @@ webinar-id: 25
 date: 2019-01-23T13:00-0500
 title: "Quantitatively Assessing Performance Portability with Roofline"
 presenter-ids: [pennycook-john, yang-charlene, deslippe-jack]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://youtu.be/2OvsMUQ2mj8
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/02/webinar025-perfport.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/02/webinar025-qa.pdf
 ---
  Wouldn’t it be great if we could port a code to a new
  high-performance architecture without substantially changing the code

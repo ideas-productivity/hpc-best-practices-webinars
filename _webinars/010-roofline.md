@@ -3,6 +3,16 @@ webinar-id: 10
 date: 2017-08-16T13:00-0400
 title: "Using the Roofline Model and Intel Advisor"
 presenter-ids: [williams-sam, koskela-tuomas]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=8h3f3E-Oq5A
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/08/webinar010-Roofline-slides.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/08/webinar010-Roofline-qa.pdf
 ---
 In this webinar, we will begin by introducing the Roofline Model and
 its “Cache-Aware” variant. We will proceed with some general

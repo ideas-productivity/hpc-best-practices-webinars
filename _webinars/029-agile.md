@@ -3,6 +3,16 @@ webinar-id: 29
 date: 2019-05-08T13:00-0400
 title: "So, You Want to Be Agile? Strategies for Introducing Agility Into Your Scientific Software Project"
 presenter-ids: [heroux-mike]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=UvskSxMIfwI
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/05/webinar029-agile.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/05/webinar029-agile-qa.pdf
 ---
 Scientific software team cultures have natural consistencies with
 agile practices. Discovery-driven development, a focus on regular

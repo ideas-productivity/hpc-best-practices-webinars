@@ -3,6 +3,16 @@ webinar-id: 17
 date: 2018-04-18T13:00-0400
 title: "Software Citation Today and Tomorrow"
 presenter-ids: [katz-daniels]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=z4tQkPzwJxg
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/04/webinar017-citation-slides-updated.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/04/webinar017-qa.pdf
 ---
 Software is increasingly important in research, and some of the
 scholarly communications community, for example, in FORCE11, has been

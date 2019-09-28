@@ -3,6 +3,13 @@ webinar-id: 12
 date: 2017-11-01T13:00-0500
 title: "Managing Defects in HPC Software Development"
 presenter-ids: [evans-tom]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=iz7FhY0w0XM
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/session012-slides.pdf
 ---
 Software Quality Engineering (SQE) and methods research and scientific
 investigation are often thought to be incompatible.  However, in

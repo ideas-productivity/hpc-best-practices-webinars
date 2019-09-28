@@ -3,6 +3,13 @@ webinar-id: 13
 date: 2017-12-06T13:00-0500
 title: "Better Scientific Software (https://bssw.io): So your code will see the future"
 presenter-ids: [heroux-mike, mcinnes-loiscurfman]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=5waBynVgxuc
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/bssw.site_.intro_.2017.12.6.pdf
 ---
 Better Scientific Software (BSSw) is an organization dedicated to
 improving developer productivity and software sustainability for

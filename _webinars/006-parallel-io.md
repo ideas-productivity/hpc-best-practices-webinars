@@ -3,6 +3,13 @@ webinar-id: 6
 date: 2016-07-28T13:00-0500
 title: "An Introduction to High-Performance Parallel I/O"
 presenter-ids: [wang-feiyi]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://youtu.be/amknrPhFs-8
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar006-2016_HPC_IO_Intro.pdf
 ---
 Parallel data management is a complex problem at large-scale HPC
 environments. The HPC I/O stack can be viewed as a multi-layered cake

@@ -3,6 +3,16 @@ webinar-id: 31
 date: 2019-07-17T13:00-0400
 title: "When 100 FLOPS/Watt was a Giant Leap: The Apollo Guidance Computer Hardware, Software And Application In Moon Missions"
 presenter-ids: [miller-mark]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=JcMTR0-bMqQ
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar031-Apollo50th.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar031-Apollo50th-qa.pdf
 ---
 Commemorating the 50th Anniversary of the Apollo Moon landings, this
 webinar will describe the revolutionary computer, the Apollo Guidance

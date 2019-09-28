@@ -3,6 +3,16 @@ webinar-id: 15
 date: 2018-03-28T13:00-0400
 title: "Scientific Software Development with Eclipse"
 presenter-ids: [watson-greg]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=8hWav1RN4b0
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar016-eclipse-slides.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar016-eclipse-qa.pdf
 ---
 The Eclipse IDE is one of the most popular IDEs available, and its
 support for multiple languages, particularly C, C++ and Fortran has

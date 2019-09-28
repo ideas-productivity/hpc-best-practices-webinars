@@ -3,6 +3,13 @@ webinar-id: 4
 date: 2016-05-15T13:00-0500
 title: "Testing and Documenting your Code"
 presenter-ids: [klinvex-alicia]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://youtu.be/kAC0N84JaHA
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar004-testing-klinvex.pdf
 ---
 Software verification and validation are needed for high-quality and
 reliable scientific codes. For software with moderate to long

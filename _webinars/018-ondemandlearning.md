@@ -3,6 +3,16 @@ webinar-id: 18
 date: 2018-05-09T13:00-0400
 title: "On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity"
 presenter-ids: [raybourn-elaine]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=Ssh8VDj6Nro
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/05/webinar018-slides.pdf
+  - label: Q&A
+    format: PDF
+    url: https://ideas-productivity.org/wordpress/wp-content/uploads/2018/05/webinar018-qa.pdf
 ---
 Continual advances in new technologies for computational science often
 require members of the HPC community to learn new tools, techniques,

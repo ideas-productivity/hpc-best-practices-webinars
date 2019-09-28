@@ -3,6 +3,13 @@ webinar-id: 7
 date: 2016-08-09T13:00-0400
 title: Basic Performance Analysis and Optimization – An Ant Farm Approach
 presenter-ids: [deslippe-jack]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://youtu.be/-qxJf6YJ3fc
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar007-160809-deslippe-antfarm.pdf
 ---
 How is optimizing HPC applications like an Ant Farm? Attend this
 presentation to find out. We’ll discuss the basic concepts around

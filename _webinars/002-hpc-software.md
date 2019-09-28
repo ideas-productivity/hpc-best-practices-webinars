@@ -3,6 +3,13 @@ webinar-id: 2
 date: 2016-05-18T13:00-0500
 title: "Developing, Configuring, Building, and Deploying HPC Software"
 presenter-ids: [smith-barry]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=pnH7JycpfiY&amp;list=PL20S5EeApOSuE6BZWEbMMV-9-ZHNAu3NI&amp;index=2
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar002-MakeConfigureIDE.pdf
 ---
 The process of developing HPC software requires consideration of
 issues in software design as well as practices that support the

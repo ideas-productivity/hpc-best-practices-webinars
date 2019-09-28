@@ -3,6 +3,16 @@ webinar-id: 22
 date: 2018-09-19T13:00-0400
 title: "Modern CMake"
 presenter-ids: [hoffman-bill]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=sL00-ZDi4sk
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar022-cmake.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar022-cmake-qa.pdf
 ---
 Bill Hoffman, the creator of the CMake project, will give an
 introduction to development with modern CMake constructs. CMake is 17

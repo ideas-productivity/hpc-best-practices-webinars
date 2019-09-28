@@ -3,6 +3,19 @@ webinar-id: 28
 date: 2019-04-10T13:00-0400
 title: "Testing Fortran Software with pFUnit"
 presenter-ids: [clune-thomas]
+archives:
+  - label: Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=RmTXDTL_Ce0
+  - label: Extended Q&A Video
+    format: YouTube
+    url: https://www.youtube.com/watch?v=RWZOVFz7UIg
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/04/webinar028-pfunit.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/04/webinar028-pfunit-qa.pdf
 ---
 Over the past two decades, the emergence of highly effective software
 testing frameworks has greatly simplified the development and use of
