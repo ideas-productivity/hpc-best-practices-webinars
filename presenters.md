@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<h2>List of Presenters</h2>
+## List of Presenters
 
 <dl>
 {% for presenter in site.presenters %}
@@ -22,8 +22,8 @@ layout: home
       <dd style="margin-left: 30px">{{ w2.webinar-id }}. 
         <strong><a href="{{ site.baseurl }}{{ w2.url }}">{{ w2.title }}</a></strong> ({{ w2.date | date: "%F" }})
       </dd>
-    {% endfor %}  
-  {% endif %}  
+    {% endfor %}
+  {% endif %}
 
 </section>
 {% endfor %}

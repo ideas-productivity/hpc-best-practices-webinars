@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<h1>List of Webinars</h1>
+## List of Webinars
 
 <dl>
 {% assign sequence = site.webinars | sort: "webinar-id" | reverse %}
@@ -37,7 +37,6 @@ layout: home
 	<dd style="margin-left: 30px"><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
       </dd>
     {% endif %}
-	<dd style="margin-left: 30px"><strong>Decription:</strong> {{ webinar.content }}</dd>
 </section>
 {% endfor %}
 </dl>
