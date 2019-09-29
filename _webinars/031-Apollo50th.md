@@ -6,7 +6,7 @@ presenter-ids: [miller-mark]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=JcMTR0-bMqQ
+    yt-video-id: JcMTR0-bMqQ
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar031-Apollo50th.pdf

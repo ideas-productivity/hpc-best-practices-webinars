@@ -6,7 +6,7 @@ presenter-ids: [thomas-rollin, scullin-william, belhorn-matt]
 archives:
   - label: Video
     format: YouTube
-    url: https://youtu.be/lSrfZHu3BZw
+    yt-video-id: lSrfZHu3BZw
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar008-IDEAS-Python-in-HPC-Thomas-Scullin-Belhorn.pdf

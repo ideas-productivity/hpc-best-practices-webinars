@@ -6,7 +6,7 @@ presenter-ids: [lee-ian]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=-sX4lGMP88I
+    yt-video-id: -sX4lGMP88I
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar020-oss.pdf

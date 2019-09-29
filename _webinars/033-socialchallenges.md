@@ -12,7 +12,7 @@ survey-public-url: http://bit.ly/IDEAS-SCSSP-survey
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=XrjtdlOmmf8
+    yt-video-id: XrjtdlOmmf8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/09/webinar033-social-challenges.pdf

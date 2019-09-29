@@ -6,7 +6,7 @@ presenter-ids: [dubey-anshu]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=YJi05p4n1Gc
+    yt-video-id: YJi05p4n1Gc
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar001-160504-dubey-overview.pdf

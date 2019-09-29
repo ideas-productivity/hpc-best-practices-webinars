@@ -1,0 +1,10 @@
+{% comment %}
+  HTML fragment to embed YouTube video
+
+  Arguments:
+    id     ID of Youtube video to embed
+
+  Relies on: site.youtube-embed-url
+{% endcomment %}
+<iframe width="560" height="315" src="{{ site.youtube-embed-url }}{{ include.id }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

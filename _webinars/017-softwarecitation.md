@@ -6,7 +6,7 @@ presenter-ids: [katz-daniels]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=z4tQkPzwJxg
+    yt-video-id: z4tQkPzwJxg
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/04/webinar017-citation-slides-updated.pdf

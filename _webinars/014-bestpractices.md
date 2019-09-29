@@ -6,7 +6,7 @@ presenter-ids: [ferenbaugh-charlesr]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=utRT9StZrNM
+    yt-video-id: utRT9StZrNM
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/01/webinar014-slides.pdf

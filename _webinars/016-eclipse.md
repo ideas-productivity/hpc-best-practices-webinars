@@ -6,7 +6,7 @@ presenter-ids: [watson-greg]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=8hWav1RN4b0
+    yt-video-id: 8hWav1RN4b0
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar016-eclipse-slides.pdf

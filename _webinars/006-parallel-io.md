@@ -6,7 +6,7 @@ presenter-ids: [wang-feiyi]
 archives:
   - label: Video
     format: YouTube
-    url: https://youtu.be/amknrPhFs-8
+    yt-video-id: amknrPhFs-8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar006-2016_HPC_IO_Intro.pdf

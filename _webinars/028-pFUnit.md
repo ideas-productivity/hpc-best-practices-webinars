@@ -6,10 +6,11 @@ presenter-ids: [clune-thomas]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=RmTXDTL_Ce0
+    yt-video-id: RmTXDTL_Ce0
   - label: Extended Q&A Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=RWZOVFz7UIg
+    yt-video-id: RWZOVFz7UIg
+    dont-embed: true
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/04/webinar028-pfunit.pdf

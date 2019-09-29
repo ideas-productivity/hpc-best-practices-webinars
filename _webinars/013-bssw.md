@@ -6,7 +6,7 @@ presenter-ids: [heroux-mike, mcinnes-loiscurfman]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=5waBynVgxuc
+    yt-video-id: 5waBynVgxuc
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/bssw.site_.intro_.2017.12.6.pdf

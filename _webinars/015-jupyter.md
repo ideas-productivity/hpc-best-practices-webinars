@@ -6,7 +6,7 @@ presenter-ids: [bussonnier-matthias, somnath-suhas, cholia-shreyas]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=aKah_O5OZdE
+    yt-video-id: aKah_O5OZdE
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar015-slides.pdf

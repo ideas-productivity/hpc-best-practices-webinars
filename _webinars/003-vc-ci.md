@@ -6,7 +6,7 @@ presenter-ids: [johnson-jeff]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=cqH-PIRpnRo
+    yt-video-id: cqH-PIRpnRo
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar003-HPC-Session3.pdf

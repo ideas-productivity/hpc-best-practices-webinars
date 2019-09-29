@@ -7,7 +7,7 @@ presenter-ids: [sufi-shoaib]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=YlEnDkJtdMs
+    yt-video-id: YlEnDkJtdMs
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/08/webinar032-managementplans.pdf

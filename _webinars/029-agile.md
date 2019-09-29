@@ -6,7 +6,7 @@ presenter-ids: [heroux-mike]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=UvskSxMIfwI
+    yt-video-id: UvskSxMIfwI
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/05/webinar029-agile.pdf

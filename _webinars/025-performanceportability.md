@@ -6,7 +6,7 @@ presenter-ids: [pennycook-john, yang-charlene, deslippe-jack]
 archives:
   - label: Video
     format: YouTube
-    url: https://youtu.be/2OvsMUQ2mj8
+    yt-video-id: 2OvsMUQ2mj8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/02/webinar025-perfport.pdf

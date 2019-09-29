@@ -6,7 +6,7 @@ presenter-ids: [deslippe-jack]
 archives:
   - label: Video
     format: YouTube
-    url: https://youtu.be/-qxJf6YJ3fc
+    yt-video-id: -qxJf6YJ3fc
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar007-160809-deslippe-antfarm.pdf

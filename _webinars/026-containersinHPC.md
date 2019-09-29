@@ -6,7 +6,7 @@ presenter-ids: [canon-shane]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=vzHnIS-bQQY
+    yt-video-id: vzHnIS-bQQY
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/02/webinar026-containers.pdf

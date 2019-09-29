@@ -6,7 +6,7 @@ presenter-ids: [evans-tom]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=iz7FhY0w0XM
+    yt-video-id: iz7FhY0w0XM
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/session012-slides.pdf

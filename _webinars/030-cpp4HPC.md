@@ -6,7 +6,7 @@ presenter-ids: [lumsdaine-andrew]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=d6-aRSzRf_k
+    yt-video-id: d6-aRSzRf_k
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/06/webinar030-cpp4hpc.pdf

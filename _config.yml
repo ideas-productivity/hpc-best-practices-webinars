@@ -45,6 +45,11 @@ ip-list-subscription-url: https://us16.list-manage.com/subscribe?u=5438ff2caf245
 # Maximum length of video titles supported by YouTube
 youtube-title-max: 100
 
+# Base URLs for watching and embedding YouTube videos
+youtube-watch-url: https://www.youtube.com/watch?v=
+youtube-embed-url: https://www.youtube.com/embed/
+
+
 # Build settings
 markdown: kramdown
 theme: minima

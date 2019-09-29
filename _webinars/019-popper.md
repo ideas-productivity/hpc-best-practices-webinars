@@ -6,7 +6,7 @@ presenter-ids: [jimenez-ivo]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=4cS0hS2nsrU
+    yt-video-id: 4cS0hS2nsrU
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/06/webinar019-popper.pdf

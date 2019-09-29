@@ -6,7 +6,7 @@ presenter-ids: [bernholdt-davide]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=r4txigd2TdM
+    yt-video-id: r4txigd2TdM
   - label: Slides
     format: FigShare
     url: https://dx.doi.org/10.6084/m9.figshare.7409573

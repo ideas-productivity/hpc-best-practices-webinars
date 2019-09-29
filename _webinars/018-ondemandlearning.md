@@ -6,7 +6,7 @@ presenter-ids: [raybourn-elaine]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=Ssh8VDj6Nro
+    yt-video-id: Ssh8VDj6Nro
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/05/webinar018-slides.pdf

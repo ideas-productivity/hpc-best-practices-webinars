@@ -74,7 +74,9 @@ layout: default
     {% if page.archives %}
     <li><strong>Archives:</strong>
       {% for i in page.archives %}
-        {% if i.url %}
+        {% if i.yt-video-id %}
+          <a href="{{ site.youtube-watch-url }}{{ i.yt-video-id }}">{{ i.label }}</a>
+        {% elsif i.url %}
           <a href="{{ i.url }}">{{ i.label }}</a>
         {% else %}
 	  <strong><em><font color="red">ERROR: Missing URL for label {{ i.label }}</font></em></strong>
@@ -90,6 +92,17 @@ layout: default
 
     <li><strong>Decription:</strong> {{ content }}</li>
   </ul>
+
+  {% comment %}
+    Embed embeddable archive items below the Description
+  {% endcomment %}	  
+  {% for i in page.archives %}
+    {% if i.yt-video-id %}
+      {% unless i.dont-embed %}
+        <p align="center">{% include youtube-embed id=i.yt-video-id %}</p>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
 
   {% if pbio %}
     <strong>{{ blabel }}</strong>

@@ -6,7 +6,7 @@ presenter-ids: [hoffman-bill]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=sL00-ZDi4sk
+    yt-video-id: sL00-ZDi4sk
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2017/06/webinar022-cmake.pdf

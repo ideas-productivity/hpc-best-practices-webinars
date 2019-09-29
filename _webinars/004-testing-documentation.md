@@ -6,7 +6,7 @@ presenter-ids: [klinvex-alicia]
 archives:
   - label: Video
     format: YouTube
-    url: https://youtu.be/kAC0N84JaHA
+    yt-video-id: kAC0N84JaHA
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar004-testing-klinvex.pdf
