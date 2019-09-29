@@ -6,7 +6,7 @@ presenter-ids: [smith-barry]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=pnH7JycpfiY&amp;list=PL20S5EeApOSuE6BZWEbMMV-9-ZHNAu3NI&amp;index=2
+    url: https://www.youtube.com/watch?v=pnH7JycpfiY
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2018/03/webinar002-MakeConfigureIDE.pdf

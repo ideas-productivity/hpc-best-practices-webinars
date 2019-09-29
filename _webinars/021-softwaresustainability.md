@@ -6,7 +6,7 @@ presenter-ids: [chuehong-neil]
 archives:
   - label: Video
     format: YouTube
-    url: https://www.youtube.com/watch?v=kRL04zrGapQ&amp;feature=youtu.be
+    url: https://www.youtube.com/watch?v=kRL04zrGapQ
   - label: Slides
     format: FigShare
     url: https://doi.org/10.6084/m9.figshare.6935840
