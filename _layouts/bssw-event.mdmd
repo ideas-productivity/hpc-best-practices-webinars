@@ -57,7 +57,11 @@ layout: none
 - Event Website: {{ site.hpcbp-url }}{{ webinar-anchor}}
 - Organizers: The IDEAS Productivity Project
 			   
-Part of the "Best Practices for HPC Software Developers" webinar series
+This event is a part of the "Best Practices for HPC Software
+Developers" webinar series, produced by the IDEAS Productivity
+Project. The HPC Best Practices webinars address issues faced by
+developers of computational science and engineering (CSE) software on
+high-performance computers (HPC) and occur approximately monthly.
 
 Resource Informaton | Details
 :--- | :---			   
