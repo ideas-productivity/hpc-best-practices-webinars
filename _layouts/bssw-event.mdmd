@@ -35,14 +35,18 @@ layout: none
 
 {% for pid in page.presenter-ids %}
   {% if forloop.index > 1 %}
+    {% assign ponlystring = ponlystring | append: ", " %}
     {% assign pstring = pstring | append: ", " %}
     {% if forloop.last %}
+      {% assign ponlystring = ponlystring | append: " and " %}
       {% assign pstring = pstring | append: " and " %}
     {% endif %}
   {% endif %}
 
   {%- assign p = site.presenters | where: "presenter-id", pid -%}
+  {%- capture ponly -%}{{ p[0].firstname }} {{ p[0].lastname }}{%- endcapture -%}
   {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
+  {%- assign ponlystring = ponlystring | append: ponly -%}
   {%- assign pstring = pstring | append: pafil -%}
 
   {% if p[0].content != empty %}
@@ -80,6 +84,8 @@ Archives will be available at this link a couple of weeks after the event.
 ### {{ blabel }}
 {{ pbio }}
 {% endif %}    
+
+### Contributed by {{ ponlystring }}
 
 <!---
 Publish: preview
