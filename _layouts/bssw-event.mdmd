@@ -79,7 +79,7 @@ Date and Time | {{page.date | date: "%F %I:%M %P %Z" }}
 {{ plabel }} | {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
 Registration, Information, and Archives | 	<{{ site.hpcbp-url }}{{ webinar-anchor}}>	   
 
-**Webinars are free and open to the public, but advance registration is required through the Event website. Archives will be posted at the same link soon after the event.**
+**Webinars are free and open to the public, but advance registration is required through the Event website. Archives (recording, slides, Q&A) will be posted at the same link soon after the event.**
 
 ### Abstract
 {{ page.content}}
