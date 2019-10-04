@@ -7,7 +7,7 @@ pres-url: http://press3.mcs.anl.gov/curfman
 affiliations: ["Argonne National Laboratory"]
 github-id: curfman
 ---
-Lois Curfman McInnes (<curfman@mcs.anl.gov>) is a senior scientist in
+Lois Curfman McInnes is a senior scientist in
 the Mathematics and Computer Science Division of Argonne National
 Laboratory. Her work focuses on numerical algorithms and software for
 the parallel solution of large-scale scientific applications involving

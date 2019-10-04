@@ -6,7 +6,7 @@ pres-email: dskatz@illinois.edu
 affiliations: ["National Center for Supercomputing Applications", "University of Illinois at Urbana-Champaign"]
 github-id: danielskatz
 ---
-Daniel S. Katz (<dskatz@illinois.edu>) is Assistant Director for
+Daniel S. Katz is Assistant Director for
 Scientific Software and Applications at the National Center for
 Supercomputing Applications (NCSA), Research Associate Professor in
 Computer Science (CS), Electrical and Computer Engineering (ECE), and

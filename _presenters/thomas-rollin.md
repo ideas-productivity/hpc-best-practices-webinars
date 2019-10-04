@@ -6,7 +6,7 @@ pres-email: rcthomas@lbl.gov
 pres-url: http://www.nersc.gov/about/nersc-staff/data-analytics-services/rollin-thomas/
 affiliations: ["[National Energy Research Scientific Computing Center](http://www.nersc.gov/)"]
 ---
-Rollin Thomas (<rcthomas@lbl.gov>) is a Big Data Architect in the Data
+Rollin Thomas is a Big Data Architect in the Data
 and Analytics Services group. Prior to joining NERSC in 2015, he was a
 Staff Scientist in the Computational Research Division.  He has worked
 on numerical simulations of supernova atmospheres, observation and

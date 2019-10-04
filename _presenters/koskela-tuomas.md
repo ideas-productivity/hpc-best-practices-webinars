@@ -5,7 +5,7 @@ firstname: Tuomas
 pres-email: tkoskela@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center"]
 ---
-Tuomas Koskela (<tkoskela@lbl.gov>) received his Ph.D. in applied
+Tuomas Koskela received his Ph.D. in applied
 physics from Aalto University (Finland) in 2015. His thesis work was
 on Monte Carlo modelling of fast ion confinement in Tokamak fusion
 reactors under 3D magnetic perturbations. Currently, Tuomas is a

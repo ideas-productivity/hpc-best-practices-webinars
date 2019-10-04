@@ -5,7 +5,7 @@ firstname: Shane
 pres-email: scanon@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
-Shane Canon (<scanon@lbl.gov>) is a Senior Engineer at Lawrence Berkeley
+Shane Canon is a Senior Engineer at Lawrence Berkeley
 Lab where he works in the NERSC Supercomputing Facility.  Over Shane's
 20 year career, he has focused on enabling scientists to conduct
 breakthrough science using large-scale systems including some of the

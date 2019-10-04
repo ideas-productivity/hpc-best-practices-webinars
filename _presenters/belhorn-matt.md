@@ -5,7 +5,7 @@ firstname: Matt
 pres-email: matt.belhorn@gmail.com
 affiliations: ["Oak Ridge National Laboratory"]
 ---
-Matt Belhorn (<matt.belhorn@gmail.com>) is an HPC support specialist,
+Matt Belhorn is an HPC support specialist,
 providing technical support and training to researchers employing the
 OLCF’s leadership-class public research compute resources. Matt has a
 research background in experimental high-energy particle physics. He

@@ -6,7 +6,7 @@ pres-email: emraybo@sandia.gov
 affiliations: ["Sandia National Laboratories"]
 github-id: elaineraybourn
 ---
-Elaine Raybourn (<emraybo@sandia.gov>) is a Principal Member of the
+Elaine Raybourn is a Principal Member of the
 Technical Staff in Applied Cognitive Science at Sandia National
 Laboratories. Her research focuses on transmedia learning and
 immersive simulations. As a European Research Consortium for

@@ -5,7 +5,7 @@ firstname: Shreyas
 pres-email: SCholia@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center"]
 ---
-Shreyas Cholia (<SCholia@lbl.gov>) is a computational systems engineer
+Shreyas Cholia is a computational systems engineer
 working on technologies to enhance the scientific big-data
 capabilities at NERSC. He is the lead developer of NEWT, a web service
 that allows you to access computing resources at NERSC. Shreyas also

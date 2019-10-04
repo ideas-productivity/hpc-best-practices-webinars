@@ -5,7 +5,7 @@ firstname: Thomas
 pres-email: thomas.l.clune@nasa.gov
 affiliations: ["NASA Goddard Space Flight Center"]
 ---
-Dr. Thomas Clune (<thomas.l.clune@nasa.gov>) currently serves as the
+Dr. Thomas Clune currently serves as the
 Lead for the Software Integration Team within the Global Modeling and
 Assimilation Office at NASA's Goddard Space Flight Center and also as
 NASA's representative on the Fortran Standards Committee.  Much of his

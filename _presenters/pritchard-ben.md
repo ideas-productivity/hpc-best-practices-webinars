@@ -5,7 +5,7 @@ firstname: Ben
 pres-email: bpp4@vt.edu
 affiliations: ["Molecular Sciences Software Institute"]
 ---
-Ben Pritchard (<bpp4@vt.edu>) is a Software Scientist at the Molecular
+Ben Pritchard is a Software Scientist at the Molecular
 Sciences Software Institute (MolSSI), whose goal is to serve as a
 nexus for science, education, and cooperation serving the worldwide
 community of computational molecular scientists – a broad field

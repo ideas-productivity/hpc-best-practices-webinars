@@ -7,7 +7,7 @@ pres-url: https://www.ornl.gov/staff-profile/thomas-m-evans
 affiliations: ["Oak Ridge National Laboratory"]
 github-id: tmdelellis
 ---
-Thomas Evans (<evanstm@ornl.gov>) works in the development,
+Thomas Evans works in the development,
 implementation, and application of computational radiation transport
 in nuclear engineering, radiation detection, astrophysics, high energy
 density physics, and medical applications.  His interests include

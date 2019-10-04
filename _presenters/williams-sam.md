@@ -6,7 +6,7 @@ pres-email: swwilliams@lbl.gov
 pres-url: https://crd.lbl.gov/departments/computer-science/PAR/staff/samuel-williams
 affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
-Sam Williams (<swwilliams@lbl.gov>) is a staff scientist in the
+Sam Williams is a staff scientist in the
 Performance and Algorithms Research Group at the Lawrence Berkeley
 National Laboratory (LBNL). He received his Ph.D. in Computer Science
 from the University of California at Berkeley in 2008. His research

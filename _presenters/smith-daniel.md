@@ -5,7 +5,7 @@ firstname: Daniel
 pres-email: dgasmith@vt.edu
 affiliations: ["Molecular Sciences Software Institute"]
 ---
-Daniel Smith (<dgasmith@vt.edu>) is Software Scientist at the
+Daniel Smith is Software Scientist at the
 Molecular Sciences Software Institute (MolSSI), whose goal is to serve
 as a nexus for science, education, and cooperation serving the
 worldwide community of computational molecular scientists – a broad

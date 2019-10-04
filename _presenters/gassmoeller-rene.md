@@ -6,7 +6,7 @@ pres-email: rgassmoeller@ucdavis.edu
 affiliations: ["UC Davis"]
 github-id: gassmoeller
 ---
-Rene Gassmoeller (<rgassmoeller@ucdavis.edu>) is Project Scientist at
+Rene Gassmoeller is Project Scientist at
 the Computational Infrastructure for Geodynamics at the University of
 California, Davis. His research focuses on the interaction between
 mantle convection and plate tectonic processes, numerical methods for

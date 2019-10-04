@@ -5,7 +5,7 @@ firstname: Shoaib
 pres-email: Shoaib.Sufi@manchester.ac.uk
 affiliations: ["Software Sustainability Institute"]
 ---
-Shoaib Sufi (<Shoaib.Sufi@manchester.ac.uk>) leads the Software
+Shoaib Sufi leads the Software
 Sustainability Institute's community engagement activities and
 strategies. Graduating in Computer Science from the University of
 Manchester in 1997, he has worked in the commercial sector as a

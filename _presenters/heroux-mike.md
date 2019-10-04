@@ -9,7 +9,7 @@ affiliations: ["Sandia National Laboratories"]
 github-id: maherou
 ---
 <!-- Bio for webinar 29 -->
-Mike Heroux (<maherou@sandia.gov>) is a Senior Scientist at Sandia
+Mike Heroux is a Senior Scientist at Sandia
 National Laboratories, Director of SW Technologies for the US DOE
 Exascale Computing Project (ECP) and Scientist in Residence at
 St. John’s University, MN. His research interests include all aspects
@@ -51,7 +51,7 @@ Department.
   <summary><strong>Past Bios</strong></summary>
   
 <!-- Bio for webinar 13 -->
-<p>Mike Heroux (<maherou@sandia.gov>) is a senior scientist at the Center
+<p>Mike Heroux is a senior scientist at the Center
 for Computing Research, Sandia National Laboratories, in Albuquerque,
 New Mexico. At Sandia, he works on new parallel algorithm developments
 for problems of interest to Sandia and the broader scientific and
@@ -64,7 +64,7 @@ advocates practices that improve software productivity and
 sustainability.</p>
 
 <!-- Bio for webinar 11 -->
-<p>Michael Heroux (<maherou@sandia.gov>) is a senior scientist at the
+<p>Michael Heroux is a senior scientist at the
 Center for Computing Research, Sandia National Laboratories, in
 Albuquerque, New Mexico. In his career, Michael has worked on various
 aspects of High Performance Computing, going back to Cray Research in

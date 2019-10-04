@@ -6,7 +6,7 @@ pres-email: andrew.lumsdaine@pnnl.gov
 affiliations: ["Pacific Northwest National Laboratory", 
 	"University of Washington"]
 ---
-Andrew Lumsdaine (<andrew.lumsdaine@pnnl.gov>) is currently Chief
+Andrew Lumsdaine is currently Chief
 Scientist at the Northwest Institute for Advanced Computing, a
 Seattle-based joint research institute between Pacific Northwest
 National Laboratory and the University of Washington.  His current

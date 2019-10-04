@@ -7,7 +7,7 @@ affiliations: ["Lawrence Berkeley National Laboratory"]
 past-affiliations: ["[National Energy Research Scientific Computing Center](http://www.nersc.gov/)"]
 ---
 <!-- Bio provided for webinar 25 -->
-Jack Deslippe (<jrdeslippe@lbl.gov>) is the application performance
+Jack Deslippe is the application performance
 group lead at NERSC. Jack and his group are partnering with DOE
 application teams to evaluate and improve the performance of
 applications on Cori and future systems at NERSC. He received a

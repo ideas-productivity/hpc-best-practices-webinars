@@ -5,7 +5,7 @@ firstname: William
 pres-email: wscullin@alcf.anl.gov
 affiliations: ["Argonne National Laboratory"]
 ---
-William Scullin (<wscullin@alcf.anl.gov>) is an Assistant Computational
+William Scullin is an Assistant Computational
 Scientist Argonne Leadership Computing Facility. He is a HPC systems
 expert and computational generalist with a strong background in
 systems administration who enables science through skillful

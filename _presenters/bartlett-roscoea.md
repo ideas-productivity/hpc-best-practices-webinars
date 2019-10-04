@@ -7,7 +7,7 @@ pres-url: https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/prof
 affiliations: ["[Sandia National Laboratories](http://www.sandia.gov/)"]
 github-id: bartlettroscoe
 ---
-Roscoe Bartlett (<rabartl@sandia.gov>) is a member of the Center for
+Roscoe Bartlett is a member of the Center for
 Computing Research at Sandia National Laboratories. His research
 interests include Agile Software Engineering and Integration Processes
 for Computational Science and Engineering, Object-Oriented Software

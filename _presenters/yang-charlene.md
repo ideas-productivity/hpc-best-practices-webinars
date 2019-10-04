@@ -5,7 +5,7 @@ firstname: Charlene
 pres-email: cjyang@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory"]
 ---
-Charlene Yang (<cjyang@lbl.gov>) is an application performance
+Charlene Yang is an application performance
 specialist at NERSC, LBNL. Her work is focused on performance
 characterization, performance optimization, and performance
 portability. Charlene works with code teams in the NERSC Exascale

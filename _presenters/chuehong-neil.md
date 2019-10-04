@@ -7,7 +7,7 @@ affiliations: ["Software Sustainability Institute",
 	"University of Edinburgh"]
 github-id: npch
 ---
-Neil Chue Hong (<n.chuehong@epcc.ed.ac.uk>) is the founding Director and
+Neil Chue Hong is the founding Director and
 Principal Investigator of the Software Sustainability Institute, and
 is based at the University of Edinburgh. He enables research software
 users and developers to drive the continued improvement and impact of

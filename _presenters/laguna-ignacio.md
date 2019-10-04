@@ -5,7 +5,7 @@ firstname: Ignacio
 pre-email: lagunaperalt1@llnl.gov
 affiliations: ["Lawrence Livermore National Laboratory"]
 ---
-Ignacio Laguna (<lagunaperalt1@llnl.gov>) is a Computer Scientist at the
+Ignacio Laguna is a Computer Scientist at the
 Center for Applied Scientific Computing (CASC) at Lawrence Livermore
 National Laboratory (LLNL). His main area of research is
 high-performance computing (HPC) and main sub-area of research in HPC

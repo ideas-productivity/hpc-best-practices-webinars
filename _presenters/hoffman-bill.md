@@ -6,7 +6,7 @@ pres-email: bill.hoffman@kitware.com
 affiliations: ["Kitware"]
 ---
 
-Bill Hoffman (<bill.hoffman@kitware.com>) is a founder of Kitware and
+Bill Hoffman is a founder of Kitware and
 currently serves as Chairman of the Board, Vice President, and Chief
 Technical Officer (CTO). He is the original author and lead architect
 of [CMake](http://www.cmake.org), an open source, cross-platform build

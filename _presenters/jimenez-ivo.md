@@ -5,7 +5,7 @@ firstname: Ivo
 pres-email: ivo.jimenez@ucsc.edu
 affiliations: ["UC Santa Cruz"]
 ---
-Ivo Jimenez (<ivo.jimenez@ucsc.edu>) is a PhD candidate at the UC
+Ivo Jimenez is a PhD candidate at the UC
 Santa Cruz Computer Science Department and a member of the Systems
 Research Lab. He is interested in large-scale distributed data
 management systems. His thesis focuses on the practical aspects in the

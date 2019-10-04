@@ -6,7 +6,7 @@ pres-email: "miller86@llnl.gov"
 affiliations: ["[Lawrence Livermore National Laboratory](https://www.llnl.gov)"]
 github-id: markcmiller86
 ---
-Mark Miller (<miller86@llnl.gov>) is a computer scientist supporting the
+Mark Miller is a computer scientist supporting the
 [WSC](https://wci.llnl.gov/about-us/weapon-simulation-and-computing)
 program at [LLNL](https://www.llnl.gov) since 1995. Among other
 things, he contributes to

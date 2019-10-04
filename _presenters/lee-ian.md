@@ -5,7 +5,7 @@ firstname: Ian
 pres-email: lee1001@llnl.gov
 affiliations: ["Lawrence Livermore National Laboratory"]
 ---
-Ian Lee (<lee1001@llnl.gov>) is a Computer Engineer working in the
+Ian Lee is a Computer Engineer working in the
 High Performance Computing (HPC) facility at Lawrence Livermore
 National Laboratory (LLNL), which is home to some of the largest
 supercomputers on the planet. There, he has created a role performing
