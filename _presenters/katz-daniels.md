@@ -4,6 +4,7 @@ lastname: Katz
 firstname: Daniel S.
 pres-email: dskatz@illinois.edu
 affiliations: ["National Center for Supercomputing Applications", "University of Illinois at Urbana-Champaign"]
+github-id: danielskatz
 ---
 Daniel S. Katz (<dskatz@illinois.edu>) is Assistant Director for
 Scientific Software and Applications at the National Center for

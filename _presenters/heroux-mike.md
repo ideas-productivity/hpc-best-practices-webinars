@@ -6,6 +6,7 @@ aka: Michael A. Heroux
 pres-email: maherou@sandia.gov
 pres-url: http://www.sandia.gov/~maherou/
 affiliations: ["Sandia National Laboratories"]
+github-id: maherou
 ---
 <!-- Bio for webinar 29 -->
 Mike Heroux (<maherou@sandia.gov>) is a Senior Scientist at Sandia

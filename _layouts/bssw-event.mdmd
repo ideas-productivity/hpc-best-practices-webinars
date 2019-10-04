@@ -35,18 +35,23 @@ layout: none
 
 {% for pid in page.presenter-ids %}
   {% if forloop.index > 1 %}
-    {% assign ponlystring = ponlystring | append: ", " %}
+    {% assign pghstring = pghstring | append: ", " %}
     {% assign pstring = pstring | append: ", " %}
     {% if forloop.last %}
-      {% assign ponlystring = ponlystring | append: " and " %}
+      {% assign pghstring = pghstring | append: " and " %}
       {% assign pstring = pstring | append: " and " %}
     {% endif %}
   {% endif %}
 
   {%- assign p = site.presenters | where: "presenter-id", pid -%}
-  {%- capture ponly -%}{{ p[0].firstname }} {{ p[0].lastname }}{%- endcapture -%}
+  {%- capture presname -%}{{ p[0].firstname }} {{ p[0].lastname }}{%- endcapture -%}
   {%- capture pafil -%}{{ p[0].firstname }} {{ p[0].lastname }} ({{- p[0].affiliations | array_to_sentence_string | lstrip | rstrip -}}){%- endcapture -%}
-  {%- assign ponlystring = ponlystring | append: ponly -%}
+  {%- if p[0].github-id -%}
+    {%- capture pghlink -%}[{{ presname }}]({{ site.github-url}}{{ p[0].github-id }} "{{ presname }} GitHub profile"){%- endcapture -%}
+    {%- assign pghstring = pghstring | append: pghlink -%}
+  {%- else -%}
+    {%- assign pghstring = pghstring | append: presname -%}
+  {%- endif -%}  
   {%- assign pstring = pstring | append: pafil -%}
 
   {% if p[0].content != empty %}
@@ -67,25 +72,24 @@ Project. The HPC Best Practices webinars address issues faced by
 developers of computational science and engineering (CSE) software on
 high-performance computers (HPC) and occur approximately monthly.
 
-Resource Informaton | Details
+Resource Information | Details
 :--- | :---			   
 Webinar Title | {{ page.title }}
 Date and Time | {{page.date | date: "%F %I:%M %P %Z" }}
 {{ plabel }} | {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
-Registration and Information | 	<{{ site.hpcbp-url }}{{ webinar-anchor}}>	   
+Registration, Information, and Archives | 	<{{ site.hpcbp-url }}{{ webinar-anchor}}>	   
 
-**Webinars are free and open to the public, but advance registration is required through the Event website.**
+**Webinars are free and open to the public, but advance registration is required through the Event website. Archives will be posted at the same link soon after the event.**
 
+### Abstract
 {{ page.content}}
-
-Archives will be available at this link a couple of weeks after the event.
 
 {% if pbio %}
 ### {{ blabel }}
 {{ pbio }}
 {% endif %}    
 
-### Contributed by {{ ponlystring }}
+#### Contributed by {{ pghstring }}
 
 <!---
 Publish: preview

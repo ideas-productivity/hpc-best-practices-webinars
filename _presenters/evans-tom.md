@@ -5,6 +5,7 @@ firstname: Tom
 pres-email: evanstm@ornl.gov
 pres-url: https://www.ornl.gov/staff-profile/thomas-m-evans
 affiliations: ["Oak Ridge National Laboratory"]
+github-id: tmdelellis
 ---
 Thomas Evans (<evanstm@ornl.gov>) works in the development,
 implementation, and application of computational radiation transport

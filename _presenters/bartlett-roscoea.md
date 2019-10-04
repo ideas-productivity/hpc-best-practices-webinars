@@ -5,6 +5,7 @@ firstname: Roscoe A.
 pres-email: rabartl@sandia.gov
 pres-url: https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?snl_id=26401
 affiliations: ["[Sandia National Laboratories](http://www.sandia.gov/)"]
+github-id: bartlettroscoe
 ---
 Roscoe Bartlett (<rabartl@sandia.gov>) is a member of the Center for
 Computing Research at Sandia National Laboratories. His research

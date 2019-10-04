@@ -49,6 +49,9 @@ youtube-title-max: 100
 youtube-watch-url: https://www.youtube.com/watch?v=
 youtube-embed-url: https://www.youtube.com/embed/
 
+# Base URL for GitHub profiles
+github-url: https://github.com/
+
 
 # Build settings
 markdown: kramdown

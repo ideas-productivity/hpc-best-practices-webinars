@@ -4,6 +4,7 @@ lastname: Raybourn
 firstname: Elaine
 pres-email: emraybo@sandia.gov
 affiliations: ["Sandia National Laboratories"]
+github-id: elaineraybourn
 ---
 Elaine Raybourn (<emraybo@sandia.gov>) is a Principal Member of the
 Technical Staff in Applied Cognitive Science at Sandia National

@@ -76,6 +76,13 @@ layout: default
       </a>
     </p>
   {% endif %}
+
+  {% if page.github-id %}
+    <p><strong>GitHub ID:</strong>
+      <a href="{{ site.github-url }}{{ page.github-id }}">{{ page.github-id }}
+      </a>
+    </p>
+  {% endif %}
     
   {{ content }}
 

@@ -4,6 +4,7 @@ lastname: Gassmoeller
 firstname: Rene
 pres-email: rgassmoeller@ucdavis.edu
 affiliations: ["UC Davis"]
+github-id: gassmoeller
 ---
 Rene Gassmoeller (<rgassmoeller@ucdavis.edu>) is Project Scientist at
 the Computational Infrastructure for Geodynamics at the University of
