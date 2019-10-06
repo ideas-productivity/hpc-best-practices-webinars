@@ -4,7 +4,7 @@ date: 2018-07-18T13:00-0400
 title: "How Open Source Software Supports the Largest Computers on the Planet"
 presenter-ids: [lee-ian]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: -sX4lGMP88I
   - label: Slides

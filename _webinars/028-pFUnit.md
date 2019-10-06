@@ -4,10 +4,10 @@ date: 2019-04-10T13:00-0400
 title: "Testing Fortran Software with pFUnit"
 presenter-ids: [clune-thomas]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: RmTXDTL_Ce0
-  - label: Extended Q&A Video
+  - label: Extended Q&A Recording
     format: YouTube
     yt-video-id: RWZOVFz7UIg
     dont-embed: true

@@ -4,7 +4,7 @@ date: 2016-08-09T13:00-0400
 title: Basic Performance Analysis and Optimization – An Ant Farm Approach
 presenter-ids: [deslippe-jack]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: -qxJf6YJ3fc
   - label: Slides

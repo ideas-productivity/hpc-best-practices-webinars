@@ -4,7 +4,7 @@ date: 2016-05-18T13:00-0500
 title: "Developing, Configuring, Building, and Deploying HPC Software"
 presenter-ids: [smith-barry]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: pnH7JycpfiY
   - label: Slides

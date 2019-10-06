@@ -4,7 +4,7 @@ date: 2018-06-13T13:00-0400
 title: "Popper: Creating Reproducible Computational and Data Science Experimentation Pipelines"
 presenter-ids: [jimenez-ivo]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: 4cS0hS2nsrU
   - label: Slides

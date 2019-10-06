@@ -10,7 +10,7 @@ vtc-password: "ideas"
 qa-public-url: http://bit.ly/IDEAS-SCSSP
 survey-public-url: http://bit.ly/IDEAS-SCSSP-survey
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: XrjtdlOmmf8
   - label: Slides

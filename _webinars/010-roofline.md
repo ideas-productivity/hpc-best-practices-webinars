@@ -4,7 +4,7 @@ date: 2017-08-16T13:00-0400
 title: "Using the Roofline Model and Intel Advisor"
 presenter-ids: [williams-sam, koskela-tuomas]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: 8h3f3E-Oq5A
   - label: Slides
