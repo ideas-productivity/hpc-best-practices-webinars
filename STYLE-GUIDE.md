@@ -37,7 +37,7 @@ content
 - By convention, time zone is U.S. Eastern Time, which is -0500 for standard time or -0400 for daylight saving time
 - `presenter-ids` is always an array, even if only one item
 - if a `presenter-ids` element does not match any of the actual presenter-ids, the two common failure modes are for it to be blank or for it to pick up the first presenter-id, alphabetically
-- `archives` are currently presented like "*Archives:* [Video](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
+- `archives` are currently presented like "*Archives:* [Recording](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
 - `archives` allows a special key for YouTube videos: `yt-video-id`.  This is an alternative to `url` (one or the other must be present).  This allows us to embed YouTube videos as well as giving a regular link to them.
 - In some cases, where there is more than one video, we may want to control whether or not a given video is embedded in the webinar listing.  For this there is the optional `dont-embed` key, which needs to be set to `true` to *not* embed the video.  The double negative is a result of the fact that I couldn't figure out how to set a default for a complex structure like this in `_config.yml`.  Plus, setting a default there would meant that `archives` always exists in a webinar entry, which would complicate the logic used to display it.
 
@@ -72,7 +72,7 @@ pres-email:  presenter's email address [optional]
 pres-url: presenter's URL (optional) [optional]
 affiliations: array of presenter's institutional affiliations
 past-affiliations: array of institutional affiliations used in past webinars [optional]
-
+github-id: GitHub username of presenter [optionall]
 ---
 content
 ```
@@ -84,6 +84,7 @@ content
 - `affiliations`, `past-affiliations` are always arrays, even if only one item
 - `affiliations`, `past-affiliations` can include markdown links
 - `pres-email` is so named because `email` seems to be predefined, even though I can't find any documentation of it
+- `github-id` is used in the construction of the "Contributed by" heading on BSSw Events, which uses the GitHub ID in the construction of the Site Contributors page.
 
 ### Conventions
 
