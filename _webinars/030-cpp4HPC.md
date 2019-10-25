@@ -4,7 +4,7 @@ date: 2019-06-12T13:00-0400
 title: "Modern C++ for High-Performance Computing"
 presenter-ids: [lumsdaine-andrew]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: d6-aRSzRf_k
   - label: Slides

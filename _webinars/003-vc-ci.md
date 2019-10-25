@@ -4,7 +4,7 @@ date: 2016-06-02T13:00-0500
 title: "Distributed Version Control and Continuous Integration Testing"
 presenter-ids: [johnson-jeff]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: cqH-PIRpnRo
   - label: Slides

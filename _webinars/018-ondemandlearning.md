@@ -4,7 +4,7 @@ date: 2018-05-09T13:00-0400
 title: "On-demand Learning for Better Scientific Software: How to Use Resources & Technology to Optimize your Productivity"
 presenter-ids: [raybourn-elaine]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: Ssh8VDj6Nro
   - label: Slides

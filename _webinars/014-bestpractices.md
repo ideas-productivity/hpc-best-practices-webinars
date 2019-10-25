@@ -4,7 +4,7 @@ date: 2018-01-17T13:00-0500
 title: "Bringing Best Practices to  a Long-Lived Production Code"
 presenter-ids: [ferenbaugh-charlesr]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: utRT9StZrNM
   - label: Slides

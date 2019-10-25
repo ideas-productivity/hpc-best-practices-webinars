@@ -5,7 +5,7 @@ date: 2019-08-14T12:00-0400
 title: "Software Management Plans in Research Projects"
 presenter-ids: [sufi-shoaib]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: YlEnDkJtdMs
   - label: Slides

@@ -1,0 +1,42 @@
+# BSSw Content Map
+# Last updated: 2019-10-06
+#
+# Note: Category and Topic are official and verbatim from BSSw.
+#       The shorthand terms are unique to this site and are not recognized
+#       by BSSw.io itself (except where they happen to coincide).
+#
+category, short, topic
+#
+Planning, swe, Software Engineering
+Planning, requirements, Requirements
+Planning, design, Design
+Planning, interoperability, Software Interoperability
+#
+Development, documentation, Documentation
+Development, build, Configuration and Builds
+Development, revision control, Revision Control
+Development, deployment, Release and Deployment
+Development, issue tracking, Issue Tracking
+Development, programming languages, Programming Languages
+Development, development tools, Development Tools
+Development, refactoring, Refactoring
+#
+Performance, hpc, High-Performance Computing (HPC)
+Performance, lcf, Performance at Leadership Computing Facilities
+Performance, performance portability, Performance Portability
+#
+Reliability, testing, Testing
+Reliability, ci, Continuous Integration Testing
+Reliability, reproducibility, Reproducibility
+Reliability, debugging, Debugging
+#
+Collaboration, projects, Projects and Organizations
+Collaboration, teams, Strategies for More Effective Teams
+Collaboration, funding, Funding Sources and Programs
+Collaboration, publishing, Software Publishing and Citation
+Collaboration, licensing, Licensing
+Collaboration, qa sites, Discussion and Question Sites
+Collaboration, conferences, Conferences and Workshops
+#
+Skills, online learning, Online Learning
+Skills, personal productivity, Personal Productivity and Sustainability

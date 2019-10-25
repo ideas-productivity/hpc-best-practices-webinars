@@ -4,7 +4,7 @@ date: 2017-11-01T13:00-0500
 title: "Managing Defects in HPC Software Development"
 presenter-ids: [evans-tom]
 archives:
-  - label: Video
+  - label: Recording
     format: YouTube
     yt-video-id: iz7FhY0w0XM
   - label: Slides
