@@ -4,6 +4,7 @@ lastname: Laguna
 firstname: Ignacio
 pre-email: lagunaperalt1@llnl.gov
 affiliations: ["Lawrence Livermore National Laboratory"]
+github-id: ilagunap
 ---
 Ignacio Laguna is a Computer Scientist at the
 Center for Applied Scientific Computing (CASC) at Lawrence Livermore

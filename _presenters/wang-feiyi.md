@@ -3,6 +3,7 @@ presenter-id: wang-feiyi
 lastname: Wang
 firstname: Feiyi
 affiliations: ["[Oak Ridge Leadership Computing Facility](https://www.olcf.ornl.gov/)"]
+github-id: fwang2
 ---
 Feiyi Wang received his Ph.D. in Computer Engineering from North
 Carolina State University (NCSU). Before he joined Oak Ridge National

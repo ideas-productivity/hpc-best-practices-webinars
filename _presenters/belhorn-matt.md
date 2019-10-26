@@ -4,6 +4,7 @@ lastname: Belhorn
 firstname: Matt
 pres-email: matt.belhorn@gmail.com
 affiliations: ["Oak Ridge National Laboratory"]
+github-id: mpbelhorn
 ---
 Matt Belhorn is an HPC support specialist,
 providing technical support and training to researchers employing the

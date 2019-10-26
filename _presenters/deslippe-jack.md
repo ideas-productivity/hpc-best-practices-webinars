@@ -5,6 +5,7 @@ firstname: Jack
 pres-email: jrdeslippe@lbl.gov
 affiliations: ["Lawrence Berkeley National Laboratory"]
 past-affiliations: ["[National Energy Research Scientific Computing Center](http://www.nersc.gov/)"]
+github-id: jdeslip
 ---
 <!-- Bio provided for webinar 25 -->
 Jack Deslippe is the application performance

@@ -4,6 +4,7 @@ lastname: Clune
 firstname: Thomas
 pres-email: thomas.l.clune@nasa.gov
 affiliations: ["NASA Goddard Space Flight Center"]
+github-id: tclune
 ---
 Dr. Thomas Clune currently serves as the
 Lead for the Software Integration Team within the Global Modeling and

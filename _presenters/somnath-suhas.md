@@ -4,6 +4,7 @@ lastname: Somnath
 firstname: Suhas
 pres-email: somnaths@ornl.gov
 affiliations: ["Oak Ridge National Laboratory"]
+github-id: ssomnath
 ---
 Suhas Somnath is a member of the OLCF’s Advanced
 Data and Workflows group and an expert in analytics for scanning probe

@@ -4,6 +4,7 @@ lastname: Lee
 firstname: Ian
 pres-email: lee1001@llnl.gov
 affiliations: ["Lawrence Livermore National Laboratory"]
+github-id: IanLee1521
 ---
 Ian Lee is a Computer Engineer working in the
 High Performance Computing (HPC) facility at Lawrence Livermore

@@ -4,6 +4,7 @@ lastname: Ferenbaugh
 firstname: Charles R.
 pres-email: cferenba@lanl.gov
 affiliations: ["Los Alamos National Laboratory"]
+github-id: cferenba
 ---
 Charles Ferenbaugh is a staff member in the
 Applied Computer Science group at Los Alamos National Laboratory. He

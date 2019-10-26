@@ -4,6 +4,7 @@ lastname: Pennycook
 firstname: John
 pres-email: john.pennycook@intel.com
 affiliations: ["Intel"]
+github-id: Pennycook
 ---
 John Pennycook is an HPC Application
 Engineer in the HPC Ecosystem and Applications team at Intel

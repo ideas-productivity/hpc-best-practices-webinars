@@ -4,8 +4,8 @@ lastname: Hoffman
 firstname: Bill
 pres-email: bill.hoffman@kitware.com
 affiliations: ["Kitware"]
+github-id: billhoffman
 ---
-
 Bill Hoffman is a founder of Kitware and
 currently serves as Chairman of the Board, Vice President, and Chief
 Technical Officer (CTO). He is the original author and lead architect

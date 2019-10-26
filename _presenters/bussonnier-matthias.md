@@ -4,6 +4,7 @@ lastname: Bussonnier
 firstname: Matthias
 pres-email: bussonniermatthias@gmail.com
 affiliations: ["UC Berkeley"]
+github-id: Carreau
 ---
 Matthias Bussonnier is a Postdoctoral
 Scholar at the University Of California Berkeley Institute of
