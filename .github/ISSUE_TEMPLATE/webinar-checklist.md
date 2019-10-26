@@ -24,9 +24,9 @@ assignees: ''
 - [ ] verify content and formatting
 
 **Advertising webinar**
-- [ ] add full event to <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
-- [ ] add upcoming event to <https://ideas-productivity.org/events/>
-- [ ] add upcoming event to <https://ideas-productivity.org/>
+- [ ] add full upcoming event to <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
+- [ ] add upcoming event bullet to <https://ideas-productivity.org/events/>
+- [ ] add upcoming event bullet to <https://ideas-productivity.org/>
 - [ ] add BSSw Event to <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Events>
 - [ ] prepare and send MailChimp campaign to full audience
 
@@ -54,6 +54,11 @@ assignees: ''
   - [ ] archives
 
 **Webinar followup communications**
+- [ ] remove full upcoming event to <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
+- [ ] add full past event to <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
+- [ ] remove upcoming event bullet to <https://ideas-productivity.org/events/>
+- [ ] add past event bullet to <https://ideas-productivity.org/events/>
+- [ ] remove upcoming event bullet to <https://ideas-productivity.org/>
 - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/hpcbp-webinars-cc.md>
 - [ ] add webinar registrants to MailChimp audience w/ appropriate tag
 - [ ] add webinar participants to MailChimp audience w/ appropriate tag
