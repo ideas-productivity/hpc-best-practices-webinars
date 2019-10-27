@@ -4,6 +4,7 @@ lastname: Sufi
 firstname: Shoaib
 pres-email: Shoaib.Sufi@manchester.ac.uk
 affiliations: ["Software Sustainability Institute"]
+github-id: shoaibsufi
 ---
 Shoaib Sufi leads the Software
 Sustainability Institute's community engagement activities and
