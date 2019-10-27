@@ -4,6 +4,7 @@ lastname: Cholia
 firstname: Shreyas
 pres-email: SCholia@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center"]
+# unconfirmed github-id: shreddd
 ---
 Shreyas Cholia is a computational systems engineer
 working on technologies to enhance the scientific big-data

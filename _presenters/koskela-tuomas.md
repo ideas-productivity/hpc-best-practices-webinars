@@ -4,6 +4,7 @@ lastname: Koskela
 firstname: Tuomas
 pres-email: tkoskela@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center"]
+github-id: tkoskela
 ---
 Tuomas Koskela received his Ph.D. in applied
 physics from Aalto University (Finland) in 2015. His thesis work was

@@ -5,6 +5,7 @@ firstname: Andrew
 pres-email: andrew.lumsdaine@pnnl.gov
 affiliations: ["Pacific Northwest National Laboratory", 
 	"University of Washington"]
+github-id: lums658
 ---
 Andrew Lumsdaine is currently Chief
 Scientist at the Northwest Institute for Advanced Computing, a

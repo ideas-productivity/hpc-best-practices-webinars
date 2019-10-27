@@ -5,6 +5,7 @@ firstname: Sam
 pres-email: swwilliams@lbl.gov
 pres-url: https://crd.lbl.gov/departments/computer-science/PAR/staff/samuel-williams
 affiliations: ["Lawrence Berkeley National Laboratory"]
+github-id: swwilliams
 ---
 Sam Williams is a staff scientist in the
 Performance and Algorithms Research Group at the Lawrence Berkeley
