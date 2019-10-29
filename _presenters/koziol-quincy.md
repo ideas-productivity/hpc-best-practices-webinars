@@ -5,7 +5,7 @@ firstname: Quincy
 pres-email: koziol@lbl.gov
 affiliations: ["National Energy Research Scientific Computing Center", 
 	"Lawrence Berkeley National Laboratory"]
-# unconfirmed github-id: qkoziol
+github-id: qkoziol
 ---
 Quincey Koziol is a Principal Data Architect in the
 National Energy Research Scientific Computing Center (NERSC) at
