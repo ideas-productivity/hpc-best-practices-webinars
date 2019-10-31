@@ -1,7 +1,7 @@
 ---
 webinar-id: 35
 date: 2019-12-11T13:00-0500
-title: "Building Community Policies through xSDK Software Policies"
+title: "Building Community through xSDK Software Policies"
 #presenter-ids: [yang-ulrikemeier, luszczek-piotr]
 presenter-ids: [yang-ulrikemeier, luszczek-piotr]
 registration-url: https://www.eventbrite.com/e/building-community-through-xsdk-software-policies-tickets-78632045565
