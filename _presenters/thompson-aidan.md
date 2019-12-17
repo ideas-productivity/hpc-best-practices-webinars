@@ -1,6 +1,6 @@
 ---
 presenter-id: thompson-aidan
-lastname: thompson
+lastname: Thompson
 firstname: Aidan
 pres-email: athomps@sandia.gov
 affiliations: ["[Sandia National Laboratories](http://www.sandia.gov/)"]
