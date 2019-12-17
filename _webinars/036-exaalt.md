@@ -1,7 +1,7 @@
 ---
 webinar-id: 36
 date: 2020-01-15T13:00-0500
-title: "Building Community through xSDK Software Policies"
+title: "Refactoring EXAALT MD for Emerging Architectures"
 presenter-ids: [thompson-aidan, moore-stan, gayatri-rahulkumar]
 registration-url: https://www.eventbrite.com/e/refactoring-exaalt-md-for-emerging-architectures-tickets-85789477637
 ecp-abbreviation: exaalt-md
