@@ -10,7 +10,7 @@ vtc-url: https://olcf.webex.com/olcf/j.php?MTID=m836a9ceda68eacde80a3618d603c7cb
 vtc-session: "620 571 202"
 vtc-password: "ideas"
 qa-public-url: http://bit.ly/HPCBP-QA
-survey-public-url: http://bit.ly/HPCBP-surveyy
+survey-public-url: http://bit.ly/HPCBP-survey
 archives:
   - label: Recording
     format: YouTube
