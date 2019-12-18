@@ -6,6 +6,21 @@ title: "Building Community through xSDK Software Policies"
 presenter-ids: [yang-ulrikemeier, luszczek-piotr]
 registration-url: https://www.eventbrite.com/e/building-community-through-xsdk-software-policies-tickets-78632045565
 ecp-abbreviation: software-policies
+vtc-url: https://olcf.webex.com/olcf/j.php?MTID=m836a9ceda68eacde80a3618d603c7cb6
+vtc-session: "620 571 202"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: http://bit.ly/HPCBP-surveyy
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: QRyC92ZsFkM
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/12/webinar035-softwarepolicies.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2019/12/webinar035-softwarepolicies-qa.pdf
 ---
 The development of increasingly complex computer architectures and
 software ecosystems continues. Applications that incorporate
