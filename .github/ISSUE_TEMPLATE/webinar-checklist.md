@@ -18,9 +18,9 @@ assignees: ''
   - [ ] presenter bio(s)
 - [ ] technical editor checks webinar abstract
 - Add presenter(s) and webinar to GitHub repo
- - [ ] create presenter record(s)
- - [ ] create webinar record
- - [ ] verify content and formatting
+  - [ ] create presenter record(s)
+  - [ ] create webinar record
+  - [ ] verify content and formatting
 - *Update EventBrite*
   - [ ] *add full upcoming event*
   - [ ] obtain `registration-url`
@@ -37,7 +37,7 @@ assignees: ''
   - [ ] add upcoming event bullet to <https://ideas-productivity.org/>
 - Add BSSw Event 
   - [ ] add event to <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Events>
-  - [ ] *update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/Site/Announcements/Announcements.md>
+  - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/Site/Announcements/Announcements.md>
 - Prepare and send MailChimp campaign to full audience
   - [ ] add audience from most recent webinar
   - [ ] prepare campaign
@@ -45,11 +45,11 @@ assignees: ''
 
 **Preparing for event**
 - Add event metadata
-  - [ ] 'vtc-url'
-  - [ ] 'vtc-session'
-  - [ ] 'vtc-password'
-  - [ ] 'qa-public-url'
-  - [ ] 'survey public-url'
+  - [ ] `vtc-url`
+  - [ ] `vtc-session`
+  - [ ] `vtc-password`
+  - [ ] `qa-public-url`
+  - [ ] `survey public-url`
 - [ ] *send connection email*
 
 **Post-event artifact collection**
@@ -74,17 +74,14 @@ assignees: ''
   - [ ] Q&A
   - [ ] additional materials
 - Add archive information to webinar record
-  - [ ] 'archives'
+  - [ ] `archives`
 
 **Webinar followup communications**
 - [ ] *update ECP training site*
-- Update <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
-  - [ ] remove full **upcoming** event
-  - [ ] add full **past** event
 - Update i-p.o site
   - [ ] update past event with archives on <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
 - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/hpcbp-webinars-cc.md>
-- [ ] update MailChimp audience w/ appropriate tag
+- Update MailChimp audience w/ appropriate tag
   - [ ] add webinar registrants w/ appropriate tag
   - [ ] add webinar participants w/ appropriate tag
 - [ ] prepare and send MailChimp campaign to appropriate tag
