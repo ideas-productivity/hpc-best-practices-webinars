@@ -92,7 +92,7 @@ Registration, Information, and Archives | 	<{{ site.hpcbp-url }}{{ webinar-ancho
 #### Contributed by {{ pghstring }}
 
 <!---
-Publish: preview
+Publish: yes
 Categories: skills
 Topics: online learning
 Level: 2
