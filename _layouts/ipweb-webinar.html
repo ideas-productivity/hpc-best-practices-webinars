@@ -96,7 +96,9 @@ Cut-and-paste into Wordpress as appropriate.</em>
     {% if page.archives %}
     <li><strong>Archives:</strong>
       {% for i in page.archives %}
-        {% if i.url %}
+      {% if i.yt-video-id %}
+          <a href="https://www.youtube.com/watch?v={{ i.yt-video-id }}">{{ i.label }}</a>
+        {% elsif i.url %}      
           <a href="{{ i.url }}">{{ i.label }}</a>
         {% else %}
 	  <strong><em><font color="red">ERROR: Missing URL for label {{ i.label }}</font></em></strong>
