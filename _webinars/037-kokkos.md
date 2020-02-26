@@ -5,11 +5,11 @@ title: "Introduction to Kokkos"
 presenter-ids: [trott-christian]
 registration-url: https://www.eventbrite.com/e/introduction-to-kokkos-tickets-89926768385
 ecp-abbreviation: introduction-to-kokkos
-#vtc-url: https://olcf.webex.com/olcf/j.php?MTID=m836a9ceda68eacde80a3618d603c7cb6
-#vtc-session: "620 571 202"
-#vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: http://bit.ly/HPCBP-survey
+vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e9ed3970829c0b091f578b03712baf396
+vtc-session: "907 872 373"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: http://bit.ly/HPCBP-Kokkos-survey
 #archives:
 #  - label: Recording
 #    format: YouTube
