@@ -68,7 +68,7 @@ The webinar series is produced by the [IDEAS Productivity Project](https://ideas
 - [*{{ webinar.title }}*]({{ site.hpcbp-url }}{{ webinar-anchor}}), {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}, {{ webinar.date | date: "%F" }}
 {% endfor %}
 
-### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
+#### Contributed by [Osni Marques](http://github.com/oamarques "Osni Marques GitHub Profile")
 
 <!---
 Publish: yes
