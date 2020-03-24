@@ -5,11 +5,11 @@ title: "Testing: Strategies When Learning Programming Models and Using High-Perf
 presenter-ids: [joo-balint]
 registration-url: https://www.eventbrite.com/e/testing-strategies-tickets-95526876459
 ecp-abbreviation: testingstrategies
-#vtc-url: https://olcf.webex.com/olcf/j.php?MTID=m836a9ceda68eacde80a3618d603c7cb6
-#vtc-session: "620 571 202"
-#vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: http://bit.ly/HPCBP-survey
+vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=ec0e0996c6c32b9e63ffe51f5f6a55842
+vtc-session: "907 360 006"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://bit.ly/3d4BIj7
 #archives:
 #  - label: Recording
 #    format: YouTube
