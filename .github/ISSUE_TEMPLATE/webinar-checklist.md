@@ -38,6 +38,7 @@ assignees: ''
 - Add BSSw Event 
   - [ ] add event to <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Events>
   - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/Site/Announcements/Announcements.md>
+  - [ ] Publish updates
 - Prepare and send MailChimp campaign to full audience
   - [ ] add audience from most recent webinar
   - [ ] prepare campaign
