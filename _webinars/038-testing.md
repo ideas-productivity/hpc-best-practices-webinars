@@ -13,7 +13,7 @@ survey-public-url: https://bit.ly/3d4BIj7
 archives:
   - label: Recording
     format: YouTube
-    yt-video-id: QqreXJq2fwB8
+    yt-video-id: qreXJq2fwB8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/03/webinar038-testingstrategies.pdf
