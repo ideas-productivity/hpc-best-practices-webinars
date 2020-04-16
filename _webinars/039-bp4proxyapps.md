@@ -5,11 +5,11 @@ title: "Best Practices for Using Proxy Applications as Benchmarks"
 presenter-ids: [richards-david, glenski-joe]
 registration-url: https://www.eventbrite.com/e/best-practices-for-using-proxy-applications-as-benchmarks-tickets-99267956129
 ecp-abbreviation: bp4proxyapps
-#vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e7647cc0f98a8d0edacdd8e79f9c3b997
-#vtc-session: "902 755 266"
-#vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: http://bit.ly/36VanMG
+vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=ef45a15cae1fedbf5da996bde90d3d9d0
+vtc-session: "905 030 423"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://www.surveymonkey.com/r/B7CJV59
 #archives:
 #  - label: Recording
 #    format: YouTube
