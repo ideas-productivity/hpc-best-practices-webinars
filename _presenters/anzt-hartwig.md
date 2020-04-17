@@ -1,6 +1,6 @@
 ---
-presenter-id: antz-hartwig
-lastname: Antz
+presenter-id: anzt-hartwig
+lastname: Anzt
 firstname: Hartwig
 #pres-email: rabartl@sandia.gov
 #pres-url: https://cfwebprod.sandia.gov/cfdocs/CompResearch/templates/insert/profile.cfm?snl_id=26401

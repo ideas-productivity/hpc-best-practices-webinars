@@ -2,7 +2,7 @@
 webinar-id: 40
 date: 2020-05-13T13:00-0400
 title: "Accelerating Numerical Software Libraries with Multi-Precision Algorithms"
-presenter-ids: [antz-hartwig, luszczek-piotr]
+presenter-ids: [anzt-hartwig, luszczek-piotr]
 registration-url: https://www.eventbrite.com/e/accelerating-numerical-software-libraries-with-multi-precision-algorithms-tickets-102390859818
 ecp-abbreviation: multiprec
 #vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e7647cc0f98a8d0edacdd8e79f9c3b997
