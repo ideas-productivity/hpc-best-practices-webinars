@@ -5,11 +5,11 @@ title: "Accelerating Numerical Software Libraries with Multi-Precision Algorithm
 presenter-ids: [anzt-hartwig, luszczek-piotr]
 registration-url: https://www.eventbrite.com/e/accelerating-numerical-software-libraries-with-multi-precision-algorithms-tickets-102390859818
 ecp-abbreviation: multiprec
-#vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e7647cc0f98a8d0edacdd8e79f9c3b997
-#vtc-session: "902 755 266"
-#vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: http://bit.ly/36VanMG
+vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e0254d53f321a359f5b7cd34dc0fe0da9
+vtc-session: "901 351 396"
+vtc-password: "ideas"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://www.surveymonkey.com/r/WHFWHWQ/
 #archives:
 #  - label: Recording
 #    format: YouTube
