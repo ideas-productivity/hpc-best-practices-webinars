@@ -22,13 +22,13 @@ assignees: ''
   - [ ] create webinar record
   - [ ] verify content and formatting
 - *Update EventBrite*
-  - [ ] *add full upcoming event*
+  - *add full upcoming event*
   - [ ] obtain `registration-url`
 - [ ] Add `registration-url` to webinar record in GitHub repo
 
 **Advertising webinar**
 - *Update ECP training site*
-  - [ ] *add full upcoming event*
+  - *add full upcoming event*
   - [ ] obtain `ecp-abbreviation`
 - [ ] Add `ecp-abbreviation` to webinar record in GitHub repo
 - Update i-p.o site
@@ -52,7 +52,7 @@ assignees: ''
   - [ ] `vtc-password`
   - [ ] `qa-public-url`
   - [ ] `survey public-url`
-- [ ] *send connection email*
+- *send connection email*
 
 **Post-event artifact collection**
 - [ ] obtain webinar registration list
@@ -60,6 +60,7 @@ assignees: ''
 - [ ] obtain slides
 - [ ] obtain Q&A
 - [ ] obtain recording(s)
+- [ ] obtain additional materials
 
 **Post-event announcement updates**
 - Update i-p.o site
@@ -79,7 +80,7 @@ assignees: ''
   - [ ] `archives`
 
 **Webinar followup communications**
-- [ ] *update ECP training site*
+- *update ECP training site*
 - Update i-p.o site
   - [ ] update past event with archives on <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
 - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/hpcbp-webinars-cc.md>
