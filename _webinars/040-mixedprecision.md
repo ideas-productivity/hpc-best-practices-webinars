@@ -11,9 +11,9 @@ vtc-password: "ideas"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: https://www.surveymonkey.com/r/WHFWHWQ/
 archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: esEGFyFkVUc
+  - label: Recording
+    format: YouTube
+    yt-video-id: sgRtwJhVFog
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/05/webinar040-mixedprecision.pdf
