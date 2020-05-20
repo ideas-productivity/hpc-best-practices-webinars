@@ -38,7 +38,7 @@ assignees: ''
 - Add BSSw Event 
   - [ ] add event to <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/tree/master/Events>
   - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/Site/Announcements/Announcements.md>
-  - [ ] Publish updates
+  - [ ] Publish updates on BSSw.io
   - [ ] Notify BSSw Digest team, with link to text formatted for digest
 - Prepare and send MailChimp campaign to full audience
   - [ ] add audience from most recent webinar
@@ -83,6 +83,7 @@ assignees: ''
 - Update i-p.o site
   - [ ] update past event with archives on <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
 - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/hpcbp-webinars-cc.md>
+  - [ ] Publish updates on BSSw.io
 - Update MailChimp audience w/ appropriate tag
   - [ ] add webinar registrants w/ appropriate tag
   - [ ] add webinar participants w/ appropriate tag
