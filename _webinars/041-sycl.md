@@ -5,11 +5,11 @@ title: "SYCL – Introduction and Best Practices"
 presenter-ids: [applencourt-thomas]
 registration-url: https://www.eventbrite.com/e/sycl-introduction-and-best-practices-tickets-104559777108
 ecp-abbreviation: introduction-to-sycl
-#vtc-url: https://ecptr.webex.com/ecptr/onstage/g.php?MTID=e0254d53f321a359f5b7cd34dc0fe0da9
-#vtc-session: "901 351 396"
+vtc-url: https://exascaleproject.zoomgov.com/j/1614280599
+vtc-session: "161 428 0599"
 #vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: https://www.surveymonkey.com/r/WHFWHWQ/
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://www.surveymonkey.com/r/838D52F
 #archives:
 #  - label: Recording
 #    format: YouTube
