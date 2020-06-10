@@ -1,6 +1,6 @@
 ---
 webinar-id: 41
-date: 2020-06-10T13:00-0400
+date: 2020-06-17T13:00-0400
 title: "SYCL – Introduction and Best Practices"
 presenter-ids: [applencourt-thomas]
 registration-url: https://www.eventbrite.com/e/sycl-introduction-and-best-practices-tickets-104559777108
