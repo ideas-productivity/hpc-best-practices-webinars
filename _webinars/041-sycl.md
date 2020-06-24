@@ -14,9 +14,9 @@ archives:
   - label: Recording
     format: YouTube
     yt-video-id: TbkrODiVDQY
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/05/webinar040-mixedprecision.pdf
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/06/webinar041-sycl.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/05/webinar040-multiprecision-QA.pdf
