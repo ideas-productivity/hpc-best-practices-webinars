@@ -10,10 +10,10 @@ vtc-session: "161 428 0599"
 #vtc-password: "ideas"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: https://www.surveymonkey.com/r/838D52F
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: sgRtwJhVFog
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: TbkrODiVDQY
 #  - label: Slides
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/05/webinar040-mixedprecision.pdf
