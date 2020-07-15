@@ -5,11 +5,11 @@ title: "What’s New in Spack?"
 presenter-ids: [gamblin-todd]
 registration-url: https://www.eventbrite.com/e/what-is-new-in-spack-tickets-108772748218
 ecp-abbreviation: what-is-new-in-spack
-#vtc-url: https://exascaleproject.zoomgov.com/j/1614280599
-#vtc-session: "161 428 0599"
+vtc-url: https://exascaleproject.zoomgov.com/j/1611896317 
+vtc-session: "161 189 6317"
 #vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: https://www.surveymonkey.com/r/838D52F
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://www.surveymonkey.com/r/FLVHM7T
 #archives:
 #  - label: Recording
 #    format: YouTube
