@@ -5,11 +5,10 @@ title: "Colormapping Strategies for Large Multivariate Data in Scientific Applic
 presenter-ids: [samsel-francesca]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdeuoqD4tGcoqaoIMBNOYZ6aZGhO9zRQ
 ecp-abbreviation: sciviscolor
-#vtc-url: https://exascaleproject.zoomgov.com/j/1611896317 
-#vtc-session: "161 189 6317"
-#vtc-password: "ideas"
-#qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: https://www.surveymonkey.com/r/FLVHM7T
+vtc-url: https://exascaleproject.zoomgov.com/s/1612206573 
+vtc-session: "161 220 6573"
+qa-public-url: http://bit.ly/HPCBP-QA
+survey-public-url: https://www.surveymonkey.com/r/8MVC5Q6
 #archives:
 #  - label: Recording
 #    format: YouTube
