@@ -12,13 +12,13 @@ survey-public-url: https://www.surveymonkey.com/r/8MVC5Q6
 #archives:
 #  - label: Recording
 #    format: YouTube
-#    yt-video-id: 4VgdwL01ClM
+#    yt-video-id: _vI5cnoWn-I
 #  - label: Slides
 #    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack.pdf
+#    url: 
 #  - label: Q&A
 #    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
+#    url: 
 ---
 In order for scientific visualizations to effectively convey insights of computationally-driven research, as well as to better engage the public in science, visualizations must effectively and affectively facilitate the exploration of information. The presenter and her team employ a transdisciplinary approach, that includes insights from artistic color theory, perceptual science, the visualization community, and domain scientists, to move beyond basic default colormaps. While color has always been utilized and studied as a component of scientific data visualization, it has been demonstrated that its full potential for discovery and communication of scientific data remains untapped.
 
