@@ -16,9 +16,9 @@ archives:
   - label: Slides
     format: PDF
     url: https://www.exascaleproject.org/wp-content/uploads/2020/03/HPC-BP_webinar_20200812.pdf
-  - label: Q&A (to be published)
-#    format: to be published
-#    url: 
+  - label: Q&A
+    format: (to be published)
+    url: ""
 ---
 In order for scientific visualizations to effectively convey insights of computationally-driven research, as well as to better engage the public in science, visualizations must effectively and affectively facilitate the exploration of information. The presenter and her team employ a transdisciplinary approach, that includes insights from artistic color theory, perceptual science, the visualization community, and domain scientists, to move beyond basic default colormaps. While color has always been utilized and studied as a component of scientific data visualization, it has been demonstrated that its full potential for discovery and communication of scientific data remains untapped.
 
