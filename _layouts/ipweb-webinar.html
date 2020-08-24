@@ -119,6 +119,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
 {% if upcoming %}<!-- ----- END UPCOMING ENTRY ----- -->{% endif %}
 </section>
 
+{% if upcoming %}
 <h3>Upcoming Events Entry</h3>
 
 <em>Appears on main page and events page.</em>
@@ -129,5 +130,21 @@ Cut-and-paste into Wordpress as appropriate.</em>
 <!-- ----- BEGIN ENTRY ----- -->
   <li><strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> is the next webinar in the <strong><a href="{{ site.hpcbp-url }}">Best Practices for HPC Software Developers</a></strong> series ({{ page.date | date: "%B, %Y" }}). [<a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">Information and registration</a>]</li>
 <!-- ----- END ENTRY ----- -->
+</ul>
+</section>
+{% endif %}
+
+{% unless upcoming %}
+<h3>Past Events Entry</h3>
+
+<em>Appears events page.</em>
+
+<section style="border: 3px; border-style: solid; padding: 1em">
+
+<ul>
+<!-- ----- BEGIN ENTRY ----- -->
+<li>HPC Best Practices Webinar {{ webinar-anchor }}: <strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> ({{ page.date | date: "%B, %Y" }})</li>
+<!-- ----- END ENTRY ----- -->
+{% endunless %}
 </ul>
 </section>
