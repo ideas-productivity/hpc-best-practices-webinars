@@ -30,6 +30,13 @@ Cut-and-paste into Wordpress as appropriate.</em>
 
 <!-- Construct things that we need --> 
 {% if page.webinar-id < 10 %}
+  {%- assign webinar-number-filled = page.webinar-id | prepend: "00" -%}
+{% elsif page.webinar-id < 100 %}
+  {%- assign webinar-number-filled = page.webinar-id | prepend: "0" -%}
+{% elsif page.webinar-id < 1000 %}
+  {%- assign webinar-number-filled = page.webinar-id %}
+{% endif %}			
+			     {% if page.webinar-id < 10 %}
   {%- assign webinar-anchor = page.webinar-id | prepend: "webinar00" -%}
 {% elsif page.webinar-id < 100 %}
   {%- assign webinar-anchor = page.webinar-id | prepend: "webinar0" -%}
@@ -143,7 +150,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
 
 <ul>
 <!-- ----- BEGIN ENTRY ----- -->
-<li>HPC Best Practices Webinar {{ webinar-anchor }}: <strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> ({{ page.date | date: "%B, %Y" }})</li>
+<li>HPC Best Practices Webinar {{ webinar-number-filled }}: <strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> ({{ page.date | date: "%B, %Y" }})</li>
 <!-- ----- END ENTRY ----- -->
 {% endunless %}
 </ul>
