@@ -5,8 +5,8 @@ title: "Testing and Code Review Practices in Research Software Development"
 presenter-ids: [eisty-nasir]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIscu-rpz8tHSl-MeswznBzjweQ4c9fR2s
 ecp-abbreviation: testing-and-code-review
-#vtc-url: https://exascaleproject.zoomgov.com/s/1612206573 
-#vtc-session: "161 220 6573"
+vtc-url: https://exascaleproject.zoomgov.com/s/1615639477 
+vtc-session: "161 563 9477"
 qa-public-url: http://bit.ly/HPCBP-QA
 #survey-public-url: https://www.surveymonkey.com/r/8MVC5Q6
 #archives:
