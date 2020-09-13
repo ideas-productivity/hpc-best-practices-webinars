@@ -2,7 +2,7 @@
 presenter-id: eisty-nasir
 lastname: Eisty
 firstname: Nasir
-affiliations: ["California Polytechnic State University, San Luis, Obispo"]
+affiliations: ["California Polytechnic State University, San Luis Obispo"]
 #github-id: 
 #pres-email: 
 #pres-url: 

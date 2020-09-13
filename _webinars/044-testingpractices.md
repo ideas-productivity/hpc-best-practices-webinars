@@ -12,7 +12,7 @@ survey-public-url: https://www.surveymonkey.com/r/5GYJR5K
 archives:
   - label: Recording
     format: YouTube
-    yt-video-id: 4VgdwL01ClM
+    yt-video-id: Q6TKzzbUR0U
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/09/webinar044-testingandreview.pdf
