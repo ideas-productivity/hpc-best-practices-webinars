@@ -16,9 +16,8 @@ archives:
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/09/webinar044-testingandreview.pdf
-#  - label: Q&A
-#    format: PDF
-#    note: to be published
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/09/webinar044-testingand-review-qa.pdf
 ---
 Software quality in a research context is essential because research software is used in mission-critical situations, decision making, and computation of evidence for research publications. This webinar will cover the use of two software quality practices in the development of research software: software testing and peer code review. These practices in software development can lead to both improved scientific results through higher quality software in the short term and more maintainable software in the long term. While these practices are essential for any type of software, developers of research software typically do not use peer code review and software testing as frequently as they could for maximum impact. The presenter will discuss the motivation, challenges, barriers, and necessary improvements to make the practices effective for research software development, based on studies of the research software community conducted via interviews, surveys, workshops, and tutorials.
