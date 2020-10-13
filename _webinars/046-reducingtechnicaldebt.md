@@ -5,8 +5,8 @@ title: "Reducing Technical Debt with Reproducible Containers"
 presenter-ids: [malik-tanu]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsf-qsrzoiG_wS4H6BK9I1bFC0l4NzWO0
 ecp-abbreviation: reducingtechnicaldebt/
-#vtc-url: https://exascaleproject.zoomgov.com/w/1619806292?tk=U_HMP3itheXTfY-g4GfeKYMU6NVHNVKVpN-DhvNIshk.DQIAAAAAYIxIVBZRRkw3RHA0S1FsT01qcjBkcW56cnBRAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
-#vtc-session: "161 980 6292"
+vtc-url: https://exascaleproject.zoomgov.com/w/1618341181?tk=ZFAFOi1k_AtGIDIt7R6DvQfyfv5IKxYQYmadoVAxPBk.DQIAAAAAYHXtPRZrbk1TRnZMRVQzV0ZoM2JjMDN0ZzdBAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+vtc-session: "161 834 1181"
 qa-public-url: http://bit.ly/HPCBP-QA
 #survey-public-url: http://bit.ly/HPCBP-survey-201014
 #archives:
