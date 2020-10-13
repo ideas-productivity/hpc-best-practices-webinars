@@ -77,7 +77,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
 
 <section style="border: 3px; border-style: solid; padding: 1em">
 {% if upcoming %}<!-- ----- BEGIN UPCOMING ENTRY ----- -->{% endif %}
-  <ol reversed="" start="{{ page.webinar-id }}">
+  <ol start="{{ page.webinar-id }}">
 {% unless upcoming %}<!-- ---- BEGIN PAST ENTRY ----- -->{% endunless %}
     <li id="{{ webinar-anchor }}">
 	  <p class="entry-title"><strong>{{ page.title }}</strong>
@@ -135,7 +135,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
 
 <ul>
 <!-- ----- BEGIN ENTRY ----- -->
-  <li><strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> is the next webinar in the <strong><a href="{{ site.hpcbp-url }}">Best Practices for HPC Software Developers</a></strong> series ({{ page.date | date: "%B, %Y" }}). [<a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">Information and registration</a>]</li>
+  <li><strong><a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">{{ page.title }}</a></strong> is the next webinar in the <strong><a href="{{ site.hpcbp-url }}">Best Practices for HPC Software Developers</a></strong> series ({{ page.date | date: "%B %-d, %Y" }}). [<a href="{{ site.hpcbp-url }}#{{ webinar-anchor}}">Information and registration</a>]</li>
 <!-- ----- END ENTRY ----- -->
 </ul>
 </section>
