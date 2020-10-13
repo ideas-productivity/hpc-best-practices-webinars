@@ -8,7 +8,7 @@ ecp-abbreviation: scalableprecisiontuning
 vtc-url: https://exascaleproject.zoomgov.com/w/1619806292?tk=U_HMP3itheXTfY-g4GfeKYMU6NVHNVKVpN-DhvNIshk.DQIAAAAAYIxIVBZRRkw3RHA0S1FsT01qcjBkcW56cnBRAAAAAAAAAAAAAAAAAAAAAAAAAAAA 
 vtc-session: "161 980 6292"
 qa-public-url: http://bit.ly/HPCBP-QA
-#survey-public-url: https://www.surveymonkey.com/r/8MVC5Q6
+survey-public-url: http://bit.ly/HPCBP-survey-201014
 #archives:
 #  - label: Recording
 #    format: YouTube
