@@ -9,16 +9,16 @@ vtc-url: https://exascaleproject.zoomgov.com/w/1618341181?tk=ZFAFOi1k_AtGIDIt7R6
 vtc-session: "161 834 1181"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-201104
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: 4VgdwL01ClM
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack.pdf
-#  - label: Q&A
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: RDrZBKs7esg
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/11/webinar045-precisiontuning.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/11/webinar045-precisiontuning-qa.pdf
 ---
 Computational experiments can be challenging to reproduce; researchers have to choose between pursuing a fast-paced research agenda and developing well-organized, sufficiently documented, and easily reproducible software. Like incurring fiscal debt, there are often tactical reasons to take on technical debt in scientific software—such as deferring documentation, organization, refactoring, and unit tests when pursuing a new idea or meeting a conference deadline. However, more often than not, researchers do not repay this technical debt, leading to irreproducible experiments.
 
