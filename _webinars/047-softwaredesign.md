@@ -8,7 +8,7 @@ ecp-abbreviation: softwaredesign
 vtc-url: https://exascaleproject.zoomgov.com/w/1618986759?tk=PgunFqPHJ1Yh2bNgxb77zqidtgsPCdc3y1U0vAt4Z9s.DQIAAAAAYH_HBxZMZTVaYUo0QlFrbVNpRkxNUjVNOTdRAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 vtc-session: "161 898 6759"
 qa-public-url: http://bit.ly/HPCBP-QA
-survey-public-url: http://bit.ly/HPCBP-survey-201219
+survey-public-url: http://bit.ly/HPCBP-survey-201209
 archives:
   - label: Recording
     format: YouTube
