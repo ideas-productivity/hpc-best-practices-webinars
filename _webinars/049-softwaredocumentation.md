@@ -9,13 +9,13 @@ vtc-url: https://exascaleproject.zoomgov.com/w/1618545386?tk=-SclT57PKqJQoGbQ7dK
 vtc-session: "161 854 5386"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210210
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: 4VgdwL01ClM
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: jyB8wvsfewQ
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/02/webinar049-softwaredocumentation.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
