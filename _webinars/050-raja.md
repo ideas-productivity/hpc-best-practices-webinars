@@ -9,16 +9,16 @@ vtc-url: https://exascaleproject.zoomgov.com/w/1619582588?tk=R_c6Vm2ubhOPxwxt-1G
 vtc-session: "161 958 2588"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210310
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: 4VgdwL01ClM
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack.pdf
-#  - label: Q&A
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: W1wR4shM82s
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/03/webinar050-raja.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/03/webinar050-raja-qa.pdf
 ---
 The RAJA Portability Suite is a collection of open-source software libraries that enable developers to write single-source applications that are portable across a wide range of HPC architectures. The Suite contains tools for portable loop execution (RAJA) and memory management (Umpire and CHAI). The development of the Suite is motivated by the needs of production multiphysics codes, which must run efficiently on laptops, commodity clusters, and massively parallel advanced technology systems at any point in time as well as across multiple platform generations. The scale and complexity of these applications requires that they be able to employ system-appropriate native programming models, such as OpenMP, CUDA, and HIP, without significant source code modification. The abstractions that the RAJA Portability Suite provides enable such portable single-source application development. The Suite is used in a diverse range of production codes at Lawrence Livermore National Laboratory (LLNL). It is also funded as a Software Technology Project in DOE’s Exascale Computing Project, where the Suite supports a number of key applications. The webinar will provide an overview of the Suite and its capabilities and discuss status and plans to support applications on exascale platforms. The webinar will present code examples that illustrate basic usage and compare to programming with native programming models, and performance results for several applications that rely on the Suite for platform portability.
 
