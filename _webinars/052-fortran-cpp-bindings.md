@@ -10,7 +10,7 @@ survey-public-url: http://bit.ly/HPCBP-survey-210512
 archives:
   - label: Recording
     format: YouTube
-    yt-video-id: ZeinN3Yfhs4
+    yt-video-id: pNGsLxm69r8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/05/hpcbp052-fortran-cpp-bindings.pdf
