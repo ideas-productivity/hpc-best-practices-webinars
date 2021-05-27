@@ -1,7 +1,7 @@
 ---
 webinar-id: 53
 date: 2021-06-09T13:00-0400
-title: "Using the PSIP Toolkit to Achieve your Goals – A Case study at The HDF Group"
+title: "Using the PSIP Toolkit to Achieve Your Goals – A Case Study at The HDF Group"
 presenter-ids: [pourmal-elena, milewicz-reed, gonsiorowski-elsa]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdOqtqD4uHWFp_SCGelX6Zxdiuw6Hm7o
 ecp-abbreviation: psip4hdf
