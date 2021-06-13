@@ -7,13 +7,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdOqtq
 ecp-abbreviation: psip4hdf
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210609
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: ZeinN3Yfhs4
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/#2021/05/hpcbp052-fortran-cpp-bindings.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: w7sD7-anM2Y
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/06/hpcbp053-psip4hdf.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
