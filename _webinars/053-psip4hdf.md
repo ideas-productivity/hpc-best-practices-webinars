@@ -10,7 +10,7 @@ survey-public-url: http://bit.ly/HPCBP-survey-210609
 archives:
   - label: Recording
     format: YouTube
-    yt-video-id: w7sD7-anM2Y
+    yt-video-id: kPUYKuiJQZs
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/06/hpcbp053-psip4hdf.pdf
