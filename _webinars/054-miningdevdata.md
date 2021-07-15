@@ -14,8 +14,8 @@ archives:
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/07/hpcbp054-miningdevdata.pdf
-#  - label: Q&A
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/07/hpcbp054-miningdevdata-qa.pdf
 ---
 The webinar will explore the role of software-related data mining tools in supporting productive development of high-performance scientific software. The webinar will discuss a variety of existing and emerging tools for analyzing code, git, emails, issues, test results, and dependencies, with the long-term goal of improving the understanding of development processes and enhancing developer productivity. The webinar will include specific analysis examples by applying a subset of those tools to ECP projects.
