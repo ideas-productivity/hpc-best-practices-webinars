@@ -7,10 +7,10 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsc-mgp
 ecp-abbreviation: sebp4ssd
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210804
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: jY_evczWUz0
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: nzqUAynvDjA
 #  - label: Slides
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/07/hpcbp054-miningdevdata.pdf
