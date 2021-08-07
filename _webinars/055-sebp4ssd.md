@@ -11,9 +11,9 @@ archives:
   - label: Recording
     format: YouTube
     yt-video-id: nzqUAynvDjA
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/07/hpcbp054-miningdevdata.pdf
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/08/hpcbp055-sebp4ssd.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
