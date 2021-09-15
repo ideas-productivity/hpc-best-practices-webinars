@@ -6,7 +6,7 @@ presenter-ids: [bangerth-wolfgang]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsd-qprjgpEv1GMg5MlnUUhVIJir2ocas
 ecp-abbreviation: 20years-in-opensource
 qa-public-url: http://bit.ly/HPCBP-QA
-survey-public-url: http://bit.ly/HPCBP-survey-210915
+survey-public-url: http://bit.ly/HPCBP-feedback
 #archives:
 #  - label: Recording
 #    format: YouTube
