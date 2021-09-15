@@ -6,7 +6,7 @@ presenter-ids: [richards-david]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItcOqsrzouG3uIZ7-dvHS7skn8OvfR6_s
 ecp-abbreviation: sierra_and_elcapitan_coes
 qa-public-url: http://bit.ly/HPCBP-QA
-survey-public-url: http://bit.ly/HPCBP-survey-210915
+survey-public-url: http://bit.ly/HPCBP-feedback
 #archives:
 #  - label: Recording
 #    format: YouTube
