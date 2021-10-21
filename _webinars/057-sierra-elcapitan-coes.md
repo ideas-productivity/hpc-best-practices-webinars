@@ -8,9 +8,9 @@ ecp-abbreviation: sierra_and_elcapitan_coes
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
 archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: jY_evczWUz0
+  - label: Recording
+    format: YouTube
+    yt-video-id: OsHGb_Ua1gk
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/10/hpcbp057-sierra-elcapitan.pdf
