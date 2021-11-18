@@ -7,13 +7,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdOyhr
 ecp-abbreviation: 55plus-years-in-hpc
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: jY_evczWUz0
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/07/hpcbp054-miningdevdata.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: zPlXn0ND2Vs
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/11/hpcbp058-55yearsinHPC.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
