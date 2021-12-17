@@ -7,13 +7,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsduGgr
 ecp-abbreviation: scisoftecosystems
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: zPlXn0ND2Vs
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/11/hpcbp058-55yearsinHPC.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: 59_x-gdCjn4
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/12/hpcbp-059-scisoftecosystem.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
