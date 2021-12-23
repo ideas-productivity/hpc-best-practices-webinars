@@ -24,3 +24,4 @@ compilation of software engineering best practices that have generally
 been found to be useful by science communities, and we will provide
 guidelines for adoption of practices based on the size and the scope
 of the project.
+ 
