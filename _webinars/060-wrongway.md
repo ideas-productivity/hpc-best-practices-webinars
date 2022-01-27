@@ -1,6 +1,6 @@
 ---
 webinar-id: 60
-date: 2022-01-12T13:00-0500
+date: 2022-02-16T13:00-0500
 title: "Wrong Way: Lessons Learned and Possibilities for Using the \"Wrong\" Programming Approach on Leadership Computing Facility Systems"
 presenter-ids: [roth-philip]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdemtqDkuHAPUcjMhLX_F2JtcHPSNB64
