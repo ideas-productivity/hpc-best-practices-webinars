@@ -118,7 +118,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
       <li><strong>Archives:</strong> <em>to be published</em>
       </li>
     {% endif %}
-    <li><strong>Decription:</strong> {{ content | markdownify | replace: "<p>", "<em>" | replace: "</p>", "</em>" | strip }}</li>
+    <li><strong>Description:</strong> {{ content | markdownify | replace: "<p>", "<em>" | replace: "</p>", "</em>" | strip }}</li>
 </ul>
 </li>
 {% unless upcoming %}<!-- ----- END PAST ENTRY ----- -->{% endunless %}
