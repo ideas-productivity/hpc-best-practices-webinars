@@ -8,10 +8,10 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIscuupq
 ecp-abbreviation: design-patterns
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: 59_x-gdCjn4
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: F4fxlM5gmtU
 #  - label: Slides
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/12/hpcbp-059-scisoftecosystem.pdf
