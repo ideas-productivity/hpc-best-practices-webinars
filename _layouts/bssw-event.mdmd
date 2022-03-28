@@ -61,7 +61,7 @@ layout: none
 
 # Webinar: {{ page.title }}
 
-- Date: {{ page.date | date: "%F" }}
+- Event Date: {{ page.date | date: "%F" }}
 - Location: Online
 - Event Website: {{ site.hpcbp-url }}{{ webinar-anchor}}
 - Organizers: The IDEAS Productivity Project
