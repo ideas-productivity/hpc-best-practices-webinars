@@ -8,13 +8,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdOGpr
 ecp-abbreviation: performance-portability-evaluation
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: 59_x-gdCjn4
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2021/12/hpcbp-059-scisoftecosystem.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: D3daHofpheQ
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/04/hpcbp062-performanceportability.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2020/07/webinar043-spack-qa.pdf
