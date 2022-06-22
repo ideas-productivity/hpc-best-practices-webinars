@@ -1,7 +1,7 @@
 ---
 presenter-id: miller-mark
 lastname: Miller
-firstname: Mark
+firstname: Mark C.
 pres-email: "miller86@llnl.gov"
 affiliations: ["[Lawrence Livermore National Laboratory](https://www.llnl.gov)"]
 github-id: markcmiller86
