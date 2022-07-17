@@ -9,9 +9,9 @@ ecp-abbreviation: precice-ecosystem
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
 archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: l-NUI1jIkA4
+  - label: Recording
+    format: YouTube
+    yt-video-id: ntN0aq-gHc8
   - label: Slides
     format: PDF
     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/07/hpcbp065-precice.pdf
