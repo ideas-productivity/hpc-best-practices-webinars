@@ -8,13 +8,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIscumur
 ecp-abbreviation: strategies4proposalwriting
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: -GvB6pa1gqw
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/05/hpcbp063-temporalanalysis.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: -GvB6pa1gqw
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/08/hpcbp-066-strategies4proposalwriting.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/05/hpcbp063-temporalanalysis-qa.pdf
