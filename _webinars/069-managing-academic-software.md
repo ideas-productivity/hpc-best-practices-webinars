@@ -8,13 +8,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsc-mhq
 ecp-abbreviation: managing-academic-software
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-#archives:
-#  - label: Recording
-#    format: YouTube
-#    yt-video-id: l-NUI1jIkA4
-#  - label: Slides
-#    format: PDF
-#    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/05/hpcbp063-temporalanalysis.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: Pslf-_3PLW4
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/11/hpcbp-069-managingacademicsoftware.pdf
 #  - label: Q&A
 #    format: PDF
 #    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2022/05/hpcbp063-temporalanalysis-qa.pdf
