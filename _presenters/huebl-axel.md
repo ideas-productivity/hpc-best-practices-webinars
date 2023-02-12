@@ -1,0 +1,8 @@
+---
+presenter-id: huebl-axel
+lastname: Huebl
+firstname: Axel
+affiliations: ["Lawrence Berkeley National Laboratory"]
+github-id: ax3l
+---
+Axel Huebl is a computational physicist at Berkeley Lab. He is researching advanced particle accelerators with computational modeling tools, developing the Beam pLasma Accelerator Simulation Toolkit (BLAST) that includes applications such as the beam dynamics code ImpactX and the DOE Exascale Computing Project (ECP) application WarpX. Before joining Berkeley Lab in 2019, he was part of a team of undergraduates that made it in the ACM Gordon Bell finals in SC13, with the first particle-in-cell code running on the newly released Titan GPU cluster, called PIConGPU. Axel is a long-time user of scalable file formats and contributes to ECP libraries such as ADIOS2. For his applications, he also develops data reduction algorithms, including performance modeling, and interactive parallel data analysis. He co-authored and supervised the inception of the C++ performance portability framework Alpaka, the in situ visualization framework ISAAC and leads an open data standard, openPMD, which is now popular in plasma, beam and accelerator physics. For his early career work, Axel was awarded with the ACM/IEEE George Michael Memorial High Performance Computing Fellowship (at SC16), the FoMICS Prize for PhD Students (at PASC17), the IEEE-NPSS Particle Accelerator Science and Technology (PAST) Doctoral Student Award (at NAPAC22), large computing awards (ALCC PI/ERCAP PI/INCITE co-PI), and others. In 2022, he was co-first-author of the paper that was awarded the 2022 ACM Gordon Bell Prize at SC22.
