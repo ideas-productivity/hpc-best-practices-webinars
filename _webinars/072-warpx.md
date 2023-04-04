@@ -8,16 +8,16 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItc-ihq
 ecp-abbreviation: warpx
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-# archives:
-#   - label: Recording
-#     format: YouTube
-#     yt-video-id: HkayNzOVWRY
-#   - label: Slides
-#     format: PDF
-#     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/01/hpcbp-071-openscapes.pdf
-#   - label: Q&A
-#     format: PDF
-#     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/01/hpcbp-071-openscapes-qa.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: CJHRG-dc3eQ
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/04/hpcbp-072-warpx.pdf
+  - label: Q&A
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/04/hpcbp-072-warpx-qa.pdf
 ---
 Particle accelerators, among the largest, most complex devices, demand increasingly sophisticated computational tools for the design and optimization of the next generation of accelerators that will meet the challenges of increasing energy, intensity, accuracy, compactness, complexity and efficiency. It is key that contemporary software take advantage of the latest advances in computer hardware and scientific software engineering practices, delivering speed, reproducibility and feature composability for the aforementioned challenges.
 
