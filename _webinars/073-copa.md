@@ -8,13 +8,13 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdu2tr
 ecp-abbreviation: copa
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-# archives:
-#   - label: Recording
-#     format: YouTube
-#     yt-video-id: HkayNzOVWRY
-#   - label: Slides
-#     format: PDF
-#     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/01/hpcbp-071-openscapes.pdf
+archives:
+  - label: Recording
+    format: YouTube
+    yt-video-id: T5JInOIMcdw
+  - label: Slides
+    format: PDF
+    url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/04/hpcbp-073-copa.pdf
 #   - label: Q&A
 #     format: PDF
 #     url: http://ideas-productivity.org/wordpress/wp-content/uploads/2023/01/hpcbp-071-openscapes-qa.pdf
