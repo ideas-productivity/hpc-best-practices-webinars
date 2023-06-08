@@ -17,6 +17,8 @@ layout: home
 {% assign ipw = site.ipweb-entries | where: "webinar-id", webinar.webinar-id %}
 {% assign yt = site.youtube-videos | where: "webinar-id", webinar.webinar-id %}
 {% assign ce = site.connection-emails | where: "webinar-id", webinar.webinar-id %}
+{% assign ei = site.events-new-ipo | where: "webinar-id", webinar.webinar-id %}
+
 
 {{ webinar.webinar-id }}\. **{{ webinar.title }}** ({{ webinar.date | date: "%F" }})
 
@@ -24,5 +26,6 @@ layout: home
 
 *Formats* | [Web]({{ site.baseurl }}{{ webinar.url }}) | [BSSw Event]({{ site.baseurl }}{{ be[0].url }}) | [BSSw Digest]({{ site.baseurl }}{{ bed[0].url }}) | [i-p.o WordPress]({{ site.baseurl }}{{ ipw[0].url }})
  | [YouTube]({{ site.baseurl }}{{ yt[0].url }}) | [Connection Email]({{ site.baseurl }}{{ ce[0].url }})
+ | [New i-p.o collection]({{ site.baseurl }}{{ ei[0].url }})
 
 {% endfor %}

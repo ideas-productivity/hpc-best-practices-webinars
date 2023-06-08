@@ -1,0 +1,29 @@
+---
+layout: none
+---
+<p>---</p>
+<p>startdate: "{{ page.date | date: '%F' }}"</p>
+{% if page.enddate %}<p>enddate: "{{ page.enddate | date: '%F' }}"</p>{% endif %}
+<p>time: "{{ page.date | date: '%I:%M %P' }} - {{ page.enddate | default: '14:00' | date: '%I:%M %P' }} {{ page.date | date: '%Z' }}"</p>
+<p>type: Webinar</p>
+<p>series:</p>
+<p>  - "HPC Best Practices Webinars"</p>
+<p>activities:</p>
+<p>  - "IDEAS-ECP"</p>
+<p>link-id: webinar{% include emit-filled-number number=page.webinar-id template='000'%}</p>
+<p>#</p>
+<p>presenters:</p>
+{% include extract-array-subset key="presenter-id" values=page.presenter-ids source=site.presenters %}
+{% for p in extract_subset_array %}
+  <p>  - name: {{ p[0].firstname }} {{ p[0].lastname }}</p>
+  {% if p[0].affiliations %}
+  <p>    affiliation: {{ p[0].affiliations | join: ", " }}</p>
+  {%  endif %}
+  {% if p[0].github-id %}
+  <p>    github-id: {{ p[0].github-id }}</p>
+  {% endif %}
+  {% if p[0].content %}
+  <p>    bio: "{{ p[0].content | markdownify | remove: "<p>" | remove: "</p>" | strip }}"</p>
+  {% endif %}
+{% endfor %}
+<p>#</p>

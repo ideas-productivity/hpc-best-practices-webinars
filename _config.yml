@@ -97,6 +97,8 @@ collections:
     output: true
   presenters:
     output: true
+  events-new-ipo:
+    output: true
 
 defaults:
   - scope:
@@ -134,5 +136,10 @@ defaults:
       type: "presenters"
     values:
       layout: "presenter"
+  - scope:
+      path: ""
+      type: "events-new-ipo"
+    values:
+      layout: "events-ipo"
 
 # End of file
