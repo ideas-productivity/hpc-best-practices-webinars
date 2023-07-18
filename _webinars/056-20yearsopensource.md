@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsd-qpr
 ecp-abbreviation: 20years-in-opensource
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 7NBHS5w31Tg

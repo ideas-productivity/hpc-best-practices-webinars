@@ -8,7 +8,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdeqpp
 ecp-abbreviation: labnotebooks
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
  - label: Recording
    format: YouTube
    yt-video-id: fWpI4S_dvhc

@@ -5,7 +5,7 @@ layout: home
 
 YouTube publication is part of the archival process.  Webinars of
 interest here will have the PAST attribute, and publication of the
-video to YouTube will contribute to the acquisition of the ARCHIVES
+video to YouTube will contribute to the acquisition of the ARTIFACTS
 attribute.
 
 

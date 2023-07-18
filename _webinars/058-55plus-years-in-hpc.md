@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdOyhr
 ecp-abbreviation: 55plus-years-in-hpc
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: zPlXn0ND2Vs

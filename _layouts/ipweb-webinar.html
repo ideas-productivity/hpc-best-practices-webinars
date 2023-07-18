@@ -100,9 +100,9 @@ Cut-and-paste into Wordpress as appropriate.</em>
       <li><strong>{{ plabel }}</strong> {{ pstring | markdownify | remove: "<p>" | remove: "</p>" | strip }}
       </li>
     {% endif %}
-    {% if page.archives %}
-    <li><strong>Archives:</strong>
-      {% for i in page.archives %}
+    {% if page.artifacts %}
+    <li><strong>Artifacts:</strong>
+      {% for i in page.artifacts %}
       {% if i.yt-video-id %}
           <a href="https://www.youtube.com/watch?v={{ i.yt-video-id }}">{{ i.label }}</a>
         {% elsif i.url %}      
@@ -115,7 +115,7 @@ Cut-and-paste into Wordpress as appropriate.</em>
       {% endfor %}
       </li>
     {% elsif wdate < today %}
-      <li><strong>Archives:</strong> <em>to be published</em>
+      <li><strong>Artifacts:</strong> <em>to be published</em>
       </li>
     {% endif %}
     <li><strong>Description:</strong> {{ content | markdownify | replace: "<p>", "<em>" | replace: "</p>", "</em>" | strip }}</li>

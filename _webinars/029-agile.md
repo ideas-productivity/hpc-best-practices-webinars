@@ -3,7 +3,7 @@ webinar-id: 29
 date: 2019-05-08T13:00-0400
 title: "So, You Want to Be Agile? Strategies for Introducing Agility Into Your Scientific Software Project"
 presenter-ids: [heroux-mike]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: UvskSxMIfwI

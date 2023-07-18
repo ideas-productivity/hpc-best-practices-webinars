@@ -8,7 +8,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsdu2tr
 ecp-abbreviation: copa
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: T5JInOIMcdw

@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdOugq
 ecp-abbreviation: fortran-cpp-bindings
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210512
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: pNGsLxm69r8

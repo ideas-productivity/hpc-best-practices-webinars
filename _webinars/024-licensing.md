@@ -3,7 +3,7 @@ webinar-id: 24
 date: 2018-12-05-T13:00-0500
 title: "Introduction to Software Licensing"
 presenter-ids: [bernholdt-davide]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: r4txigd2TdM

@@ -3,7 +3,7 @@ webinar-id: 26
 date: 2019-02-13T13:00-0500
 title: "Containers in HPC"
 presenter-ids: [canon-shane]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: vzHnIS-bQQY

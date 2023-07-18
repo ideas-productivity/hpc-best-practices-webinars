@@ -3,7 +3,7 @@ webinar-id: 15
 date: 2018-03-28T13:00-0400
 title: "Scientific Software Development with Eclipse"
 presenter-ids: [watson-greg]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 8hWav1RN4b0

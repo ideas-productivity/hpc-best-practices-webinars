@@ -3,7 +3,7 @@ webinar-id: 25
 date: 2019-01-23T13:00-0500
 title: "Quantitatively Assessing Performance Portability with Roofline"
 presenter-ids: [pennycook-john, yang-charlene, deslippe-jack]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 2OvsMUQ2mj8

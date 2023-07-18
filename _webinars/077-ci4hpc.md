@@ -23,7 +23,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItc-uqq
 ecp-abbreviation: ci4hpc
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-# archives:
+# artifacts:
 #   - label: Recording
 #     format: YouTube
 #     yt-video-id: Q6Ksu_uX3bc

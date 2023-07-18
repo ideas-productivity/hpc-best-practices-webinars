@@ -3,7 +3,7 @@ webinar-id: 1
 date: 2016-05-04T13:00-0500
 title: "What All Codes Should Do:  Overview of Best Practices in HPC Software Development"
 presenter-ids: [dubey-anshu]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: YJi05p4n1Gc

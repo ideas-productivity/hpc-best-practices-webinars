@@ -10,7 +10,7 @@ vtc-session: "161 189 6317"
 #vtc-password: "ideas"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: https://www.surveymonkey.com/r/FLVHM7T
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 4VgdwL01ClM

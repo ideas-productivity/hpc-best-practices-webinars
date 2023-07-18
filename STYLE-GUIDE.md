@@ -17,7 +17,7 @@ vtc-session: video conference session id (string)
 vtc-password: video conference session password (string) [optional]
 qa-public-url: url for live Q&A document to be exposed to the public
 survey-public-url: url for feedback survey to be exposed to the public
-archives:
+artifacts:
   - label: text for hyperlink to archival asset
     format: notes about format/soudce of asset (rendered in parenthesis) [optional]
 	url: url for hyperlink to archival asset [optional]
@@ -37,9 +37,9 @@ content
 - By convention, time zone is U.S. Eastern Time, which is -0500 for standard time or -0400 for daylight saving time
 - `presenter-ids` is always an array, even if only one item
 - if a `presenter-ids` element does not match any of the actual presenter-ids, the two common failure modes are for it to be blank or for it to pick up the first presenter-id, alphabetically
-- `archives` are currently presented like "*Archives:* [Recording](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
-- `archives` allows a special key for YouTube videos: `yt-video-id`.  This is an alternative to `url` (one or the other must be present).  This allows us to embed YouTube videos as well as giving a regular link to them.
-- In some cases, where there is more than one video, we may want to control whether or not a given video is embedded in the webinar listing.  For this there is the optional `dont-embed` key, which needs to be set to `true` to *not* embed the video.  The double negative is a result of the fact that I couldn't figure out how to set a default for a complex structure like this in `_config.yml`.  Plus, setting a default there would meant that `archives` always exists in a webinar entry, which would complicate the logic used to display it.
+- `artifacts` are currently presented like "*artifacts:* [Recording](http://example.com) (YouTube) | [Slides](http://example.com) (PDF) | [Q&A](http://example.com) (PDF)"
+- `artifacts` allows a special key for YouTube videos: `yt-video-id`.  This is an alternative to `url` (one or the other must be present).  This allows us to embed YouTube videos as well as giving a regular link to them.
+- In some cases, where there is more than one video, we may want to control whether or not a given video is embedded in the webinar listing.  For this there is the optional `dont-embed` key, which needs to be set to `true` to *not* embed the video.  The double negative is a result of the fact that I couldn't figure out how to set a default for a complex structure like this in `_config.yml`.  Plus, setting a default there would meant that `artifacts` always exists in a webinar entry, which would complicate the logic used to display it.
 
 ### Notes
 - Content required to advertise an upcoming webinar:
@@ -55,8 +55,8 @@ content
   - `vtc-password` [optional]
   - `qa-public-url`
   - `survey-public-url`
-- Additional content required for archives:
-  - `archives`
+- Additional content required for artifacts:
+  - `artifacts`
 
 ## Presenters
 

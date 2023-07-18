@@ -9,7 +9,7 @@ vtc-url: https://exascaleproject.zoomgov.com/w/1618545386?tk=-SclT57PKqJQoGbQ7dK
 vtc-session: "161 854 5386"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210210
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: jyB8wvsfewQ

@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsduGgr
 ecp-abbreviation: scisoftecosystems
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 59_x-gdCjn4

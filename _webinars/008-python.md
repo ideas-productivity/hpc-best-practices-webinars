@@ -3,7 +3,7 @@ webinar-id: 8
 date: 2017-06-07T13:00-0400
 title: "Python in HPC"
 presenter-ids: [thomas-rollin, scullin-william, belhorn-matt]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: lSrfZHu3BZw

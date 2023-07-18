@@ -10,7 +10,7 @@ vtc-session: "904 973 288"
 vtc-password: "ideas"
 qa-public-url: http://bit.ly/IDEAS-FPAnalysis
 survey-public-url: http://bit.ly/IDEAS-FPAnalysis-survey
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: CCzB1RETSdM

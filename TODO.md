@@ -25,7 +25,7 @@
 - Add schema checking for YAML front matter
   - Maybe <https://github.com/18F/jekyll_frontmatter_tests>
   - Added a lot of checking for expected variables wherever they are used, but nothing yet with actual YAML schemas
-  - No checking yet for archives
+  - No checking yet for artifacts
   - Maybe add error-checking versions of collections where the only content generated is listings of missing variables
 - Add JSON+LD markup for events and maybe people
 - Plugins of possible interest (eventually)

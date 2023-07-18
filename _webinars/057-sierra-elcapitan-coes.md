@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItcOqsr
 ecp-abbreviation: sierra_and_elcapitan_coes
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: OsHGb_Ua1gk

@@ -3,7 +3,7 @@ webinar-id: 15
 date: 2018-02-28T13:00-0500
 title: "Jupyter and HPC: Current State and Future Roadmap"
 presenter-ids: [bussonnier-matthias, somnath-suhas, cholia-shreyas]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: aKah_O5OZdE

@@ -8,7 +8,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIscumur
 ecp-abbreviation: strategies4proposalwriting
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-feedback
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: -GvB6pa1gqw

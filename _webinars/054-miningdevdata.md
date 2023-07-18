@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsd-msq
 ecp-abbreviation: miningdatasep
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210707
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: jY_evczWUz0

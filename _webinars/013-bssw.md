@@ -3,7 +3,7 @@ webinar-id: 13
 date: 2017-12-06T13:00-0500
 title: "Better Scientific Software (https://bssw.io): So your code will see the future"
 presenter-ids: [heroux-mike, mcinnes-loiscurfman]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: 5waBynVgxuc

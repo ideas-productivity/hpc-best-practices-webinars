@@ -3,7 +3,7 @@ webinar-id: 17
 date: 2018-04-18T13:00-0400
 title: "Software Citation Today and Tomorrow"
 presenter-ids: [katz-daniels]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: z4tQkPzwJxg

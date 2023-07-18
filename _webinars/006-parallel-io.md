@@ -3,7 +3,7 @@ webinar-id: 6
 date: 2016-07-28T13:00-0500
 title: "An Introduction to High-Performance Parallel I/O"
 presenter-ids: [wang-feiyi]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: amknrPhFs-8

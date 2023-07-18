@@ -3,7 +3,7 @@ webinar-id: 28
 date: 2019-04-10T13:00-0400
 title: "Testing Fortran Software with pFUnit"
 presenter-ids: [clune-thomas]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: RmTXDTL_Ce0

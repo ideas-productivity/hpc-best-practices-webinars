@@ -11,7 +11,7 @@ vtc-session: "620 571 202"
 vtc-password: "ideas"
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: QRyC92ZsFkM

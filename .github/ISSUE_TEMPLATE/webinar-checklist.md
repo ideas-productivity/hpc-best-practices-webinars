@@ -67,12 +67,12 @@ assignees: ''
   - [ ] slides
   - [ ] Q&A
   - [ ] additional materials
-- [ ] Add `archives` information to webinar record
+- [ ] Add `artifacts` information to webinar record
 
 **Webinar followup communications**
 - *update ECP training site*
 - Update i-p.o site
-  - [ ] update past event with archives on <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
+  - [ ] update past event with artifacts on <https://ideas-productivity.org/events/hpc-best-practices-webinars/>
   - [ ] update <https://github.com/betterscientificsoftware/betterscientificsoftware.github.io/blob/master/CuratedContent/hpcbp-webinars-cc.md>
   - [ ] Publish updates on BSSw.io
 - Update MailChimp audience w/ appropriate tag

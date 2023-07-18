@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItdOqtq
 ecp-abbreviation: psip4hdf
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210609
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: kPUYKuiJQZs

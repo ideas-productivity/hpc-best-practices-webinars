@@ -3,7 +3,7 @@ webinar-id: 4
 date: 2016-05-15T13:00-0500
 title: "Testing and Documenting your Code"
 presenter-ids: [klinvex-alicia]
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: kAC0N84JaHA

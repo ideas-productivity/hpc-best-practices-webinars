@@ -71,9 +71,9 @@ layout: default
       </li>
     {% endif %}
 
-    {% if page.archives %}
-    <li><strong>Archives:</strong>
-      {% for i in page.archives %}
+    {% if page.artifacts %}
+    <li><strong>Artifacts:</strong>
+      {% for i in page.artifacts %}
         {% if i.yt-video-id %}
           <a href="{{ site.youtube-watch-url }}{{ i.yt-video-id }}">{{ i.label }}</a>
         {% elsif i.url %}
@@ -86,7 +86,7 @@ layout: default
       {% endfor %}
       </li>
     {% else %}{% unless upcoming %}
-      <li><strong>Archives:</strong> <em>to be published</em>
+      <li><strong>Artifacts:</strong> <em>to be published</em>
       </li>{% endunless %}
     {% endif %}
 
@@ -96,7 +96,7 @@ layout: default
   {% comment %}
     Embed embeddable archive items below the Description
   {% endcomment %}	  
-  {% for i in page.archives %}
+  {% for i in page.artifacts %}
     {% if i.yt-video-id %}
       {% unless i.dont-embed %}
         <p align="center">{% include youtube-embed id=i.yt-video-id %}</p>

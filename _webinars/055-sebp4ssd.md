@@ -7,7 +7,7 @@ registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJIsc-mgp
 ecp-abbreviation: sebp4ssd
 qa-public-url: http://bit.ly/HPCBP-QA
 survey-public-url: http://bit.ly/HPCBP-survey-210804
-archives:
+artifacts:
   - label: Recording
     format: YouTube
     yt-video-id: nzqUAynvDjA
