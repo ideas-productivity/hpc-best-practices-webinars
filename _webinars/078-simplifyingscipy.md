@@ -18,7 +18,7 @@ webinar-id: 78
 date: 2023-09-13T13:00-0400
 title: "Simplifying Scientific Python Package Installation and Usage"
 presenter-ids: [maji-amiya]
-bsswio-topics: ["development tools", "high-performance computing (hpc)", “online learning”]
+bsswio-topics: ["release and deployment", "development tools", "high-performance computing (hpc)", “online learning”]
 registration-url: https://exascaleproject.zoomgov.com/meeting/register/vJItd-GuqDMjH72ztVT-EYb-lh5hQUtEV0g
 ecp-abbreviation: simplifyingscipy
 qa-public-url: http://bit.ly/HPCBP-QA
